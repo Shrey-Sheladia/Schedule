@@ -40,7 +40,7 @@ schedule_data = {
 }
 
 # Streamlit App
-st.set_page_config(page_title="UC Davis Classroom Search", layout="centered")
+st.set_page_config(page_title="UC Davis Classroom Search", layout="centered", page_icon="ShreyIconS2.png")
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 st.title("UC Davis Classroom Search")
 
