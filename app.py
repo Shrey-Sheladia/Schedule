@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import json
 # from Utils import *
+import time
 
 hide_streamlit_style = """
             <style>
