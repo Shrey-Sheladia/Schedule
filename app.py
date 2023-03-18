@@ -20,23 +20,13 @@ except:
         SCHEDULE = json.load(json_file1)
 
 
-
-
-schedule_data = {
-    "Monday": ["Math", "Physics", "Chemistry", "Biology"],
-    "Tuesday": ["Physics", "Chemistry", "Biology", "Math"],
-    "Wednesday": ["Chemistry", "Biology", "Math", "Physics"],
-    "Thursday": ["Biology", "Math", "Physics", "Chemistry"],
-    "Friday": ["Math", "Physics", "Chemistry", "Biology"],
-}
-
 # Streamlit App
 st.set_page_config(page_title="UC Davis Classroom Search", layout="wide", page_icon="ShreyIconS2.png")
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 P, Q, R = st.columns((1, 2, 1))
 Q.title("UC Davis Classroom Search")
 
-menu = st.sidebar.selectbox("Mode", ["Current Classes", "Schedule"])
+menu = st.sidebar.selectbox("Mode", ["Current Classes", "Weekly Schedule"])
 
 
 if menu == "Current Classes":
@@ -77,7 +67,7 @@ if menu == "Current Classes":
     ongoing_classes_df = pd.DataFrame(ongoing_classes_data, columns=["Room", "Class", "In Use Till"])
     colY.table(ongoing_classes_df)
 
-elif menu == "Schedule":
+elif menu == "Weekly Schedule":
     buildings = SCHEDULE.keys()
     selected_building = st.selectbox("Select Building", buildings)
 
