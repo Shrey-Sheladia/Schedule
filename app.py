@@ -23,7 +23,7 @@ except:
 # Streamlit App
 st.set_page_config(page_title="UC Davis Classroom Search", layout="wide", page_icon="ShreyIconS2.png")
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
-P, Q, R = st.columns((1, 2, 1))
+P, Q, R = st.columns((1, 4, 1))
 Q.title("UC Davis Classroom Search")
 
 menu = st.sidebar.selectbox("Mode", ["Current Classes", "Weekly Schedule"])
@@ -31,11 +31,11 @@ menu = st.sidebar.selectbox("Mode", ["Current Classes", "Weekly Schedule"])
 
 if menu == "Current Classes":
     
-    colA, colB, colC = st.columns((1, 2, 1))
+    colA, colB, colC = st.columns((1, 4, 1))
     days = ["Today"] + ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
     selected_day = colB.selectbox("Select Day", days)
     
-    colz, col1, col2, zolx = st.columns(4)
+    colz, col1, col2, zolx = st.columns((1, 2, 2, 1))
     
     hour_options = ["Current Time"] + [f"{hour:02d}" for hour in range(0, 24)]
     selected_hour = col1.selectbox("Select Hour", hour_options)
@@ -53,7 +53,7 @@ if menu == "Current Classes":
     if selected_hour != "Current Time":
         selected_time = int(selected_hour + selected_minute + "00")
 
-    colX, colY, colZ = st.columns((1, 2, 1))
+    colX, colY, colZ = st.columns((1, 4, 1))
     halls = list(SCHEDULE.keys())
     selected_hall = colY.selectbox("Select Hall", halls)
 
