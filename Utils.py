@@ -248,7 +248,7 @@ def sort_rooms(rooms):
         else:
             non_numeric_rooms.append(room)
     sorted_numeric_rooms = sorted(numeric_rooms)
-    sorted_rooms = [str(room) for room in sorted_numeric_rooms] + non_numeric_rooms
+    sorted_rooms = non_numeric_rooms + [str(room) for room in sorted_numeric_rooms] 
     return sorted_rooms
 
 
