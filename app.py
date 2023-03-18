@@ -22,15 +22,6 @@ except:
 
 
 
-# if __name__ == "__main__":
-#     nextList, inUse = get_info("Olson Hall")
-#     pp.pprint(nextList)
-#     print("_"*10)
-#     pp.pprint(inUse)
-
-
-
-
 schedule_data = {
     "Monday": ["Math", "Physics", "Chemistry", "Biology"],
     "Tuesday": ["Physics", "Chemistry", "Biology", "Math"],
@@ -40,20 +31,21 @@ schedule_data = {
 }
 
 # Streamlit App
-st.set_page_config(page_title="UC Davis Classroom Search", layout="centered", page_icon="ShreyIconS2.png")
+st.set_page_config(page_title="UC Davis Classroom Search", layout="wide", page_icon="ShreyIconS2.png")
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
-st.title("UC Davis Classroom Search")
+P, Q, R = st.columns((1, 2, 1))
+Q.title("UC Davis Classroom Search")
 
 menu = st.sidebar.selectbox("Mode", ["Current Classes", "Schedule"])
 
 
 if menu == "Current Classes":
     
-    
+    colA, colB, colC = st.columns((1, 2, 1))
     days = ["Today"] + ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
-    selected_day = st.selectbox("Select Day", days)
+    selected_day = colB.selectbox("Select Day", days)
     
-    col1, col2 = st.columns(2)
+    colz, col1, col2, zolx = st.columns(4)
     
     hour_options = ["Current Time"] + [f"{hour:02d}" for hour in range(0, 24)]
     selected_hour = col1.selectbox("Select Hour", hour_options)
@@ -71,26 +63,30 @@ if menu == "Current Classes":
     if selected_hour != "Current Time":
         selected_time = int(selected_hour + selected_minute + "00")
 
+    colX, colY, colZ = st.columns((1, 2, 1))
     halls = list(SCHEDULE.keys())
-    selected_hall = st.selectbox("Select Hall", halls)
+    selected_hall = colY.selectbox("Select Hall", halls)
 
 
-    st.subheader("Vacant Classrooms")
+    colY.subheader("Vacant Classrooms")
     vacant_rooms_data, ongoing_classes_data = get_info(selected_hall, selected_day, selected_time)
     vacant_rooms_df = pd.DataFrame(vacant_rooms_data, columns=["Room", "Vacant Till", "Next Class"])
-    st.table(vacant_rooms_df)
+    colY.table(vacant_rooms_df)
 
-    st.subheader("Ongoing Classes")
+    colY.subheader("Ongoing Classes")
     ongoing_classes_df = pd.DataFrame(ongoing_classes_data, columns=["Room", "Class", "In Use Till"])
-    st.table(ongoing_classes_df)
+    colY.table(ongoing_classes_df)
 
 elif menu == "Schedule":
-    buildings = ["Building 1", "Building 2", "Building 3", "Building 4"]
+    buildings = SCHEDULE.keys()
     selected_building = st.selectbox("Select Building", buildings)
 
-    rooms = ["Room 101", "Room 102", "Room 103", "Room 104"]
+    rooms = SCHEDULE[selected_building].keys()
     selected_room = st.selectbox("Select Room", rooms)
+    data = SCHEDULE[selected_building][selected_room]
 
-    st.subheader(f"Schedule for {selected_room}")
-    schedule_df = pd.DataFrame(schedule_data, index=["8:00-9:00", "9:00-10:00", "10:00-11:00", "11:00-12:00"])
-    st.table(schedule_df)
+    schedule_df = createDataFram(data)
+
+    st.subheader(f"Schedule for {selected_building}: {selected_room}")
+    st.table(schedule_df.fillna(''))
+

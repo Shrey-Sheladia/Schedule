@@ -2,7 +2,8 @@ import json
 import time
 import time
 import pprint
-from threading import Thread
+import pandas as pd
+from datetime import datetime
 
 pp = pprint.PrettyPrinter(indent=2)
 
@@ -218,6 +219,25 @@ def makeList(nextDict, CurrDict):
         
     return (NextClassList, CurrList)
 
+def get_time(s):
+    start_time, am_pm = s.split(" - ")[0], s.split(" - ")[1].split(" ")[1]
+    if am_pm == "PM" and start_time.split(":")[0] != "12":
+        start_time = str(int(start_time.split(":")[0]) + 12) + ":" + start_time.split(":")[1]
+    elif am_pm == "AM" and start_time.split(":")[0] == "12":
+        start_time = "00:" + start_time.split(":")[1]
+    dt = datetime.strptime(start_time, "%H:%M")
+    return dt.time()
+
+
+def createDataFram(data):
+    time_slots = sorted(set([time for day in data.values() for time in day]))
+    time_slots = sorted(time_slots, key=get_time)
+    schedule_df = pd.DataFrame(index=time_slots, columns=data.keys())
+    for day, classes in data.items():
+        for time, class_info in classes.items():
+            schedule_df.at[time, day] = class_info
+
+    return schedule_df
 
 
 if __name__ == "__main__":
