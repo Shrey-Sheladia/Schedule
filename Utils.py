@@ -239,6 +239,18 @@ def createDataFram(data):
 
     return schedule_df
 
+def sort_rooms(rooms):
+    numeric_rooms = []
+    non_numeric_rooms = []
+    for room in rooms:
+        if room.isnumeric():
+            numeric_rooms.append(int(room))
+        else:
+            non_numeric_rooms.append(room)
+    sorted_numeric_rooms = sorted(numeric_rooms)
+    sorted_rooms = [str(room) for room in sorted_numeric_rooms] + non_numeric_rooms
+    return sorted_rooms
+
 
 if __name__ == "__main__":
     nextList, inUse = get_info("Olson Hall")

@@ -72,6 +72,7 @@ elif menu == "Weekly Schedule":
     selected_building = st.selectbox("Select Building", buildings)
 
     rooms = SCHEDULE[selected_building].keys()
+    rooms = sort_rooms(rooms)
     selected_room = st.selectbox("Select Room", rooms)
     data = SCHEDULE[selected_building][selected_room]
 
