@@ -23,13 +23,14 @@ except:
 # Streamlit App
 st.set_page_config(page_title="UC Davis Classroom Search", layout="wide", page_icon="ShreyIconS2.png")
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
-P, Q, R = st.columns((1, 4, 1))
-Q.title("UC Davis Classroom Search")
+
 
 menu = st.sidebar.selectbox("Mode", ["Current Classes", "Weekly Schedule"])
 
 
 if menu == "Current Classes":
+    P, Q, R = st.columns((1, 4, 1))
+    Q.title("UC Davis Classroom Search")
     
     colA, colB, colC = st.columns((1, 4, 1))
     days = ["Today"] + ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
@@ -68,6 +69,7 @@ if menu == "Current Classes":
     colY.table(ongoing_classes_df)
 
 elif menu == "Weekly Schedule":
+    st.title("UC Davis Classroom Search")
     buildings = SCHEDULE.keys()
     selected_building = st.selectbox("Select Building", buildings)
 
