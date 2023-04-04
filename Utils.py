@@ -179,7 +179,7 @@ def get_info(selectedHall, cDay="Curr", cTime="Curr"):
         elif cDay == "Sunday":
             cDay = "Sunday"
         else:
-            cDay = currDay[0]
+            cDay = cDay[0]
 
         currDay = cDay
 
