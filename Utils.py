@@ -4,6 +4,10 @@ import time
 import pprint
 import pandas as pd
 from datetime import datetime
+import pandas as pd
+from itertools import groupby
+from operator import itemgetter
+
 
 pp = pprint.PrettyPrinter(indent=2)
 
@@ -13,6 +17,12 @@ try:
 except:
     with open('Final_Sorted_Schedule.json') as json_file1:
         SCHEDULE = json.load(json_file1)
+
+with open("CourseList.json", "r") as json_file2:
+    courses_list = json.load(json_file2)
+
+with open("total_data.json", "r") as json_file3:
+    total_data = json.load(json_file3)
 
 
 def convert24(str1):
@@ -229,7 +239,7 @@ def get_time(s):
     return dt.time()
 
 
-def createDataFram(data):
+def createDataFrame(data):
     time_slots = sorted(set([time for day in data.values() for time in day]))
     time_slots = sorted(time_slots, key=get_time)
     schedule_df = pd.DataFrame(index=time_slots, columns=data.keys())
@@ -250,6 +260,99 @@ def sort_rooms(rooms):
     sorted_numeric_rooms = sorted(numeric_rooms)
     sorted_rooms = non_numeric_rooms + [str(room) for room in sorted_numeric_rooms] 
     return sorted_rooms
+
+
+def group_keys_by_values(d):
+    grouped = {}
+    for key, value in d.items():
+        if value not in grouped:
+            grouped[value] = []
+        grouped[value].append(key)
+
+    return grouped
+
+
+def group_courses(course_dict):
+
+    hDict = {}
+    lecs, dis, lab = {}, {}, {}
+
+    for CRN in course_dict:
+        for key in course_dict[CRN]:
+            if key not in ["Course Code", "Name", "Instructors", "Total", "Filled"]:
+                d, t = course_dict[CRN][key]["Day"], course_dict[CRN][key]["Time"]
+                if f"{key}: {d}, {t}" not in hDict:
+                    hDict[f"{key}: {d}, {t}"] = [CRN]
+                else:
+                    hDict[f"{key}: {d}, {t}"].append(CRN)
+
+    sorted_dict = dict(sorted(hDict.items(), key=lambda x: len(x[1]), reverse=True))
+
+
+    for loc in sorted_dict:
+        for crn in sorted_dict[loc]:
+            if crn not in lecs:
+                lecs[crn] = loc
+            elif crn not in dis:
+                dis[crn] = loc
+            else:
+                lab[crn] = loc
+
+    groups = group_keys_by_values(lecs)
+
+    return groups, lecs, dis, lab
+
+
+def getCourseInfo(selected_course):
+    classData = {}
+    dataFrames, LecInfo = [], []
+    Name = None
+
+    crns = courses_list[selected_course]
+    for crn in crns:
+        classData[crn] = total_data[crn]
+
+    groups, lecs, diss, lab = (group_courses(classData))
+
+
+
+    for loc in groups:
+        infoDict = {"Course Code": [],
+                    "Locations": [],
+                    "Instructors": [],
+                    "Filled/Total": []
+                    }
+        f, l = classData[groups[loc][0]]["Course Code"], classData[groups[loc][-1]]["Course Code"]
+        # if len(f.split()) == 3:
+        seq = f + f"-{l.split()[-1]}"
+        LecInfo.append((seq, loc))
+
+        
+        for crn in groups[loc]:
+            if not Name:
+                Name = total_data[crn]["Name"]
+            tf = f'{classData[crn]["Filled"]}/{classData[crn]["Total"]}'
+            infoDict["Course Code"].append(classData[crn]["Course Code"])
+            try:
+                
+                loc = (diss[crn])
+            except:
+                loc = (" ")
+            if crn in lab:
+                infoDict["Locations"].append(f"{loc}\n;\n{lab[crn]}")
+            else:
+                infoDict["Locations"].append(loc)
+            infoDict["Instructors"].append(" ".join(classData[crn]["Instructors"]))
+            infoDict["Filled/Total"].append(tf)
+
+        try:
+            dataFrames.append(pd.DataFrame(infoDict))
+        except:
+            print("_"*200)
+
+    return dataFrames, LecInfo, Name
+
+
 
 
 if __name__ == "__main__":

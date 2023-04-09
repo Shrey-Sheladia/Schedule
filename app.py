@@ -19,13 +19,18 @@ except:
     with open('Final_Sorted_Schedule.json') as json_file1:
         SCHEDULE = json.load(json_file1)
 
+with open("CourseList.json", "r") as json_file2:
+    courses_list = json.load(json_file2)
 
-# Streamlit App
+with open("total_data.json", "r") as json_file3:
+    total_data = json.load(json_file3)
+
+# Streamlit 
 st.set_page_config(page_title="UC Davis Classroom Search", layout="wide", page_icon="ShreyIconS2.png")
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 
-menu = st.sidebar.selectbox("Mode", ["Current Classes", "Weekly Schedule"])
+menu = st.sidebar.selectbox("Mode", ["Current Classes", "Weekly Schedule", "Course Info"])
 
 
 if menu == "Current Classes":
@@ -58,6 +63,7 @@ if menu == "Current Classes":
     halls = list(SCHEDULE.keys())
     selected_hall = colY.selectbox("Select Hall", halls)
 
+
     vacant_rooms_data, ongoing_classes_data = get_info(selected_hall, selected_day, selected_time)
     if vacant_rooms_data != "Weekend":
         colY.subheader("Vacant Classrooms")
@@ -68,7 +74,7 @@ if menu == "Current Classes":
         ongoing_classes_df = pd.DataFrame(ongoing_classes_data, columns=["Room", "Class", "In Use Till"])
         colY.table(ongoing_classes_df)
     else:
-        colY.subheader(vacant_rooms_data)
+        colY.write("**Weekend...**")
 
 elif menu == "Weekly Schedule":
     st.title("UC Davis Classroom Search")
@@ -80,8 +86,35 @@ elif menu == "Weekly Schedule":
     selected_room = st.selectbox("Select Room", rooms)
     data = SCHEDULE[selected_building][selected_room]
 
-    schedule_df = createDataFram(data)
+    schedule_df = createDataFrame(data)
 
     st.subheader(f"Schedule for {selected_building}: {selected_room}")
     st.table(schedule_df.fillna(''))
+
+elif menu == "Course Info":
+    st.title("Course Info")
+    courses = sorted(courses_list.keys(), reverse=True)
+    # print(courses)
+    selected_course = st.selectbox("Select Course", courses)
+    dataframes, lecture_infos, Name = getCourseInfo(selected_course)
+    st.subheader(" ")
+    st.subheader(f"--{Name}--")
+    st.write("---")  # Optional: Add a separator between groups
+    st.write("\n\n\n")
+
+    for (info2print, lecInfo) in zip(dataframes, lecture_infos):
+        
+        # st.write("**Lecture info:**")
+        st.write(f"**Course info for {lecInfo[0]}**")
+        st.write(f"**Lecture: {lecInfo[1]}**")
+        st.write("Discussion/lab sessions:")
+        st.table(info2print.fillna(''))
+        st.write("---")  # Optional: Add a separator between groups
+
+
+
+
+
+
+
 
