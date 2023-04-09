@@ -93,7 +93,7 @@ elif menu == "Weekly Schedule":
 
 elif menu == "Course Info":
     st.title("Course Info")
-    courses = sorted(courses_list.keys(), reverse=False)
+    courses = sorted(courses_list.keys(), reverse=False) 
     # print(courses)
     selected_course = st.selectbox("Select Course", courses)
     dataframes, lecture_infos, Name = getCourseInfo(selected_course)
