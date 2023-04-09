@@ -281,10 +281,10 @@ def group_courses(course_dict):
         for key in course_dict[CRN]:
             if key not in ["Course Code", "Name", "Instructors", "Total", "Filled"]:
                 d, t = course_dict[CRN][key]["Day"], course_dict[CRN][key]["Time"]
-                if f"{key}: {d}, {t}" not in hDict:
-                    hDict[f"{key}: {d}, {t}"] = [CRN]
+                if f"{key}:-   {d} : {t}" not in hDict:
+                    hDict[f"{key}:-   {d} : {t}"] = [CRN]
                 else:
-                    hDict[f"{key}: {d}, {t}"].append(CRN)
+                    hDict[f"{key}:-   {d} : {t}"].append(CRN)
 
     sorted_dict = dict(sorted(hDict.items(), key=lambda x: len(x[1]), reverse=True))
 
