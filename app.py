@@ -105,7 +105,7 @@ elif menu == "Course Info":
     for (info2print, lecInfo) in zip(dataframes, lecture_infos):
         
         # st.write("**Lecture info:**")
-        st.write(f"**Course info for {lecInfo[0]}**")
+        st.write(f"Course info for {lecInfo[0]}")
         st.write(f"**Lecture: {lecInfo[1]}**")
         st.write("Discussion/lab sessions:")
         st.table(info2print.fillna(''))
