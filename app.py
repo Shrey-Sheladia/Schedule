@@ -58,9 +58,10 @@ if menu == "Current Classes":
     halls = list(SCHEDULE.keys())
     selected_hall = colY.selectbox("Select Hall", halls)
 
-    vacant_rooms_df = pd.DataFrame(vacant_rooms_data, columns=["Room", "Vacant Till", "Next Class"])
+    vacant_rooms_data, ongoing_classes_data = get_info(selected_hall, selected_day, selected_time)
     if vacant_rooms_data != "Weekend":
         colY.subheader("Vacant Classrooms")
+        vacant_rooms_df = pd.DataFrame(vacant_rooms_data, columns=["Room", "Vacant Till", "Next Class"])
         colY.table(vacant_rooms_df)
 
         colY.subheader("Ongoing Classes")
