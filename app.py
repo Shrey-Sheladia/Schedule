@@ -59,14 +59,16 @@ if menu == "Current Classes":
     selected_hall = colY.selectbox("Select Hall", halls)
 
 
-    colY.subheader("Vacant Classrooms")
-    vacant_rooms_data, ongoing_classes_data = get_info(selected_hall, selected_day, selected_time)
-    vacant_rooms_df = pd.DataFrame(vacant_rooms_data, columns=["Room", "Vacant Till", "Next Class"])
-    colY.table(vacant_rooms_df)
+    if vacant_rooms_data != "Weekend":
+        colY.subheader("Vacant Classrooms")
+        vacant_rooms_df = pd.DataFrame(vacant_rooms_data, columns=["Room", "Vacant Till", "Next Class"])
+        colY.table(vacant_rooms_df)
 
-    colY.subheader("Ongoing Classes")
-    ongoing_classes_df = pd.DataFrame(ongoing_classes_data, columns=["Room", "Class", "In Use Till"])
-    colY.table(ongoing_classes_df)
+        colY.subheader("Ongoing Classes")
+        ongoing_classes_df = pd.DataFrame(ongoing_classes_data, columns=["Room", "Class", "In Use Till"])
+        colY.table(ongoing_classes_df)
+    else:
+        colY.subheader(vacant_rooms_data)
 
 elif menu == "Weekly Schedule":
     st.title("UC Davis Classroom Search")
