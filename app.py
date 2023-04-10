@@ -79,39 +79,40 @@ if menu == "Current Classes":
 elif menu == "Weekly Schedule":
     st.title("UC Davis Classroom Search")
     buildings = SCHEDULE.keys()
-    selected_building = st.selectbox("Select Building", buildings)
+    col1, col2 = st.columns(2)
+    selected_building = col1.selectbox("Select Building", buildings)
 
     rooms = SCHEDULE[selected_building].keys()
     rooms = sort_rooms(rooms)
-    selected_room = st.selectbox("Select Room", rooms)
+    selected_room = col2.selectbox("Select Room", rooms)
     data = SCHEDULE[selected_building][selected_room]
 
     schedule_df = createDataFrame(data)
-
     st.subheader(f"Schedule for {selected_building}: {selected_room}")
     st.table(schedule_df.fillna(''))
 
 elif menu == "Course Info":
-    st.title("Course Info")
+    P, Q, R = st.columns((1, 4, 1))
+    Q.title("Course Info")
     courses = ["Select"] + sorted(courses_list.keys(), reverse=True) 
     courses = sorted(courses_list.keys(), reverse=True) 
-    selected_course = st.selectbox("Select Course", courses)
+    selected_course = Q.selectbox("Select Course", courses)
 
     if selected_course != "Select":
         dataframes, lecture_infos, Name = getCourseInfo(selected_course)
-        st.subheader(" ")
-        st.subheader(f"{Name}")
-        st.write("---")  # Optional: Add a separator between groups
-        st.write("\n\n\n")
+        Q.subheader(" ")
+        Q.subheader(f"{Name}")
+        Q.write("---")  # Optional: Add a separator between groups
+        Q.write("\n\n\n")
 
         for (info2print, lecInfo) in zip(dataframes, lecture_infos):
             
             # st.write("**Lecture info:**")
-            st.write(f"Course info for {lecInfo[0]}")
-            st.write(f"**Lecture: {lecInfo[1]}**")
-            st.write("Discussion/lab sessions:")
-            st.table(info2print.fillna(''))
-            st.write("---")  # Optional: Add a separator between groups
+            Q.write(f"Course info for {lecInfo[0]}")
+            Q.write(f"**Lecture: {lecInfo[1]}**")
+            Q.write("Discussion/lab sessions:")
+            Q.table(info2print.fillna(''))
+            Q.write("---")  # Optional: Add a separator between groups
     else:
         print("HERE")
 

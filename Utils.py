@@ -75,7 +75,7 @@ def convertTimetoInt(timeList):
         }
 
     return timeDict
-    pass
+
 
 
 def getCurrTime():
@@ -323,7 +323,6 @@ def getCourseInfo(selected_course):
                     "Filled/Total": []
                     }
         f, l = classData[groups[loc][0]]["Course Code"], classData[groups[loc][-1]]["Course Code"]
-        # if len(f.split()) == 3:
         seq = f + f"-{l.split()[-1]}"
         LecInfo.append((seq, loc))
 
