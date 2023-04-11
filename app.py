@@ -103,15 +103,20 @@ elif menu == "Course Info":
         Q.subheader(" ")
         Q.subheader(f"{Name}")
         Q.write("---")  # Optional: Add a separator between groups
-        Q.write("\n\n\n")
+        Q.write("")
 
-        for (info2print, lecInfo) in zip(dataframes, lecture_infos):
+        sorted_lecture_infos = sorted(lecture_infos, key=lambda x: x[1], reverse=True)
+        sorted_dataframes = [df for _, df in sorted(zip(lecture_infos, dataframes), key=lambda x: x[0][1], reverse=True)]
+
+
+        for (info2print, lecInfo) in zip(sorted_dataframes, sorted_lecture_infos):
             
-            # st.write("**Lecture info:**")
-            Q.write(f"Course info for {lecInfo[0]}")
+            # Q.write(f"Course information for {lecInfo[0]}:")
+            Q.write(f'<p style="font-size:24px;">Course information for {lecInfo[0]}:</p>', unsafe_allow_html=True)
             Q.write(f"**Lecture: {lecInfo[1]}**")
             Q.write("Discussion/lab sessions:")
             Q.table(info2print.fillna(''))
+            Q.write(f"Maximum Class Size: {lecInfo[2]}")
             Q.write("---")  # Optional: Add a separator between groups
     else:
         print("HERE")

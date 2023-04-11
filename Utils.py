@@ -324,13 +324,16 @@ def getCourseInfo(selected_course):
                     }
         f, l = classData[groups[loc][0]]["Course Code"], classData[groups[loc][-1]]["Course Code"]
         seq = f + f"-{l.split()[-1]}"
-        LecInfo.append((seq, loc))
+        
+
+        TotalSize = 0
 
         
         for crn in groups[loc]:
             if not Name:
                 Name = total_data[crn]["Name"]
             tf = f'{classData[crn]["Filled"]}/{classData[crn]["Total"]}'
+            TotalSize += int(classData[crn]["Total"])
             infoDict["Course Code"].append(classData[crn]["Course Code"])
             try:
                 
@@ -348,6 +351,7 @@ def getCourseInfo(selected_course):
             dataFrames.append(pd.DataFrame(infoDict))
         except:
             print("_"*200)
+        LecInfo.append((seq, loc, TotalSize))
 
     return dataFrames, LecInfo, Name
 
