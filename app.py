@@ -25,6 +25,9 @@ with open("CourseList.json", "r") as json_file2:
 with open("total_data.json", "r") as json_file3:
     total_data = json.load(json_file3)
 
+with open("Instructors.json", "r") as json_file4:
+    InstructorDict = json.load(json_file4)
+
 # Streamlit 
 st.set_page_config(page_title="UC Davis Classroom Search", layout="wide", page_icon="ShreyIconS2.png")
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
@@ -118,8 +121,17 @@ elif menu == "Course Info":
             Q.table(info2print.fillna(''))
             Q.write(f"Maximum Class Size: {lecInfo[2]}")
             Q.write("---")  # Optional: Add a separator between groups
-    else:
-        print("HERE")
+
+elif menu == "Instructor Schedule":
+
+    st.title("Instructor Schedule")
+    Instructors = sorted(list(InstructorDict.keys()))
+    selected_instructor = st.selectbox("Select Instructor", Instructors)
+    data = InstructorDict[selected_instructor]
+    schedule_df = createDataFrame(data)
+    st.subheader(f"Schedule for {selected_instructor}")
+    st.table(schedule_df.fillna(''))
+
 
 
 

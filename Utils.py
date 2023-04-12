@@ -287,7 +287,7 @@ def group_courses(course_dict):
                     hDict[f"{key}:-   {d} : {t}"].append(CRN)
 
     sorted_dict = dict(sorted(hDict.items(), key=lambda x: len(x[1]), reverse=True))
-
+    # pp.pprint(sorted_dict)
 
     for loc in sorted_dict:
         for crn in sorted_dict[loc]:
@@ -313,6 +313,8 @@ def getCourseInfo(selected_course):
         classData[crn] = total_data[crn]
 
     groups, lecs, diss, lab = (group_courses(classData))
+    print("___")
+    # pp.pprint(groups)
 
 
 
@@ -323,7 +325,11 @@ def getCourseInfo(selected_course):
                     "Filled/Total": []
                     }
         f, l = classData[groups[loc][0]]["Course Code"], classData[groups[loc][-1]]["Course Code"]
-        seq = f + f"-{l.split()[-1]}"
+        if f != l:
+            seq = f + f"-{l.split()[-1]}"
+        else:
+            seq = f
+
         
 
         TotalSize = 0
@@ -338,10 +344,14 @@ def getCourseInfo(selected_course):
             try:
                 
                 loc = (diss[crn])
+                if "TBA" in loc: loc = "--"
             except:
                 loc = (" ")
             if crn in lab:
-                infoDict["Locations"].append(f"{loc}\n;\n{lab[crn]}")
+                if loc != "--":
+                    infoDict["Locations"].append(f"{loc}\n; \n{lab[crn]}")
+                else:
+                    infoDict["Locations"].append(f"{lab[crn]}")
             else:
                 infoDict["Locations"].append(loc)
             infoDict["Instructors"].append(" ".join(classData[crn]["Instructors"]))
