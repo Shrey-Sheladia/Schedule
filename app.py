@@ -108,7 +108,7 @@ elif menu == "Course Info":
         Q.write("---")  # Optional: Add a separator between groups
         Q.write("")
 
-        sorted_lecture_infos = sorted(lecture_infos, key=lambda x: x[1], reverse=True)
+        sorted_lecture_infos = sorted(lecture_infos, key=lambda x: x[0])
         sorted_dataframes = [df for _, df in sorted(zip(lecture_infos, dataframes), key=lambda x: x[0][1], reverse=True)]
 
 

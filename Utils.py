@@ -287,18 +287,24 @@ def group_courses(course_dict):
                     hDict[f"{key}:-   {d} : {t}"].append(CRN)
 
     sorted_dict = dict(sorted(hDict.items(), key=lambda x: len(x[1]), reverse=True))
-    # pp.pprint(sorted_dict)
+    
 
     for loc in sorted_dict:
         for crn in sorted_dict[loc]:
             if crn not in lecs:
                 lecs[crn] = loc
             elif crn not in dis:
+                print(1)
                 dis[crn] = loc
             else:
+                print(2)
                 lab[crn] = loc
 
     groups = group_keys_by_values(lecs)
+    # pp.pprint(groups)
+    # pp.pprint(lecs)
+    if dis == {}:
+        dis = lecs
 
     return groups, lecs, dis, lab
 
@@ -314,7 +320,7 @@ def getCourseInfo(selected_course):
 
     groups, lecs, diss, lab = (group_courses(classData))
     print("___")
-    # pp.pprint(groups)
+    
 
 
 
