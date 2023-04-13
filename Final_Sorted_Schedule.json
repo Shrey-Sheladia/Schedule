@@ -320,7 +320,7 @@
         "1010": {
             "M": {
                 "11:00 - 11:50 AM": "Word Roots | CLA 030 002",
-                "9:00 - 9:50 AM": "Intro Music Theory Pt 1 | MUS 003A A06",
+                "9:00 - 9:50 AM": "Intro Music Theory Pt 1 | MUS 003A A07",
                 "12:10 - 1:00 PM": "Gk, Rom & Near East Myth | CLA 010 001",
                 "1:10 - 2:00 PM": "History of Rock Music | MUS 106 A10",
                 "2:10 - 3:30 PM": "History of Film Music | MUS 115 001",
@@ -443,6 +443,8 @@
                 "9:00 - 9:50 AM": "Stat Learning II | STA 142B A01",
                 "12:10 - 1:30 PM": "Urban Anthro | ANT 127 001",
                 "2:10 - 3:00 PM": "Analysis of Variance | STA 106 A02",
+                "3:10 - 4:00 PM": "Calculus | MAT 021C B06",
+                "4:10 - 5:00 PM": "Calculus | MAT 021C B05",
                 "5:10 - 8:00 PM": "CBPR & Chicana/o Health | CHI 141 001",
                 "11:30 - 11:50 AM": "East & South Africans | ANT 140B 001",
                 "1:40 - 2:00 PM": "Urban Anthro | ANT 127 001"
@@ -471,7 +473,6 @@
                 "10:00 - 10:50 AM": "Parallel Architectures | ECS 158 001",
                 "9:00 - 9:50 AM": "Philosophy Of Law | PHI 119 A02",
                 "12:10 - 1:00 PM": "Discrete Math for CS | ECS 020 A03",
-                "1:10 - 2:00 PM": "Des & Anlys of Algorithm | ECS 222A 001",
                 "2:10 - 4:00 PM": "Intro Res Methods | CHE 263 001",
                 "4:10 - 5:00 PM": "Vector Analysis | MAT 021D 001",
                 "5:10 - 6:00 PM": "Computer Graphics | ECS 189H 001"
@@ -488,9 +489,8 @@
             "T": {
                 "10:30 - 11:50 AM": "Contemp Architecture | AHI 187 001",
                 "9:00 - 10:20 AM": "Energy Economics | ECN 125 A02",
-                "12:10 - 1:30 PM": "Science & Race | STS 140 A02",
                 "1:40 - 3:00 PM": "Arts of Asia | AHI 001D A02",
-                "3:10 - 4:30 PM": "India Pop Religious Art | RST 180 A02",
+                "3:10 - 4:30 PM": "India Pop Religious Art | AHI 158 A02",
                 "5:10 - 6:00 PM": "Calculus | MAT 021C B07",
                 "6:10 - 7:00 PM": "Calculus | MAT 021C B08",
                 "7:10 - 9:00 PM": "Directed Gp Study | AHI 098 009"
@@ -505,9 +505,8 @@
             "R": {
                 "10:30 - 11:50 AM": "Contemp Architecture | AHI 187 001",
                 "9:00 - 10:20 AM": "Energy Economics | ECN 125 A02",
-                "12:10 - 1:30 PM": "Science & Race | STS 140 A02",
                 "1:40 - 3:00 PM": "Arts of Asia | AHI 001D A02",
-                "3:10 - 4:30 PM": "India Pop Religious Art | RST 180 A02"
+                "3:10 - 4:30 PM": "India Pop Religious Art | AHI 158 A02"
             },
             "F": {
                 "10:00 - 10:50 AM": "Big Bang to Today | GEL 120 001",
@@ -700,20 +699,21 @@
     "Bainer Hall": {
         "1060": {
             "M": {
+                "10:00 - 10:50 AM": "Applied Mathematics | MAT 207C 001",
                 "11:00 - 11:50 AM": "Intro Linguistics | LIN 001Y A02",
-                "9:00 - 9:50 AM": "Plant Nutrition | PLS 158 001",
                 "2:10 - 4:00 PM": "Group Study | MAE 298 002",
                 "4:10 - 6:00 PM": "Aeroacoustics | MAE 265 001"
             },
             "T": {
                 "10:30 - 11:50 AM": "World Regional Geography | LDA 010 001",
                 "12:10 - 1:30 PM": "Intro Enzymology | FST 123 001",
+                "1:40 - 3:00 PM": "British Drama to 1800 | ENL 150A 001",
                 "3:10 - 5:00 PM": "Hort & Agron: Practices | HRT 200B 001",
                 "5:10 - 6:00 PM": "Sociology of Law | SOC 155 A01",
                 "6:10 - 7:00 PM": "Sociology of Law | SOC 155 A02"
             },
             "W": {
-                "9:00 - 9:50 AM": "Plant Nutrition | PLS 158 001",
+                "10:00 - 10:50 AM": "Applied Mathematics | MAT 207C 001",
                 "12:10 - 2:00 PM": "Research Methodologies | SPA 203 001",
                 "2:10 - 4:00 PM": "Group Study | MAE 298 002",
                 "4:10 - 6:00 PM": "Aeroacoustics | MAE 265 001"
@@ -722,13 +722,14 @@
                 "10:30 - 11:50 AM": "World Regional Geography | LDA 010 001",
                 "9:00 - 9:50 AM": "History Of The U S | HIS 017A A07",
                 "12:10 - 1:30 PM": "Intro Enzymology | FST 123 001",
+                "1:40 - 3:00 PM": "British Drama to 1800 | ENL 150A 001",
                 "5:10 - 6:00 PM": "Classical Physics | PHY 009C B03",
                 "6:10 - 7:00 PM": "Calculus for BioSci | MAT 017C C06",
                 "7:10 - 8:00 PM": "Calculus for BioSci | MAT 017C C03",
                 "8:10 - 9:00 PM": "Calculus for BioSci | MAT 017C C04"
             },
             "F": {
-                "9:00 - 9:50 AM": "Plant Nutrition | PLS 158 001",
+                "10:00 - 10:50 AM": "Applied Mathematics | MAT 207C 001",
                 "11:30 - 12:50 PM": "Systemic Physiology Disc | NPB 101D 008",
                 "3:10 - 4:00 PM": "Genes and Gene Exp Disc | BIS 101D 002"
             },
@@ -826,6 +827,7 @@
             },
             "W": {
                 "10:00 - 10:50 AM": "General Chemistry | CHE 002B B19",
+                "11:00 - 11:50 AM": "Research | ECI 299 051",
                 "8:00 - 8:50 AM": "Intro Public Speaking | CMN 001 A01",
                 "9:00 - 9:50 AM": "Elementary Spanish | SPA 001 004",
                 "12:10 - 1:00 PM": "Intermediate Persian | PER 023 001",
@@ -843,6 +845,8 @@
                 "2:10 - 3:30 PM": "Analys Longitudinal Data | STA 224 001",
                 "4:10 - 5:00 PM": "Late Antiquity | CLA 004 A01",
                 "5:10 - 6:00 PM": "Late Antiquity | CLA 004 A03",
+                "6:10 - 7:00 PM": "Intro to Symbol Logic | PHI 012 A05",
+                "7:10 - 8:00 PM": "Intro to Symbol Logic | PHI 012 A06",
                 "3:40 - 4:00 PM": "Analys Longitudinal Data | STA 224 001"
             },
             "F": {
@@ -899,7 +903,6 @@
                 "1:10 - 2:00 PM": "Wkload Math Co 16C | WLD 913 003"
             },
             "T": {
-                "11:00 - 12:50 PM": "First-Year Seminar | FRS 002 014",
                 "1:40 - 3:00 PM": "Curr Topics in Nutrition | NUT 011 002",
                 "4:10 - 5:00 PM": "Calculus for BioSci | MAT 017B B01",
                 "5:10 - 6:00 PM": "Vector Analysis | MAT 021D A02",
@@ -930,6 +933,7 @@
         "1134": {
             "M": {
                 "10:00 - 11:20 AM": "Eng Exp & Uncertainty | MAE 207 001",
+                "1:10 - 2:00 PM": "Topics In Math | MAT 280 001",
                 "3:10 - 4:00 PM": "General Chemistry | CHE 002B C16",
                 "6:10 - 7:30 PM": "Directed Group Study | MCB 198 015",
                 "11:30 - 11:50 AM": "Eng Exp & Uncertainty | MAE 207 001"
@@ -943,6 +947,7 @@
             },
             "W": {
                 "10:00 - 11:20 AM": "Eng Exp & Uncertainty | MAE 207 001",
+                "1:10 - 2:00 PM": "Topics In Math | MAT 280 001",
                 "4:10 - 5:00 PM": "Latin American Cinema | CHI 065 A01",
                 "5:10 - 6:00 PM": "Latin American Cinema | CHI 065 A02",
                 "6:10 - 7:30 PM": "Directed Group Study | MCB 198 015",
@@ -953,7 +958,6 @@
                 "12:10 - 1:30 PM": "Ethics in an Age of Tech | ECS 188 003",
                 "1:40 - 3:00 PM": "Advanced Org Synthesis | CHE 231B 001",
                 "3:10 - 5:00 PM": "NAS Ethno History | NAS 130A 001",
-                "5:10 - 6:00 PM": "Sexualities | ANT 030 A01",
                 "6:10 - 7:00 PM": "Real Analysis | MAT 127B B02",
                 "7:10 - 8:00 PM": "Real Analysis | MAT 127B B01"
             },
@@ -961,6 +965,7 @@
                 "10:00 - 11:50 AM": "Seminar | PTX 290 001",
                 "8:00 - 8:50 AM": "Enzymology Lab | FST 123L A02",
                 "12:10 - 1:00 PM": "Intro To Human Heredity | MCB 010 A05",
+                "1:10 - 2:00 PM": "Topics In Math | MAT 280 001",
                 "2:10 - 3:00 PM": "Management Accounting | MGT 170 A01",
                 "3:10 - 4:00 PM": "Management Accounting | MGT 170 A03"
             },
@@ -991,7 +996,6 @@
             },
             "R": {},
             "F": {
-                "8:00 - 10:50 AM": "Soil Mechanics Lab | ECI 171L 003",
                 "12:10 - 3:00 PM": "Soil Mechanics Lab | ECI 171L 004",
                 "4:10 - 7:00 PM": "Soil Mechanics Lab | ECI 171L 005"
             },
@@ -1013,10 +1017,7 @@
             "M": {
                 "10:00 - 11:50 AM": "Sensors & Actuators | EBS 289K 001"
             },
-            "T": {
-                "1:10 - 3:00 PM": "Occ Muscul Disorders | EBS 228 001",
-                "3:10 - 6:00 PM": "Occ Muscul Disorders | EBS 228 001"
-            },
+            "T": {},
             "W": {
                 "4:10 - 7:00 PM": "Biomchanics & Ergonomics | EBS 128 001",
                 "10:00 - 11:50 AM": "Sensors & Actuators | EBS 289K 001"
@@ -1045,12 +1046,9 @@
         },
         "2045": {
             "M": {},
-            "T": {
-                "10:30 - 11:50 AM": "Food Engineering | EBS 289F 001"
-            },
+            "T": {},
             "W": {},
             "R": {
-                "10:30 - 11:50 AM": "Food Engineering | EBS 289F 001",
                 "4:10 - 5:00 PM": "Seminar | EBS 290 001"
             },
             "F": {},
@@ -1450,7 +1448,7 @@
                 "9:00 - 9:50 AM": "Media Theory | STS 151 A04",
                 "11:00 - 12:50 PM": "Intro to Social Stats | SOC 056 A12",
                 "1:10 - 2:00 PM": "Biomolecule & Metabolism | BIS 105 001",
-                "5:10 - 8:00 PM": "Vampires & Other Horrors | FMS 045 A04"
+                "5:10 - 8:00 PM": "Vampires & Other Horrors | GER 045 A04"
             },
             "T": {
                 "10:00 - 10:50 AM": "Exercise Physiology | EXB 101 001",
@@ -1486,9 +1484,11 @@
                 "6:10 - 8:00 PM": "Filmmaking Foundations | CDM 020 A03"
             },
             "T": {
+                "10:00 - 11:20 AM": "Child Learn & Mat Cultr | EDU 122 001",
                 "9:00 - 9:50 AM": "Intro Public Speaking | CMN 001 A12",
                 "12:10 - 1:30 PM": "History of Interior Arch | DES 144 A03",
                 "2:10 - 4:00 PM": "Molecules to Individuals | NPB 110A A03",
+                "11:30 - 11:50 AM": "Child Learn & Mat Cultr | EDU 122 001",
                 "5:10 - 8:00 PM": "Film Genres | CDM 167 001"
             },
             "W": {
@@ -1498,9 +1498,11 @@
                 "2:10 - 4:00 PM": "World Textiles: Eastern | DES 142A 001"
             },
             "R": {
+                "10:00 - 11:20 AM": "Child Learn & Mat Cultr | EDU 122 001",
                 "9:00 - 9:50 AM": "Intro Public Speaking | CMN 001 A12",
                 "12:10 - 1:30 PM": "History of Interior Arch | DES 144 A03",
-                "2:10 - 4:00 PM": "Molecules to Individuals | NPB 110A A03"
+                "2:10 - 4:00 PM": "Molecules to Individuals | NPB 110A A03",
+                "11:30 - 11:50 AM": "Child Learn & Mat Cultr | EDU 122 001"
             },
             "F": {},
             "S": {}
@@ -1516,7 +1518,6 @@
             },
             "T": {
                 "10:30 - 11:50 AM": "Artificial Intelligence | ECS 289G 002",
-                "9:00 - 10:20 AM": "Econometric Methods | ECN 240B 001",
                 "12:10 - 1:30 PM": "Computer Science Theory | ECS 289A 002",
                 "1:40 - 3:00 PM": "Computer Graphics | ECS 289H A01",
                 "3:10 - 4:30 PM": "Computer Animation | ECS 279 001",
@@ -1532,7 +1533,6 @@
             },
             "R": {
                 "10:30 - 11:50 AM": "Artificial Intelligence | ECS 289G 002",
-                "9:00 - 10:20 AM": "Econometric Methods | ECN 240B 001",
                 "12:10 - 1:30 PM": "Computer Science Theory | ECS 289A 002",
                 "1:40 - 3:00 PM": "Computer Graphics | ECS 289H A01",
                 "3:10 - 4:30 PM": "Computer Animation | ECS 279 001",
@@ -1542,7 +1542,6 @@
                 "10:00 - 10:50 AM": "Lit in English I | ENL 010A A02",
                 "11:00 - 11:50 AM": "Physiology & Performance | EXB 124 A01",
                 "9:00 - 9:50 AM": "Ordinary Diff Equations | MAT 119B 001",
-                "1:10 - 3:00 PM": "Diff Eqns Appl to Bio | MAT 027B 001",
                 "3:10 - 6:00 PM": "Engr Planning | ECI 189C 001"
             },
             "S": {}
@@ -1589,13 +1588,15 @@
         },
         "1106": {
             "M": {
-                "10:00 - 10:50 AM": "Media Theory | STS 151 A01"
+                "10:00 - 10:50 AM": "Media Theory | STS 151 A01",
+                "2:10 - 5:00 PM": "Special Tpcs Analog Game | CDM 174 001"
             },
             "T": {
                 "1:10 - 4:00 PM": "Spcl Topics Digital Game | CDM 176 001"
             },
             "W": {
-                "10:00 - 10:50 AM": "Media Theory | STS 151 A02"
+                "10:00 - 10:50 AM": "Media Theory | STS 151 A02",
+                "2:10 - 5:00 PM": "Special Tpcs Analog Game | CDM 174 001"
             },
             "R": {
                 "4:10 - 5:00 PM": "Intro to Film Studies | CDM 001 A05",
@@ -1610,13 +1611,11 @@
         },
         "1107": {
             "M": {
-                "10:00 - 10:50 AM": "Media Theory | STS 151 A03",
-                "2:10 - 5:00 PM": "Special Tpcs Analog Game | CDM 174 001"
+                "10:00 - 10:50 AM": "Media Theory | STS 151 A03"
             },
             "T": {},
             "W": {
-                "10:00 - 10:50 AM": "Media Theory | STS 151 A04",
-                "2:10 - 5:00 PM": "Special Tpcs Analog Game | CDM 174 001"
+                "10:00 - 10:50 AM": "Media Theory | STS 151 A04"
             },
             "R": {
                 "4:10 - 5:00 PM": "Intro to Film Studies | CDM 001 A07",
@@ -1631,8 +1630,10 @@
         "120": {
             "M": {
                 "9:00 - 9:50 AM": "Design Drawing | DES 014 003",
+                "1:10 - 2:00 PM": "Message Campaign Design | DES 154 001",
                 "4:40 - 5:30 PM": "Intro to 3-D Design | DES 050 001",
                 "10:00 - 11:50 AM": "Design Drawing | DES 014 003",
+                "2:10 - 4:00 PM": "Message Campaign Design | DES 154 001",
                 "5:40 - 7:30 PM": "Intro to 3-D Design | DES 050 001"
             },
             "T": {
@@ -1644,8 +1645,10 @@
             },
             "W": {
                 "9:00 - 9:50 AM": "Design Drawing | DES 014 003",
+                "1:10 - 2:00 PM": "Message Campaign Design | DES 154 001",
                 "4:40 - 5:30 PM": "Intro to 3-D Design | DES 050 001",
                 "10:00 - 11:50 AM": "Design Drawing | DES 014 003",
+                "2:10 - 4:00 PM": "Message Campaign Design | DES 154 001",
                 "5:40 - 7:30 PM": "Intro to 3-D Design | DES 050 001"
             },
             "R": {
@@ -1684,13 +1687,19 @@
         },
         "207": {
             "M": {
-                "1:10 - 4:00 PM": "Interdisciplinary Art | ART 113 0U1"
+                "9:00 - 9:50 AM": "VisCom: Graphic Design | DES 116 002",
+                "1:10 - 4:00 PM": "Interdisciplinary Art | ART 113 0U1",
+                "4:10 - 7:00 PM": "Coding for Designers | DES 111 001",
+                "10:00 - 11:50 AM": "VisCom: Graphic Design | DES 116 002"
             },
             "T": {
                 "1:10 - 4:00 PM": "Screen & Digital Print | DES 161 001"
             },
             "W": {
-                "1:10 - 4:00 PM": "Interdisciplinary Art | ART 113 0U1"
+                "9:00 - 9:50 AM": "VisCom: Graphic Design | DES 116 002",
+                "1:10 - 4:00 PM": "Interdisciplinary Art | ART 113 0U1",
+                "4:10 - 7:00 PM": "Coding for Designers | DES 111 001",
+                "10:00 - 11:50 AM": "VisCom: Graphic Design | DES 116 002"
             },
             "R": {
                 "1:10 - 4:00 PM": "Screen & Digital Print | DES 161 001"
@@ -1701,31 +1710,19 @@
         "208": {
             "M": {
                 "9:00 - 9:50 AM": "Design for Understanding | DES 159 001",
-                "1:10 - 4:00 PM": "Photo & Digital Imaging | DES 113 001",
-                "4:10 - 7:00 PM": "Coding for Designers | DES 111 001",
                 "10:00 - 11:50 AM": "Design for Understanding | DES 159 001"
             },
             "T": {
-                "9:00 - 9:50 AM": "VisCom: Graphic Design | DES 116 001",
-                "1:10 - 2:00 PM": "VisCom: Graphic Design | DES 116 002",
-                "4:10 - 5:00 PM": "Message Campaign Design | DES 154 001",
-                "10:00 - 11:50 AM": "VisCom: Graphic Design | DES 116 001",
-                "2:10 - 4:00 PM": "VisCom: Graphic Design | DES 116 002",
-                "5:10 - 7:00 PM": "Message Campaign Design | DES 154 001"
+                "4:10 - 5:00 PM": "VisCom: Graphic Design | DES 116 001",
+                "5:10 - 7:00 PM": "VisCom: Graphic Design | DES 116 001"
             },
             "W": {
                 "9:00 - 9:50 AM": "Design for Understanding | DES 159 001",
-                "1:10 - 4:00 PM": "Photo & Digital Imaging | DES 113 001",
-                "4:10 - 7:00 PM": "Coding for Designers | DES 111 001",
                 "10:00 - 11:50 AM": "Design for Understanding | DES 159 001"
             },
             "R": {
-                "9:00 - 9:50 AM": "VisCom: Graphic Design | DES 116 001",
-                "1:10 - 2:00 PM": "VisCom: Graphic Design | DES 116 002",
-                "4:10 - 5:00 PM": "Message Campaign Design | DES 154 001",
-                "10:00 - 11:50 AM": "VisCom: Graphic Design | DES 116 001",
-                "2:10 - 4:00 PM": "VisCom: Graphic Design | DES 116 002",
-                "5:10 - 7:00 PM": "Message Campaign Design | DES 154 001"
+                "4:10 - 5:00 PM": "VisCom: Graphic Design | DES 116 001",
+                "5:10 - 7:00 PM": "VisCom: Graphic Design | DES 116 001"
             },
             "F": {},
             "S": {}
@@ -1761,11 +1758,14 @@
             "S": {}
         },
         "220": {
-            "M": {},
+            "M": {
+                "1:10 - 4:00 PM": "Photo & Digital Imaging | DES 113 001"
+            },
             "T": {
                 "1:10 - 2:00 PM": "Introduction to Weaving | DES 132A 001"
             },
             "W": {
+                "1:10 - 4:00 PM": "Photo & Digital Imaging | DES 113 001",
                 "5:10 - 6:00 PM": "Information Design | DES 149 A01",
                 "6:10 - 7:00 PM": "Information Design | DES 149 A02"
             },
@@ -1851,7 +1851,6 @@
         "3218": {
             "M": {
                 "10:00 - 10:50 AM": "Wkload Math Co 21C | WLD 923 001",
-                "11:00 - 11:50 AM": "Wkload-Chemistry Co 2B | WLD 952 002",
                 "9:00 - 9:50 AM": "Wkload Physics Co 9A | WLD 941 001",
                 "12:10 - 1:00 PM": "Wkload-Chemistry Co 2B | WLD 952 001",
                 "1:10 - 2:00 PM": "Wkload Physics Co 9B | WLD 942 001"
@@ -1861,7 +1860,6 @@
             },
             "W": {
                 "10:00 - 10:50 AM": "Wkload Math Co 21C | WLD 923 001",
-                "11:00 - 11:50 AM": "Wkload-Chemistry Co 2B | WLD 952 002",
                 "9:00 - 9:50 AM": "Wkload Physics Co 9A | WLD 941 001",
                 "12:10 - 1:00 PM": "Wkload-Chemistry Co 2B | WLD 952 001",
                 "1:10 - 2:00 PM": "Wkload Physics Co 9B | WLD 942 001"
@@ -1872,7 +1870,6 @@
             },
             "F": {
                 "10:00 - 10:50 AM": "Wkload Math Co 21C | WLD 923 001",
-                "11:00 - 11:50 AM": "Wkload-Chemistry Co 2B | WLD 952 002",
                 "9:00 - 9:50 AM": "Wkload Physics Co 9A | WLD 941 001",
                 "12:10 - 1:00 PM": "Wkload-Chemistry Co 2B | WLD 952 001",
                 "1:10 - 2:00 PM": "Wkload Physics Co 9B | WLD 942 001"
@@ -1897,18 +1894,17 @@
             "M": {
                 "10:00 - 10:50 AM": "The Earth | GEL 001 A05",
                 "12:10 - 1:00 PM": "The Earth | GEL 001 A01",
-                "1:10 - 4:00 PM": "Oceanography | ESP 116N A03",
-                "4:10 - 7:00 PM": "Oceanography | ESP 116N A02"
+                "1:10 - 4:00 PM": "Oceanography | GEL 116N A03",
+                "4:10 - 7:00 PM": "Oceanography | GEL 116N A02"
             },
             "T": {
                 "11:00 - 11:50 AM": "Solar System | GEL 036 A03",
                 "12:10 - 1:00 PM": "The Earth | GEL 001 A03",
-                "3:10 - 4:00 PM": "Solar System | GEL 036 A01",
                 "4:10 - 7:00 PM": "Paleobiology Lab | GEL 107L 001"
             },
             "W": {
                 "10:00 - 10:50 AM": "The Earth | GEL 001 A06",
-                "1:10 - 4:00 PM": "Oceanography | ESP 116N A01"
+                "1:10 - 4:00 PM": "Oceanography | GEL 116N A01"
             },
             "R": {
                 "4:10 - 7:00 PM": "Paleobiology Lab | GEL 107L 001"
@@ -1922,7 +1918,8 @@
                 "1:10 - 2:00 PM": "The Earth | GEL 001 A04"
             },
             "T": {
-                "1:40 - 3:00 PM": "Radiogenic Isotopes | GEL 146 001"
+                "1:40 - 3:00 PM": "Radiogenic Isotopes | GEL 146 001",
+                "3:10 - 4:00 PM": "Solar System | GEL 036 A01"
             },
             "W": {
                 "12:10 - 1:00 PM": "Solar System | GEL 036 A04",
@@ -1940,16 +1937,16 @@
         "1317": {
             "M": {},
             "T": {
-                "3:10 - 5:00 PM": "Learning in Sci & Math | EDU 081 002"
+                "3:10 - 5:00 PM": "Learning in Sci & Math | GEL 081 002"
             },
             "W": {
                 "8:00 - 9:50 AM": "Teaching HS Math & Sci | EDU 183 001",
-                "3:10 - 5:00 PM": "Learning in Sci & Math | EDU 081 001"
+                "3:10 - 5:00 PM": "Learning in Sci & Math | GEL 081 001"
             },
             "R": {
                 "10:00 - 10:50 AM": "Facilitating Learning | GEL 186 002",
                 "3:10 - 4:00 PM": "Facilitating Learning | GEL 186 001",
-                "4:10 - 6:00 PM": "Teaching in Sci & Math | EDU 181 001"
+                "4:10 - 6:00 PM": "Teaching in Sci & Math | GEL 181 001"
             },
             "F": {
                 "9:00 - 10:50 AM": "Directed Group Study | MAT 198 008"
@@ -2319,18 +2316,6 @@
                 "11:00 - 11:50 AM": "Cultural Anthropology | ANT 002 A28"
             },
             "S": {}
-        },
-        "1012": {
-            "M": {},
-            "T": {
-                "10:00 - 11:50 AM": "Env Chem Modeling | ECI 241 001"
-            },
-            "W": {},
-            "R": {
-                "10:00 - 11:50 AM": "Env Chem Modeling | ECI 241 001"
-            },
-            "F": {},
-            "S": {}
         }
     },
     "Environ Horticult": {
@@ -2532,7 +2517,8 @@
                 "11:00 - 11:50 AM": "Intro Music Theory Pt 1 | MUS 003A A02",
                 "12:10 - 1:00 PM": "Intro Music Theory Pt 1 | MUS 003A A03",
                 "1:10 - 2:00 PM": "Intro Music Theory Pt 1 | MUS 003A A04",
-                "2:10 - 3:00 PM": "Intro Music Theory Pt 1 | MUS 003A A05"
+                "2:10 - 3:00 PM": "Intro Music Theory Pt 1 | MUS 003A A05",
+                "3:10 - 4:00 PM": "Intro Music Theory Pt 1 | MUS 003A A07"
             },
             "T": {},
             "W": {
@@ -2540,7 +2526,8 @@
                 "11:00 - 11:50 AM": "Intro Music Theory Pt 1 | MUS 003A A02",
                 "12:10 - 1:00 PM": "Intro Music Theory Pt 1 | MUS 003A A03",
                 "1:10 - 2:00 PM": "Intro Music Theory Pt 1 | MUS 003A A04",
-                "2:10 - 3:00 PM": "Intro Music Theory Pt 1 | MUS 003A A05"
+                "2:10 - 3:00 PM": "Intro Music Theory Pt 1 | MUS 003A A05",
+                "3:10 - 4:00 PM": "Intro Music Theory Pt 1 | MUS 003A A07"
             },
             "R": {},
             "F": {
@@ -2548,7 +2535,8 @@
                 "11:00 - 11:50 AM": "Intro Music Theory Pt 1 | MUS 003A A02",
                 "12:10 - 1:00 PM": "Intro Music Theory Pt 1 | MUS 003A A03",
                 "1:10 - 2:00 PM": "Intro Music Theory Pt 1 | MUS 003A A04",
-                "2:10 - 3:00 PM": "Intro Music Theory Pt 1 | MUS 003A A05"
+                "2:10 - 3:00 PM": "Intro Music Theory Pt 1 | MUS 003A A05",
+                "3:10 - 4:00 PM": "Intro Music Theory Pt 1 | MUS 003A A07"
             },
             "S": {}
         }
@@ -2574,7 +2562,7 @@
             "M": {
                 "10:00 - 10:50 AM": "Directed Gp Study | BIS 098 022",
                 "10:00 - 11:50 AM": "Sem DNA Rep & Recomb | MIC 275 002",
-                "12:10 - 1:00 PM": "Directed Grp Study | EMS 198 003",
+                "12:10 - 1:00 PM": "Directed Gp Study | FST 198 017",
                 "12:10 - 2:00 PM": "Group Study | BIM 298 001",
                 "2:10 - 3:00 PM": "Directed Grp Study | EMS 198 005",
                 "2:10 - 3:30 PM": "Group Study | EMS 298 005",
@@ -2584,7 +2572,7 @@
             "T": {
                 "10:00 - 10:50 AM": "Neurotoxicology | MCP 234 001",
                 "11:00 - 11:50 AM": "Group Study | EEC 298 001",
-                "TBA": "Research | EDU 299D 033",
+                "TBA": "Field Studies Fish Biol | WFC 102 001",
                 "2:40 - 4:00 PM": "Seminar | PTX 290 003",
                 "5:10 - 8:00 PM": "Group Study | EDU 298 002"
             },
@@ -2603,7 +2591,7 @@
                 "12:10 - 1:00 PM": "Directed Gp Study | BIS 098 014",
                 "12:10 - 2:00 PM": "Towards Well-Being | BIM 208Y 001",
                 "1:40 - 3:00 PM": "FSG Seminar | PHY 296 001",
-                "4:10 - 5:00 PM": "Directed Grp Study | EMS 198 007"
+                "4:10 - 5:00 PM": "Seminar | ETX 290 010"
             },
             "F": {
                 "10:00 - 10:50 AM": "Directed Gp Study | BIS 098 022",
@@ -2667,7 +2655,7 @@
             },
             "R": {
                 "2:10 - 4:00 PM": "Adv Concrete Struct | ECI 232 001",
-                "10:00 - 10:50 AM": "Trans Engr | ECI 189G 002"
+                "10:00 - 11:50 AM": "Trans Engr | ECI 189G 002"
             },
             "F": {
                 "9:00 - 11:50 AM": "Building Assemblage | ECI 182 001"
@@ -2758,7 +2746,6 @@
             "M": {
                 "10:00 - 11:50 AM": "Mech of Materials | ENG 104 001",
                 "9:00 - 9:50 AM": "19th-20th Century World | HIS 010C A12",
-                "12:10 - 1:00 PM": "American Humanities | HUM 002B 001",
                 "1:10 - 2:00 PM": "History Of The U S | HIS 017A A09",
                 "3:10 - 4:00 PM": "Intro Entrepreneurship | ENG 008 001",
                 "4:10 - 5:30 PM": "Bioenergetics/Metabolism | BIS 103 002"
@@ -2773,7 +2760,6 @@
             "W": {
                 "10:00 - 11:50 AM": "Mech of Materials | ENG 104 001",
                 "9:00 - 9:50 AM": "19th-20th Century World | HIS 010C A12",
-                "12:10 - 1:00 PM": "American Humanities | HUM 002B 001",
                 "1:10 - 2:00 PM": "History Of The U S | HIS 017A A09",
                 "3:10 - 4:00 PM": "Intro Entrepreneurship | ENG 008 001",
                 "4:10 - 5:30 PM": "Bioenergetics/Metabolism | BIS 103 002"
@@ -2786,7 +2772,6 @@
             },
             "F": {
                 "9:00 - 9:50 AM": "19th-20th Century World | HIS 010C A12",
-                "12:10 - 1:00 PM": "American Humanities | HUM 002B 001",
                 "1:10 - 2:00 PM": "History Of The U S | HIS 017A A09",
                 "3:10 - 4:00 PM": "Intro Entrepreneurship | ENG 008 001"
             },
@@ -2797,7 +2782,7 @@
                 "10:00 - 10:50 AM": "Biol Cons Wild Mammals | WFC 110 001",
                 "11:00 - 11:50 AM": "Properties of Materials | ENG 045 A04",
                 "8:00 - 9:50 AM": "Dynamics | ENG 102 A05",
-                "1:10 - 2:00 PM": "Theory Computation | ECS 120 A03",
+                "1:10 - 2:00 PM": "Theory Computation | ECS 120 A04",
                 "2:10 - 4:00 PM": "Genetics & Anim Breeding | ANG 107 A05",
                 "4:10 - 5:00 PM": "Applied Statistics | STA 103 B03",
                 "6:10 - 7:30 PM": "Environmental Law | ESP 161 A06"
@@ -2815,7 +2800,7 @@
                 "11:00 - 11:50 AM": "Properties of Materials | ENG 045 A04",
                 "8:00 - 9:50 AM": "Dynamics | ENG 102 A05",
                 "12:10 - 1:00 PM": "Hlth Care Und Pop | FAP 195 001",
-                "1:10 - 2:00 PM": "Theory Computation | ECS 120 A03",
+                "1:10 - 2:00 PM": "Theory Computation | ECS 120 A04",
                 "2:10 - 4:00 PM": "Genetics & Anim Breeding | ANG 107 A05",
                 "4:10 - 5:00 PM": "Applied Statistics | STA 103 B03",
                 "6:10 - 7:30 PM": "Environmental Law | ESP 161 A06"
@@ -2831,7 +2816,7 @@
             "F": {
                 "10:00 - 10:50 AM": "Biol Cons Wild Mammals | WFC 110 001",
                 "11:00 - 11:50 AM": "Properties of Materials | ENG 045 A04",
-                "1:10 - 2:00 PM": "Theory Computation | ECS 120 A03",
+                "1:10 - 2:00 PM": "Theory Computation | ECS 120 A04",
                 "4:10 - 5:00 PM": "Applied Statistics | STA 103 B03",
                 "2:10 - 3:00 PM": "Genetics & Anim Breeding | ANG 107 A04"
             },
@@ -2844,6 +2829,7 @@
                 "12:10 - 1:00 PM": "Hume | PHI 174 001",
                 "1:10 - 2:00 PM": "Special Topics | MAT 180 001",
                 "2:10 - 3:00 PM": "Mechanical Behavior Lab | EMS 174L A01",
+                "4:10 - 6:00 PM": "Trad Japanese Drama | JPN 152 001",
                 "6:10 - 7:00 PM": "Principles of Finance | ARE 171 A01",
                 "7:10 - 8:00 PM": "Principles of Finance | ARE 171 A02",
                 "8:10 - 9:00 PM": "Princ Of Microecon | ECN 001A B04",
@@ -2866,7 +2852,8 @@
                 "9:00 - 9:50 AM": "Analysis | MAT 201C 001",
                 "12:10 - 1:00 PM": "Hume | PHI 174 001",
                 "1:10 - 2:00 PM": "Special Topics | MAT 180 001",
-                "2:10 - 3:00 PM": "Phonetics | LIN 112 A01"
+                "2:10 - 3:00 PM": "Phonetics | LIN 112 A01",
+                "4:10 - 6:00 PM": "Trad Japanese Drama | JPN 152 001"
             },
             "R": {
                 "10:30 - 11:50 AM": "Intro Fed Indian Law | NAS 119 001",
@@ -2896,7 +2883,6 @@
                 "7:10 - 8:00 PM": "Princ Of Microecon | ECN 001A B03"
             },
             "T": {
-                "10:30 - 11:50 AM": "Visualizing Society | STS 112 001",
                 "9:00 - 9:50 AM": "First-Year Seminar | FRS 003 014",
                 "12:10 - 2:00 PM": "Soc Chg & Ag Dev | IAD 103 001",
                 "2:10 - 3:00 PM": "Intro to Middle East | HIS 006 A03",
@@ -2913,7 +2899,6 @@
                 "4:10 - 5:00 PM": "Mech Behavior of Matls | EMS 174 001"
             },
             "R": {
-                "10:30 - 11:50 AM": "Visualizing Society | STS 112 001",
                 "9:00 - 9:50 AM": "General Chemistry | CHE 002B A19",
                 "12:10 - 2:00 PM": "Soc Chg & Ag Dev | IAD 103 001",
                 "2:10 - 3:00 PM": "Intro Comp Politics | POL 002 A05",
@@ -3033,12 +3018,25 @@
             "S": {}
         }
     },
+    "Gourley Clinic Teaching Center": {
+        "1102": {
+            "M": {
+                "4:10 - 6:00 PM": "Cancer Preven & Control | SPH 208 001"
+            },
+            "T": {},
+            "W": {},
+            "R": {},
+            "F": {},
+            "S": {}
+        }
+    },
     "Green Hall": {
         "1022": {
             "M": {
                 "4:10 - 6:00 PM": "Evolutionary Genetics | GGG 290 001"
             },
             "T": {
+                "12:10 - 1:00 PM": "Grad Student Seminar | PBI 291 001",
                 "4:10 - 5:30 PM": "Seminar | PBG 290 001"
             },
             "W": {
@@ -3049,7 +3047,8 @@
                 "3:10 - 4:00 PM": "Biophysics Seminar | BPH 290 001"
             },
             "F": {
-                "11:00 - 11:50 AM": "Progress Biotechnology | DEB 294 001"
+                "11:00 - 11:50 AM": "Progress Biotechnology | ECH 294 001",
+                "12:10 - 1:00 PM": "Seminar | PBI 290B 001"
             },
             "S": {}
         },
@@ -3200,7 +3199,6 @@
                 "8:00 - 8:50 AM": "Intro Comp Politics | POL 002 A02",
                 "9:00 - 9:50 AM": "Intro Comp Politics | POL 002 A01",
                 "12:10 - 1:30 PM": "Intro Topics in Lit | ENL 040 001",
-                "1:40 - 3:00 PM": "British Drama to 1800 | ENL 150A 001",
                 "5:10 - 6:00 PM": "AsianAm Cultural Studies | ASA 004 A01",
                 "6:10 - 7:00 PM": "Intermed Microeconomics | ARE 100B A06",
                 "7:10 - 8:00 PM": "Financial Mgmt of Firm | ARE 172 A04"
@@ -3219,10 +3217,7 @@
                 "11:00 - 11:50 AM": "Elementary French | FRE 001 003",
                 "9:00 - 9:50 AM": "General Chemistry | CHE 002C B04",
                 "12:10 - 1:30 PM": "Intro Topics in Lit | ENL 040 001",
-                "1:40 - 3:00 PM": "British Drama to 1800 | ENL 150A 001",
-                "5:10 - 6:00 PM": "EnvJst Policy & Practice | ESP 174 A01",
-                "6:10 - 7:00 PM": "Sexualities | ANT 030 A02",
-                "7:10 - 8:00 PM": "Intro to Symbol Logic | PHI 012 A06"
+                "3:10 - 4:30 PM": "Developmental Cog Neuro | PSC 145 A02"
             },
             "F": {
                 "10:00 - 10:50 AM": "Elementary French | FRE 001 002",
@@ -3254,7 +3249,7 @@
                 "11:00 - 11:50 AM": "Spanish Composition II | SPA 024 003",
                 "9:00 - 9:50 AM": "Phys Chem: Thermo & Kin | CHE 110C A01",
                 "12:10 - 2:00 PM": "Intro To Literature | ENL 003 004",
-                "5:10 - 6:00 PM": "Statics | ENG 035 A03",
+                "5:10 - 6:00 PM": "Statics | ENG 035 B03",
                 "6:10 - 7:00 PM": "Intro to Bioethics | PHI 015 A03",
                 "7:10 - 8:00 PM": "Intro to Bioethics | PHI 015 A04",
                 "8:00 - 8:50 AM": "Phys Chem: Thermo & Kin | CHE 110C A01"
@@ -3271,7 +3266,6 @@
                 "7:10 - 8:00 PM": "General Chemistry | CHE 002C C08"
             },
             "F": {
-                "10:00 - 10:50 AM": "EnvJst Policy & Practice | ESP 174 A02",
                 "11:00 - 11:50 AM": "Spanish Composition II | SPA 024 003",
                 "9:00 - 9:50 AM": "Phys Chem: Thermo & Kin | CHE 110C A01",
                 "12:10 - 1:00 PM": "Int Fin Accounting III | MGT 107 B02",
@@ -3283,6 +3277,7 @@
         "1130": {
             "M": {
                 "11:00 - 11:50 AM": "Food Processing Lab | FST 110L A05",
+                "12:10 - 1:00 PM": "American Humanities | HUM 002B 001",
                 "1:10 - 2:00 PM": "Bio Effects of Tox Exp | ETX 103B A01",
                 "2:10 - 3:30 PM": "Power Electronics | EEC 113 001"
             },
@@ -3300,6 +3295,7 @@
             "W": {
                 "10:00 - 10:50 AM": "Stat Data Technologies | STA 141B A02",
                 "9:00 - 9:50 AM": "Stat Data Technologies | STA 141B A01",
+                "12:10 - 1:00 PM": "American Humanities | HUM 002B 001",
                 "1:10 - 2:00 PM": "Bio Effects of Tox Exp | ETX 103B A01",
                 "2:10 - 3:30 PM": "Power Electronics | EEC 113 001",
                 "7:10 - 9:00 PM": "Directed Gp Study | ECH 098 002"
@@ -3314,6 +3310,7 @@
                 "5:10 - 6:00 PM": "Calculus | MAT 021B A01"
             },
             "F": {
+                "12:10 - 1:00 PM": "American Humanities | HUM 002B 001",
                 "1:10 - 2:00 PM": "Bio Effects of Tox Exp | ETX 103B A01"
             },
             "S": {}
@@ -3322,7 +3319,8 @@
             "M": {
                 "10:30 - 11:50 AM": "Pol of Interdependence | POL 123 001",
                 "9:00 - 9:50 AM": "Food Micro Lab | FST 104L A04",
-                "12:10 - 1:30 PM": "Science on Trial | STS 011 A02"
+                "12:10 - 1:30 PM": "Science on Trial | STS 011 A02",
+                "6:10 - 7:00 PM": "SVM One Health Center | VME 125 001"
             },
             "T": {
                 "10:00 - 11:20 AM": "Const & Justice Sys | POL 153 001",
@@ -3341,6 +3339,7 @@
             },
             "R": {
                 "10:00 - 11:20 AM": "Const & Justice Sys | POL 153 001",
+                "9:00 - 9:50 AM": "Practice in Data Science | STA 160 A01",
                 "12:10 - 1:30 PM": "Host-Parasite Interacts | MIC 172 001",
                 "1:40 - 3:00 PM": "Intermed Macro Theory | ECN 101 C02",
                 "3:10 - 4:30 PM": "Bio of Animal Viruses | PMI 128 001",
@@ -3568,6 +3567,7 @@
                 "10:30 - 11:50 AM": "Cross Section Topics | ECN 240F 001",
                 "8:00 - 8:50 AM": "Elementary Statistics | STA 013 A01",
                 "12:10 - 2:00 PM": "Afro-Amer Politics | AAS 080 001",
+                "2:10 - 4:00 PM": "Transp Planning/Policy | TTP 220 001",
                 "4:40 - 6:00 PM": "Computer Science Theory | ECS 189A 001",
                 "6:10 - 7:00 PM": "Financial Economics | ECN 134 A01",
                 "7:10 - 8:00 PM": "Intermed Micro Theory | ECN 100B B02"
@@ -3583,8 +3583,8 @@
             "R": {
                 "10:30 - 11:50 AM": "Cross Section Topics | ECN 240F 001",
                 "8:00 - 8:50 AM": "Elementary Statistics | STA 013 B01",
-                "9:00 - 9:50 AM": "Practice in Data Science | STA 160 A01",
                 "12:10 - 2:00 PM": "Afro-Amer Politics | AAS 080 001",
+                "2:10 - 4:00 PM": "Transp Planning/Policy | TTP 220 001",
                 "4:40 - 6:00 PM": "Computer Science Theory | ECS 189A 001",
                 "6:10 - 7:00 PM": "Careers/Identity Amr Cul | AMS 095 001"
             },
@@ -3622,9 +3622,9 @@
                 "10:00 - 10:50 AM": "Stab of Flex Dyn Systems | EME 139 A04",
                 "9:00 - 9:50 AM": "Wkload Math Co 16C | WLD 913 002",
                 "11:00 - 12:20 PM": "Bioelec & Mech | BIM 163 001",
-                "2:10 - 3:00 PM": "Environ Policy Evaluatn | ECL 212B 001",
+                "2:10 - 3:00 PM": "Environ Policy Evaluatn | ESP 212B 001",
                 "12:30 - 12:50 PM": "Bioelec & Mech | BIM 163 001",
-                "3:10 - 4:00 PM": "Environ Policy Evaluatn | ECL 212B 001"
+                "3:10 - 4:00 PM": "Environ Policy Evaluatn | ESP 212B 001"
             },
             "T": {
                 "10:00 - 11:20 AM": "Health Issues | CHI 021 A01",
@@ -3642,10 +3642,10 @@
                 "10:00 - 10:50 AM": "Stab of Flex Dyn Systems | EME 139 A04",
                 "9:00 - 9:50 AM": "Wkload Math Co 16C | WLD 913 002",
                 "11:00 - 12:20 PM": "Bioelec & Mech | BIM 163 001",
-                "2:10 - 3:00 PM": "Environ Policy Evaluatn | ECL 212B 001",
+                "2:10 - 3:00 PM": "Environ Policy Evaluatn | ESP 212B 001",
                 "6:10 - 7:00 PM": "Object-Oriented Program | ECS 036B A02",
                 "12:30 - 12:50 PM": "Bioelec & Mech | BIM 163 001",
-                "3:10 - 4:00 PM": "Environ Policy Evaluatn | ECL 212B 001"
+                "3:10 - 4:00 PM": "Environ Policy Evaluatn | ESP 212B 001"
             },
             "R": {
                 "10:00 - 11:20 AM": "Health Issues | CHI 021 A01",
@@ -3672,7 +3672,7 @@
                 "11:00 - 11:20 AM": "Myths & Legends | COM 006 A01",
                 "8:00 - 9:50 AM": "Real Estate Economics | ARE 144 001",
                 "11:00 - 12:20 PM": "Myths & Legends | COM 006 A06",
-                "1:10 - 2:00 PM": "Embedded Systems | EEC 172 A04",
+                "1:10 - 2:00 PM": "Embedded Systems | EEC 172 A08",
                 "2:10 - 3:00 PM": "Operating Systems | ECS 150 A01",
                 "4:10 - 5:20 PM": "Amer Pol Parties | POL 160 001",
                 "5:30 - 6:00 PM": "Amer Pol Parties | POL 160 001"
@@ -3684,14 +3684,14 @@
                 "1:40 - 3:00 PM": "Intermed Macro Theory | ECN 101 B05",
                 "3:10 - 4:30 PM": "Intro To Human Heredity | MCB 010 A06",
                 "4:40 - 6:00 PM": "Industrial Organization | ECN 121A A04",
-                "6:10 - 7:30 PM": "Human Resources | ECN 151B A02"
+                "6:10 - 7:30 PM": "Human Resources | ECN 151B A03"
             },
             "W": {
                 "10:00 - 10:50 AM": "Hip Hop as Poetry | ENL 051 001",
                 "11:00 - 11:20 AM": "Myths & Legends | COM 006 A01",
                 "8:00 - 9:50 AM": "Real Estate Economics | ARE 144 001",
                 "11:00 - 12:20 PM": "Myths & Legends | COM 006 A06",
-                "1:10 - 2:00 PM": "Embedded Systems | EEC 172 A04",
+                "1:10 - 2:00 PM": "Embedded Systems | EEC 172 A08",
                 "2:10 - 3:00 PM": "Operating Systems | ECS 150 A01",
                 "4:10 - 5:20 PM": "Amer Pol Parties | POL 160 001",
                 "5:30 - 6:00 PM": "Amer Pol Parties | POL 160 001"
@@ -3703,7 +3703,7 @@
                 "1:40 - 3:00 PM": "Intermed Macro Theory | ECN 101 B05",
                 "3:10 - 4:30 PM": "Intro To Human Heredity | MCB 010 A06",
                 "4:40 - 6:00 PM": "Industrial Organization | ECN 121A A04",
-                "6:10 - 7:30 PM": "Human Resources | ECN 151B A02"
+                "6:10 - 7:30 PM": "Human Resources | ECN 151B A03"
             },
             "F": {
                 "10:00 - 10:50 AM": "Hip Hop as Poetry | ENL 051 001",
@@ -3722,7 +3722,7 @@
                 "12:10 - 1:00 PM": "Elementary Spanish | SPA 002 006",
                 "1:10 - 2:00 PM": "Elementary Spanish | SPA 002 005",
                 "2:10 - 3:30 PM": "Current Tech Biophys | BPH 200B 001",
-                "5:10 - 6:30 PM": "Water Resourc Plan/Mgmt | EBS 243 001"
+                "5:10 - 6:30 PM": "Water Resource Plan/Mgmt | HYD 243 001"
             },
             "T": {
                 "10:00 - 10:50 AM": "Elementary Spanish | SPA 003 008",
@@ -3733,7 +3733,6 @@
                 "1:10 - 2:00 PM": "Elementary Spanish | SPA 002 005",
                 "2:10 - 3:00 PM": "Jews,Christians&Muslims | RST 012 001",
                 "4:10 - 5:00 PM": "Hist Exp Asian Am | ASA 001 A03",
-                "6:10 - 7:00 PM": "Intro American Studies | AMS 010 A04",
                 "7:10 - 8:00 PM": "General Chemistry | CHE 002B B16",
                 "3:01 - 4:00 PM": "Jews,Christians&Muslims | RST 012 001"
             },
@@ -3746,7 +3745,7 @@
                 "1:10 - 2:00 PM": "Elementary Spanish | SPA 002 005",
                 "2:10 - 3:30 PM": "Current Tech Biophys | BPH 200B 001",
                 "4:10 - 5:00 PM": "Ethics of Animal Use | ANS 170 A04",
-                "5:10 - 6:30 PM": "Water Resourc Plan/Mgmt | EBS 243 001"
+                "5:10 - 6:30 PM": "Water Resource Plan/Mgmt | HYD 243 001"
             },
             "R": {
                 "10:00 - 10:50 AM": "Elementary Spanish | SPA 003 008",
@@ -3955,8 +3954,7 @@
                 "2:10 - 5:00 PM": "Intro Plant Path | PLP 120 001"
             },
             "W": {
-                "10:00 - 11:50 AM": "Japanese American Exper | ASA 150B 001",
-                "12:10 - 3:00 PM": "Experimental Methods | CMN 210 001"
+                "10:00 - 11:50 AM": "Japanese American Exper | ASA 150B 001"
             },
             "R": {
                 "1:10 - 2:00 PM": "Intro Plant Path | PLP 120 001",
@@ -3965,8 +3963,7 @@
             "F": {
                 "10:00 - 11:20 AM": "Systemic Physiology Disc | NPB 101D 005",
                 "8:00 - 8:50 AM": "Health & Religion | RST 008 A05",
-                "9:00 - 9:50 AM": "Health & Religion | RST 008 A06",
-                "12:10 - 1:00 PM": "Intro to Gender Studies | GSW 050 A06"
+                "9:00 - 9:50 AM": "Health & Religion | RST 008 A06"
             },
             "S": {}
         },
@@ -3981,7 +3978,7 @@
             "T": {
                 "10:30 - 11:50 AM": "Mass Spectrometry | CHE 241C A01",
                 "9:00 - 10:20 AM": "The Short Story | ENL 156 001",
-                "12:10 - 1:30 PM": "Applied Linguistics | LIN 165 A01",
+                "12:10 - 1:30 PM": "Applied Linguistics | LIN 165 A02",
                 "1:30 - 3:00 PM": "Intro to Schools | EDU 100 002",
                 "5:10 - 6:30 PM": "Digital Systems II | EEC 180 A04"
             },
@@ -3994,13 +3991,12 @@
             "R": {
                 "10:30 - 11:50 AM": "Mass Spectrometry | CHE 241C A01",
                 "9:00 - 10:20 AM": "The Short Story | ENL 156 001",
-                "12:10 - 1:30 PM": "Applied Linguistics | LIN 165 A01",
+                "12:10 - 1:30 PM": "Applied Linguistics | LIN 165 A02",
                 "1:30 - 3:00 PM": "Intro to Schools | EDU 100 002",
                 "5:10 - 6:30 PM": "Digital Systems II | EEC 180 A04"
             },
             "F": {
                 "11:00 - 11:50 AM": "Trans Sys Operations | ECI 161 001",
-                "12:10 - 3:00 PM": "Civil/Env Senior Design | ECI 193B A04",
                 "3:10 - 4:00 PM": "Trans Sys Operations | ECI 161 001"
             },
             "S": {}
@@ -4046,8 +4042,8 @@
                 "10:00 - 11:50 AM": "Academic Literacies | UWP 001 013",
                 "8:30 - 9:50 AM": "Advanced Composition | UWP 101 021",
                 "12:10 - 2:00 PM": "Computers in Technology | PLS 021 A05",
-                "3:10 - 4:30 PM": "Data Visualization | PSC 012Y A06",
-                "4:40 - 6:00 PM": "Data Visualization | PSC 012Y A05",
+                "3:10 - 4:30 PM": "Data Visualization | SOC 012Y A06",
+                "4:40 - 6:00 PM": "Data Visualization | SOC 012Y A05",
                 "6:10 - 7:30 PM": "Writing in Engineering | UWP 102E 003"
             },
             "R": {
@@ -4071,11 +4067,11 @@
                 "5:10 - 8:00 PM": "Res Method Human Develop | HDE 120 A02"
             },
             "W": {
-                "10:30 - 11:50 AM": "Data Visualization | PSC 012Y A02",
-                "9:00 - 10:20 AM": "Data Visualization | PSC 012Y A01",
+                "10:30 - 11:50 AM": "Data Visualization | SOC 012Y A02",
+                "9:00 - 10:20 AM": "Data Visualization | SOC 012Y A01",
                 "1:10 - 4:00 PM": "Res Method Human Develop | HDE 120 A03",
-                "4:40 - 6:00 PM": "Data Visualization | PSC 012Y A07",
-                "6:10 - 7:30 PM": "Data Visualization | PSC 012Y A08"
+                "4:40 - 6:00 PM": "Data Visualization | SOC 012Y A07",
+                "6:10 - 7:30 PM": "Data Visualization | SOC 012Y A08"
             },
             "R": {
                 "8:30 - 9:50 AM": "Writ in the Disciplines | UWP 102A 001",
@@ -4235,9 +4231,7 @@
         },
         "2155": {
             "M": {},
-            "T": {
-                "6:10 - 9:00 PM": "Electronic Circuits II | EEC 110B A01"
-            },
+            "T": {},
             "W": {},
             "R": {
                 "12:10 - 3:00 PM": "Intro Dig & Analog Sys | EEC 010 A01",
@@ -4249,11 +4243,23 @@
             },
             "S": {}
         },
+        "2157": {
+            "M": {},
+            "T": {},
+            "W": {},
+            "R": {},
+            "F": {
+                "1:10 - 4:00 PM": "Electronic Circuits II | EEC 110B A02"
+            },
+            "S": {}
+        },
         "2161": {
             "M": {
                 "5:10 - 8:00 PM": "Digital ICs | EEC 118 A01"
             },
-            "T": {},
+            "T": {
+                "6:10 - 9:00 PM": "Electronic Circuits II | EEC 110B A01"
+            },
             "W": {
                 "9:00 - 11:50 AM": "Elec Circuits & Systems | ENG 100 A01",
                 "5:10 - 8:00 PM": "Digital Elec Circuits | EEC 111 001"
@@ -4347,6 +4353,7 @@
             },
             "T": {},
             "W": {
+                "12:10 - 3:00 PM": "Experimental Methods | CMN 210 001",
                 "4:10 - 7:00 PM": "Digital Tech Soc Change | CMN 251 001"
             },
             "R": {
@@ -4377,9 +4384,7 @@
             "S": {}
         },
         "593": {
-            "M": {
-                "12:10 - 3:00 PM": "Res Am Gov Pub Pol | POL 290A 002"
-            },
+            "M": {},
             "T": {
                 "12:10 - 3:00 PM": "Topics Political Theory | POL 218 001"
             },
@@ -4407,6 +4412,16 @@
             "F": {
                 "9:00 - 11:50 AM": "Rsch Compar Gov&Pol | POL 290F 001"
             },
+            "S": {}
+        },
+        "693": {
+            "M": {
+                "12:10 - 3:00 PM": "Res Am Gov Pub Pol | POL 290A 002"
+            },
+            "T": {},
+            "W": {},
+            "R": {},
+            "F": {},
             "S": {}
         }
     },
@@ -4535,7 +4550,8 @@
     "Medical Science C": {
         "130": {
             "M": {
-                "11:00 - 11:50 AM": "PHS Doctoral Seminar | SPH 291 001"
+                "11:00 - 11:50 AM": "PHS Doctoral Seminar | SPH 291 001",
+                "1:30 - 3:20 PM": "Health Policy & Econ | SPH 276 001"
             },
             "T": {
                 "TBA": "Literature Stem Cell Bio | CLH 290C 001"
@@ -4543,7 +4559,9 @@
             "W": {
                 "1:15 - 4:30 PM": "Study Community Intl Hth | SPH 298 010"
             },
-            "R": {},
+            "R": {
+                "1:15 - 4:15 PM": "Scien Proposal Writing | SPH 214 003"
+            },
             "F": {},
             "S": {}
         },
@@ -4557,7 +4575,7 @@
                 "10:30 - 11:50 AM": "Adv Molecular Biology | MCB 121 001",
                 "9:00 - 10:20 AM": "Principles Food Science | FST 001 A12",
                 "12:10 - 1:30 PM": "Exercise Metabolism | EXB 110 001",
-                "1:40 - 3:00 PM": "Women & Gender Amer-Pres | HIS 072B A08",
+                "1:40 - 3:00 PM": "Women & Gender Amer-Pres | HIS 072B A09",
                 "3:10 - 4:30 PM": "Site Ecology | LDA 050 A06",
                 "4:40 - 6:00 PM": "Intro to Cell Biology | BIS 002D 002"
             },
@@ -4569,30 +4587,26 @@
                 "10:30 - 11:50 AM": "Adv Molecular Biology | MCB 121 001",
                 "9:00 - 10:20 AM": "Principles Food Science | FST 001 A12",
                 "12:10 - 1:30 PM": "Exercise Metabolism | EXB 110 001",
-                "1:40 - 3:00 PM": "Women & Gender Amer-Pres | HIS 072B A08",
+                "1:40 - 3:00 PM": "Women & Gender Amer-Pres | HIS 072B A09",
                 "3:10 - 4:30 PM": "Site Ecology | LDA 050 A06",
                 "4:40 - 6:00 PM": "Intro to Cell Biology | BIS 002D 002"
             },
             "F": {
                 "10:00 - 10:50 AM": "Behav Ecol Insects | ENT 104 001",
-                "2:10 - 4:00 PM": "Careers in Chemistry | CHE 195 001"
+                "2:10 - 4:00 PM": "Careers in Chemistry | CHE 295 001"
             },
             "S": {}
         }
     },
     "Medical Sciences I B": {
         "60": {
-            "M": {
-                "1:30 - 3:20 PM": "Health Policy & Econ | SPH 276 001",
-                "4:10 - 6:00 PM": "Cancer Preven & Control | SPH 208 001"
-            },
+            "M": {},
             "T": {
                 "11:00 - 12:40 PM": "Health Disparities in US | SPH 213 001"
             },
             "W": {},
             "R": {
-                "11:00 - 12:40 PM": "Health Disparities in US | SPH 213 001",
-                "1:15 - 4:15 PM": "Scien Proposal Writing | SPH 214 003"
+                "11:00 - 12:40 PM": "Health Disparities in US | SPH 213 001"
             },
             "F": {},
             "S": {}
@@ -4630,7 +4644,6 @@
                 "4:10 - 7:00 PM": "Nutritional Assessment | NUT 112 A04"
             },
             "R": {
-                "2:10 - 5:00 PM": "Nutritional Assessment | NUT 112 A05",
                 "6:50 - 1:00 PM": "Production Lab | FSM 120L 004"
             },
             "F": {
@@ -4938,7 +4951,8 @@
             },
             "F": {
                 "10:00 - 10:50 AM": "Intro Music Lit | MUS 010 A04",
-                "12:10 - 1:00 PM": "Elementary Theory | MUS 006C 001"
+                "12:10 - 1:00 PM": "Elementary Theory | MUS 006C 001",
+                "1:10 - 2:00 PM": "American Music | MUS 126 A02"
             },
             "S": {}
         },
@@ -4975,7 +4989,6 @@
                 "10:00 - 10:50 AM": "Intro Music Theory Pt 1 | MUS 003A A06",
                 "11:00 - 11:50 AM": "History of Rock Music | MUS 106 A09",
                 "12:10 - 1:00 PM": "History of Rock Music | MUS 106 A10",
-                "1:10 - 2:00 PM": "American Music | MUS 126 A02",
                 "2:10 - 3:00 PM": "History of Rock Music | MUS 106 A05",
                 "4:10 - 5:00 PM": "Intro Music Theory 2 | MUS 003B A01",
                 "5:10 - 6:00 PM": "Intro Music Theory 2 | MUS 003B A02"
@@ -5157,7 +5170,6 @@
                 "10:00 - 10:50 AM": "Intro Islamic Thought | RST 160 001",
                 "11:00 - 11:50 AM": "Contemp Christianity | RST 106 001",
                 "9:00 - 9:50 AM": "Diff Eqns Appl to Bio | MAT 027B 001",
-                "1:10 - 2:00 PM": "Adv Methods Phys Chem | CHE 125 A02",
                 "2:10 - 3:00 PM": "Principles Food Science | FST 001 A08",
                 "4:10 - 5:00 PM": "General Chemistry | CHE 002C B15",
                 "5:10 - 6:00 PM": "Oper Res & Mgmt Sci | ARE 155 A05"
@@ -5165,7 +5177,7 @@
             "T": {
                 "10:30 - 11:50 AM": "Topics German Literature | GER 112 001",
                 "9:00 - 9:50 AM": "General Chemistry | CHE 002C C17",
-                "12:10 - 2:00 PM": "Writing: Fiction | ENL 005F 006",
+                "12:10 - 1:30 PM": "Topics in Buddhism | RST 137 001",
                 "2:10 - 3:30 PM": "Intro to Latinx Culture | SPA 168 001",
                 "4:10 - 5:00 PM": "Amer Natl Govt | POL 001 A01",
                 "5:10 - 6:00 PM": "Amer Natl Govt | POL 001 A02",
@@ -5175,7 +5187,6 @@
                 "10:00 - 10:50 AM": "Intro Islamic Thought | RST 160 001",
                 "11:00 - 11:50 AM": "Contemp Christianity | RST 106 001",
                 "9:00 - 9:50 AM": "Diff Eqns Appl to Bio | MAT 027B 001",
-                "1:10 - 2:00 PM": "Adv Methods Phys Chem | CHE 125 A02",
                 "2:10 - 3:00 PM": "Internatl Relations | POL 003 A01",
                 "3:10 - 4:00 PM": "Internatl Relations | POL 003 A02",
                 "4:10 - 5:00 PM": "Empirical Methods Commun | CMN 102 A03",
@@ -5185,7 +5196,7 @@
             "R": {
                 "10:30 - 11:50 AM": "Topics German Literature | GER 112 001",
                 "9:00 - 9:50 AM": "General Chemistry | CHE 002B B05",
-                "12:10 - 2:00 PM": "Writing: Fiction | ENL 005F 006",
+                "12:10 - 1:30 PM": "Topics in Buddhism | RST 137 001",
                 "2:10 - 3:30 PM": "Intro to Latinx Culture | SPA 168 001",
                 "5:10 - 6:00 PM": "Principles Food Science | FST 001 A04",
                 "6:10 - 8:00 PM": "Systemic Physiology Lab | NPB 101L 003"
@@ -5200,6 +5211,7 @@
         },
         "105": {
             "M": {
+                "11:00 - 11:50 AM": "Wkload-Chemistry Co 2B | WLD 952 002",
                 "2:10 - 4:00 PM": "Writer's Workshop | NAS 005A 001",
                 "4:10 - 5:00 PM": "General Chemistry | CHE 002C A15"
             },
@@ -5208,12 +5220,12 @@
                 "9:00 - 9:50 AM": "General Chemistry | CHE 002C C14",
                 "12:10 - 2:00 PM": "Intro To Literature | ENL 003 013",
                 "2:10 - 4:00 PM": "Mjr Wrks Contemp World | COM 004 003",
-                "4:10 - 5:00 PM": "ET Measurement-Modeling | ESM 118 001",
+                "4:10 - 5:00 PM": "ET Measurement-Modeling | HYD 118 001",
                 "6:10 - 7:00 PM": "Intro To Philos | PHI 001 A01",
                 "7:10 - 8:00 PM": "Intro To Philos | PHI 001 A02"
             },
             "W": {
-                "9:00 - 10:20 AM": "Rsrch Mthds Astrophysics | PHY 268 L01",
+                "11:00 - 11:50 AM": "Wkload-Chemistry Co 2B | WLD 952 002",
                 "12:10 - 1:00 PM": "Limnology | ESP 151 A01",
                 "1:10 - 2:00 PM": "Limnology | ESP 151 A02",
                 "2:10 - 3:00 PM": "Limnology | ESP 151 A03",
@@ -5223,15 +5235,17 @@
             },
             "R": {
                 "10:30 - 11:50 AM": "Comp In French | FRE 100 001",
-                "9:00 - 10:20 AM": "Rsrch Mthds Astrophysics | PHY 268 L01",
                 "12:10 - 2:00 PM": "Intro To Literature | ENL 003 013",
                 "2:10 - 4:00 PM": "Mjr Wrks Contemp World | COM 004 003",
-                "4:10 - 5:00 PM": "ET Measurement-Modeling | ESM 118 001",
+                "4:10 - 5:00 PM": "ET Measurement-Modeling | HYD 118 001",
+                "5:10 - 6:00 PM": "EnvJst Policy & Practice | ESP 174 A01",
                 "6:10 - 7:00 PM": "Intro Social Resrch Meth | SOC 046 A03",
                 "7:10 - 8:00 PM": "Intro Social Resrch Meth | SOC 046 A04"
             },
             "F": {
                 "10:00 - 10:50 AM": "Neurobiology | NPB 100 A02",
+                "11:00 - 11:50 AM": "Wkload-Chemistry Co 2B | WLD 952 002",
+                "9:00 - 9:50 AM": "Race & Ethnicity | SOC 007 A01",
                 "12:10 - 1:00 PM": "Intro Sociology | SOC 001 A04",
                 "1:10 - 2:00 PM": "Intro Sociology | SOC 001 A05",
                 "2:10 - 3:00 PM": "Intro Sociology | SOC 001 A06"
@@ -5285,23 +5299,21 @@
             "M": {
                 "10:00 - 11:20 AM": "Agricultural Policy | ARE 233 001",
                 "9:00 - 9:50 AM": "Magnet Reson Spectr | CHE 216 001",
-                "7:10 - 8:00 PM": "Writers' Workshop | ENL 003A 004",
                 "11:30 - 11:50 AM": "Agricultural Policy | ARE 233 001"
             },
             "T": {
                 "12:10 - 1:00 PM": "Writers' Workshop | UWP 001A 001",
-                "2:10 - 5:00 PM": "Spec Topics In G Lit | GER 297 001",
-                "6:10 - 7:30 PM": "RF & Microwaves | EEC 132C A01",
-                "7:40 - 8:00 PM": "RF & Microwaves | EEC 132C A01"
+                "6:10 - 7:30 PM": "RF & Microwaves | EEC 132C A02",
+                "7:40 - 8:00 PM": "RF & Microwaves | EEC 132C A02"
             },
             "W": {
                 "10:00 - 11:20 AM": "Agricultural Policy | ARE 233 001",
+                "8:00 - 8:50 AM": "Theory Computation | ECS 120 A04",
                 "9:00 - 9:50 AM": "Magnet Reson Spectr | CHE 216 001",
                 "1:10 - 2:00 PM": "19th-20th Century World | HIS 010C A12",
                 "2:10 - 3:00 PM": "19th-20th Century World | HIS 010C A11",
                 "3:10 - 4:00 PM": "First-Year Seminar | FRS 003 009",
                 "4:10 - 7:00 PM": "Spanish Phonology | SPA 205 001",
-                "7:10 - 8:00 PM": "Writers' Workshop | ENL 003A 004",
                 "11:30 - 11:50 AM": "Agricultural Policy | ARE 233 001"
             },
             "R": {
@@ -5310,8 +5322,8 @@
                 "9:00 - 9:50 AM": "Global Sexualities | HIS 013 A11",
                 "12:10 - 1:00 PM": "Writers' Workshop | UWP 001A 001",
                 "1:10 - 2:00 PM": "19th-20th Century World | HIS 010C A08",
-                "6:10 - 7:30 PM": "RF & Microwaves | EEC 132C A01",
-                "7:40 - 8:00 PM": "RF & Microwaves | EEC 132C A01"
+                "6:10 - 7:30 PM": "RF & Microwaves | EEC 132C A02",
+                "7:40 - 8:00 PM": "RF & Microwaves | EEC 132C A02"
             },
             "F": {
                 "9:00 - 9:50 AM": "Magnet Reson Spectr | CHE 216 001",
@@ -5324,7 +5336,6 @@
             "M": {
                 "11:00 - 11:50 AM": "Differential Geometry | MAT 240B 001",
                 "9:00 - 9:50 AM": "Modern Japanese | JPN 113 001",
-                "1:10 - 2:00 PM": "Topics In Math | MAT 280 001",
                 "2:10 - 3:00 PM": "Complex Analysis | MAT 205B 001",
                 "3:10 - 4:00 PM": "Cultural Anthropology | ANT 002 A01",
                 "4:10 - 5:00 PM": "Cultural Anthropology | ANT 002 A02"
@@ -5332,6 +5343,7 @@
             "T": {
                 "11:00 - 11:50 AM": "Intro Public Speaking | CMN 001 A14",
                 "8:00 - 8:50 AM": "Lit in English II | ENL 010B A03",
+                "1:40 - 3:00 PM": "Adv Food Micro | FST 204 001",
                 "3:10 - 4:00 PM": "Genome Hunters | BIS 023B 001",
                 "6:10 - 7:00 PM": "Intro Public Speaking | CMN 001 A08",
                 "7:10 - 8:00 PM": "Intro Public Speaking | CMN 001 A07",
@@ -5341,7 +5353,6 @@
                 "11:00 - 11:50 AM": "Differential Geometry | MAT 240B 001",
                 "8:00 - 8:50 AM": "Cultural Anthropology | ANT 002 A25",
                 "9:00 - 9:50 AM": "Modern Japanese | JPN 113 001",
-                "1:10 - 2:00 PM": "Topics In Math | MAT 280 001",
                 "2:10 - 3:00 PM": "Complex Analysis | MAT 205B 001",
                 "3:10 - 4:00 PM": "Intro Public Speaking | CMN 001 A11",
                 "4:10 - 5:00 PM": "First-Year Seminar | FRS 003 006",
@@ -5351,6 +5362,8 @@
                 "11:00 - 11:50 AM": "Intro Public Speaking | CMN 001 A14",
                 "8:00 - 8:50 AM": "Cultural Anthropology | ANT 002 A13",
                 "9:00 - 9:50 AM": "Modern Japanese | JPN 113 001",
+                "12:10 - 1:00 PM": "Women & Gender Amer-Pres | HIS 072B A09",
+                "1:40 - 3:00 PM": "Adv Food Micro | FST 204 001",
                 "3:10 - 4:00 PM": "Cultural Anthropology | ANT 002 A05",
                 "4:10 - 6:00 PM": "Lab: Early Childhood | HDE 140L 002",
                 "6:10 - 7:00 PM": "Intro Public Speaking | CMN 001 A08",
@@ -5362,7 +5375,6 @@
                 "8:00 - 8:50 AM": "Cultural Anthropology | ANT 002 A19",
                 "9:00 - 9:50 AM": "Cultural Anthropology | ANT 002 A15",
                 "12:10 - 1:00 PM": "Food Product Development | FST 160 A04",
-                "1:10 - 2:00 PM": "Topics In Math | MAT 280 001",
                 "2:10 - 3:00 PM": "Complex Analysis | MAT 205B 001",
                 "3:10 - 4:00 PM": "Intro Public Speaking | CMN 001 A11"
             },
@@ -5380,6 +5392,7 @@
             "T": {
                 "10:00 - 11:50 AM": "Modern Lit In Engl | JPN 103 001",
                 "12:10 - 1:30 PM": "Strategy of Politics | POL 110 001",
+                "3:10 - 4:30 PM": "Japanese Cinema | COM 112 001",
                 "4:40 - 6:00 PM": "Intl Microeconomics | ECN 160A A02",
                 "1:40 - 2:00 PM": "Strategy of Politics | POL 110 001"
             },
@@ -5394,6 +5407,7 @@
             "R": {
                 "10:00 - 11:50 AM": "Modern Lit In Engl | JPN 103 001",
                 "12:10 - 1:30 PM": "Strategy of Politics | POL 110 001",
+                "3:10 - 4:30 PM": "Japanese Cinema | COM 112 001",
                 "4:40 - 6:00 PM": "Intl Microeconomics | ECN 160A A02",
                 "1:40 - 2:00 PM": "Strategy of Politics | POL 110 001"
             },
@@ -5481,7 +5495,7 @@
                 "11:00 - 11:50 AM": "Intermed Japanese | JPN 006 002",
                 "12:10 - 1:30 PM": "Selected Topics Fr Lit | FRE 141 001",
                 "1:40 - 3:00 PM": "Classical Moment | FRE 117B 001",
-                "3:10 - 4:00 PM": "ET Measurement-Modeling | ESM 118 001",
+                "3:10 - 4:00 PM": "ET Measurement-Modeling | HYD 118 001",
                 "4:10 - 6:00 PM": "Non-Market Valuation | ARE 276B 001",
                 "6:10 - 7:00 PM": "Capital Markets | ARE 173 A02",
                 "7:10 - 8:00 PM": "Capital Markets | ARE 173 A05"
@@ -5503,7 +5517,7 @@
                 "11:00 - 11:50 AM": "Intermed Japanese | JPN 006 002",
                 "12:10 - 1:30 PM": "Selected Topics Fr Lit | FRE 141 001",
                 "1:40 - 3:00 PM": "Classical Moment | FRE 117B 001",
-                "3:10 - 4:00 PM": "ET Measurement-Modeling | ESM 118 001",
+                "3:10 - 4:00 PM": "ET Measurement-Modeling | HYD 118 001",
                 "4:10 - 6:00 PM": "Non-Market Valuation | ARE 276B 001"
             },
             "F": {
@@ -5519,8 +5533,8 @@
         "144": {
             "M": {
                 "10:00 - 10:50 AM": "Stress Physiology | MCP 255 001",
-                "3:10 - 4:00 PM": "Writers' Workshop | ENL 003A 001",
-                "5:10 - 6:00 PM": "Writers' Workshop | ENL 003A 003"
+                "1:10 - 2:00 PM": "Advanced Spanish Comp | SPA 110 001",
+                "3:10 - 4:00 PM": "Writers' Workshop | ENL 003A 001"
             },
             "T": {
                 "10:00 - 10:50 AM": "Global Sexualities | HIS 013 A05",
@@ -5530,6 +5544,7 @@
             "W": {
                 "10:00 - 10:50 AM": "Stress Physiology | MCP 255 001",
                 "12:10 - 1:00 PM": "First-Year Seminar | FRS 003 020",
+                "1:10 - 2:00 PM": "Advanced Spanish Comp | SPA 110 001",
                 "3:10 - 4:00 PM": "Writers' Workshop | ENL 003A 001",
                 "4:10 - 5:00 PM": "Grad Capstone Project | EMS 280B 001"
             },
@@ -5539,7 +5554,7 @@
             },
             "F": {
                 "12:10 - 1:00 PM": "Western Civ | HIS 004C A07",
-                "5:10 - 6:00 PM": "Writers' Workshop | ENL 003A 003"
+                "1:10 - 2:00 PM": "Advanced Spanish Comp | SPA 110 001"
             },
             "S": {}
         },
@@ -5587,10 +5602,8 @@
         },
         "147": {
             "M": {
-                "10:00 - 10:50 AM": "Modern Algebra | MAT 150C A02",
                 "11:00 - 11:50 AM": "Statistical Thinking | STA 010 001",
                 "12:10 - 1:30 PM": "Human Neuroanatomy | NEU 103 A02",
-                "3:10 - 4:00 PM": "Themes in World History | HIS 110 002",
                 "4:10 - 5:00 PM": "Advanced Problem Solving | MAT 189 001",
                 "5:10 - 6:30 PM": "Intro Science Studies | STS 001 001"
             },
@@ -5604,11 +5617,9 @@
                 "4:40 - 6:00 PM": "Electronic Circuits II | EEC 110B A02"
             },
             "W": {
-                "10:00 - 10:50 AM": "Modern Algebra | MAT 150C A02",
                 "11:00 - 11:50 AM": "Statistical Thinking | STA 010 001",
                 "9:00 - 9:50 AM": "Theory Computation | ECS 120 A01",
                 "12:10 - 1:30 PM": "Human Neuroanatomy | NEU 103 A02",
-                "3:10 - 4:00 PM": "Themes in World History | HIS 110 002",
                 "4:10 - 5:00 PM": "Advanced Problem Solving | MAT 189 001",
                 "5:10 - 6:30 PM": "Intro Science Studies | STS 001 001"
             },
@@ -5623,10 +5634,9 @@
                 "6:10 - 7:00 PM": "Calculus | MAT 021C A08"
             },
             "F": {
-                "10:00 - 10:50 AM": "Modern Algebra | MAT 150C A02",
+                "10:00 - 10:50 AM": "EnvJst Policy & Practice | ESP 174 A02",
                 "11:00 - 11:50 AM": "Statistical Thinking | STA 010 001",
                 "9:00 - 9:50 AM": "Macroeconomic Theory | ECN 200F 001",
-                "3:10 - 4:00 PM": "Themes in World History | HIS 110 002",
                 "4:10 - 5:00 PM": "Advanced Problem Solving | MAT 189 001"
             },
             "S": {}
@@ -5645,6 +5655,7 @@
                 "10:30 - 11:50 AM": "Process Control | ECH 289C 001",
                 "8:00 - 8:50 AM": "Cultural Anthropology | ANT 002 A27",
                 "12:10 - 1:30 PM": "Appl Env Chem: Organic | ECI 245B 001",
+                "3:10 - 4:30 PM": "Curr Topics in Nutrition | NUT 011 004",
                 "5:10 - 6:00 PM": "Dynamics | ENG 102 A02",
                 "6:10 - 8:00 PM": "Graduate ESL Writing | UWP 226 001",
                 "1:40 - 2:00 PM": "Appl Env Chem: Organic | ECI 245B 001"
@@ -5679,7 +5690,6 @@
                 "10:00 - 10:50 AM": "Indiv & Community in Amr | AMS 153 001",
                 "8:00 - 9:20 AM": "Computational Statistics | STA 243 001",
                 "12:10 - 1:00 PM": "Combinatorics | MAT 145 A02",
-                "1:10 - 2:00 PM": "Advanced Spanish Comp | SPA 110 001",
                 "2:10 - 4:00 PM": "Media Effects | CMN 141 001",
                 "11:00 - 11:50 AM": "Indiv & Community in Amr | AMS 153 001",
                 "9:30 - 9:50 AM": "Computational Statistics | STA 243 001"
@@ -5694,7 +5704,6 @@
                 "10:00 - 10:50 AM": "Indiv & Community in Amr | AMS 153 001",
                 "8:00 - 9:20 AM": "Computational Statistics | STA 243 001",
                 "12:10 - 1:00 PM": "Combinatorics | MAT 145 A02",
-                "1:10 - 2:00 PM": "Advanced Spanish Comp | SPA 110 001",
                 "2:10 - 4:00 PM": "Media Effects | CMN 141 001",
                 "11:00 - 11:50 AM": "Indiv & Community in Amr | AMS 153 001",
                 "9:30 - 9:50 AM": "Computational Statistics | STA 243 001"
@@ -5706,8 +5715,8 @@
                 "2:10 - 5:00 PM": "Civil/Env Senior Design | ECI 193B A02"
             },
             "F": {
-                "12:10 - 1:00 PM": "Combinatorics | MAT 145 A02",
-                "1:10 - 2:00 PM": "Advanced Spanish Comp | SPA 110 001"
+                "11:00 - 11:50 AM": "Time Series Topics | ECN 240E 001",
+                "12:10 - 1:00 PM": "Combinatorics | MAT 145 A02"
             },
             "S": {}
         },
@@ -5716,7 +5725,6 @@
                 "10:00 - 10:50 AM": "Intermed Japanese | JPN 006 004",
                 "11:00 - 11:50 AM": "Numerical Soln Diff Eqn | MAT 228C 001",
                 "12:10 - 1:00 PM": "Latin America 1900-Prsnt | HIS 007C A01",
-                "1:10 - 2:00 PM": "Measure Theory | MAT 206 001",
                 "4:10 - 6:00 PM": "Multilingual Writing | UWP 007M 005",
                 "6:10 - 7:00 PM": "Cultural Anthropology | ANT 002 A04"
             },
@@ -5732,7 +5740,6 @@
                 "8:00 - 8:50 AM": "Women & Gender Amer-Pres | HIS 072B A01",
                 "9:00 - 9:50 AM": "Women & Gender Amer-Pres | HIS 072B A02",
                 "12:00 - 12:50 PM": "First-Year Seminar | FRS 003 008",
-                "1:10 - 2:00 PM": "Measure Theory | MAT 206 001",
                 "4:10 - 6:00 PM": "Multilingual Writing | UWP 007M 005",
                 "6:10 - 7:00 PM": "Cultural Anthropology | ANT 002 A12",
                 "7:10 - 8:00 PM": "Cultural Anthropology | ANT 002 A24"
@@ -5748,7 +5755,6 @@
                 "10:00 - 10:50 AM": "Intermed Japanese | JPN 006 004",
                 "11:00 - 11:50 AM": "Numerical Soln Diff Eqn | MAT 228C 001",
                 "12:10 - 1:00 PM": "Food Product Development | FST 160 A02",
-                "1:10 - 2:00 PM": "Measure Theory | MAT 206 001",
                 "2:10 - 3:00 PM": "Cultural Anthropology | ANT 002 A16",
                 "3:10 - 4:00 PM": "Cultural Anthropology | ANT 002 A21",
                 "4:10 - 5:00 PM": "Cultural Anthropology | ANT 002 A17"
@@ -5776,8 +5782,8 @@
                 "11:00 - 12:20 PM": "Des & Anly Engin Expr | EBS 265 001",
                 "1:10 - 2:00 PM": "Africa Today | HIS 015B A01",
                 "2:10 - 3:00 PM": "Africa Today | HIS 015B A02",
-                "3:10 - 4:00 PM": "Statics | ENG 035 A01",
-                "4:10 - 5:00 PM": "Statics | ENG 035 A02",
+                "3:10 - 4:00 PM": "Statics | ENG 035 B01",
+                "4:10 - 5:00 PM": "Statics | ENG 035 B02",
                 "5:10 - 6:00 PM": "Lit of Fantsy & Supernat | COM 007 A01",
                 "6:10 - 7:00 PM": "Lit of Fantsy & Supernat | COM 007 A02"
             },
@@ -5813,7 +5819,6 @@
             "T": {
                 "10:00 - 10:50 AM": "Elementary Chinese | CHN 001 001",
                 "11:00 - 11:50 AM": "Accl Written Chinese III | CHN 003BL 001",
-                "9:00 - 9:50 AM": "International Educ Sem | EAP 190X 003",
                 "12:10 - 1:00 PM": "Intermediate Arabic  23 | ARB 023 001",
                 "1:40 - 3:00 PM": "German Writing Skills | GER 103 001",
                 "5:10 - 6:00 PM": "N A Experience | NAS 010 A02",
@@ -5883,12 +5888,13 @@
         },
         "205": {
             "M": {
-                "10:00 - 10:50 AM": "Food Toxicology | ETX 128 001",
+                "10:00 - 10:50 AM": "Food Toxicology | FST 128 001",
                 "9:00 - 9:50 AM": "Programming | ECS 036A A01",
                 "1:10 - 2:30 PM": "Frontiers in Physiology | NPB 139 A01"
             },
             "T": {
                 "10:30 - 11:50 AM": "Microeconomic Theory | ECN 200C 001",
+                "9:00 - 10:20 AM": "Econometric Methods | ECN 240B 001",
                 "12:10 - 1:30 PM": "Mechanical Design | EME 150B 001",
                 "2:10 - 3:00 PM": "Math Stat: Brief Course | STA 130B A02",
                 "3:10 - 4:30 PM": "Directed Group Study | WFC 198 022",
@@ -5898,7 +5904,7 @@
                 "1:40 - 2:00 PM": "Mechanical Design | EME 150B 001"
             },
             "W": {
-                "10:00 - 10:50 AM": "Food Toxicology | ETX 128 001",
+                "10:00 - 10:50 AM": "Food Toxicology | FST 128 001",
                 "9:00 - 9:50 AM": "Programming | ECS 036A A02",
                 "12:10 - 1:00 PM": "Theory Computation | ECS 120 A02",
                 "1:10 - 2:30 PM": "Frontiers in Physiology | NPB 139 A01",
@@ -5907,6 +5913,7 @@
             },
             "R": {
                 "10:30 - 11:50 AM": "Microeconomic Theory | ECN 200C 001",
+                "9:00 - 10:20 AM": "Econometric Methods | ECN 240B 001",
                 "12:10 - 1:30 PM": "Mechanical Design | EME 150B 001",
                 "2:10 - 3:00 PM": "Math Statistics | STA 131B A01",
                 "3:10 - 4:30 PM": "Directed Group Study | WFC 198 022",
@@ -5914,7 +5921,7 @@
                 "1:40 - 2:00 PM": "Mechanical Design | EME 150B 001"
             },
             "F": {
-                "10:00 - 10:50 AM": "Food Toxicology | ETX 128 001",
+                "10:00 - 10:50 AM": "Food Toxicology | FST 128 001",
                 "9:00 - 9:50 AM": "Programming | ECS 036A A03",
                 "12:10 - 3:00 PM": "Acq & Analys Biomed Sig | BIM 281 001"
             },
@@ -5926,6 +5933,7 @@
                 "8:00 - 9:50 AM": "Biomaterials | BIM 109 001",
                 "12:10 - 1:00 PM": "Laboratory Assoc Lect | MCB 120 001",
                 "1:10 - 2:00 PM": "Water, Power, Society | SAS 010 001",
+                "2:10 - 3:00 PM": "Practice in Data Science | STA 160 A02",
                 "3:10 - 6:00 PM": "Management Accounting | MGT 170 A04",
                 "6:10 - 9:00 PM": "Mktg for Tech Enterprise | MGT 140 A04"
             },
@@ -5942,7 +5950,7 @@
                 "8:00 - 9:50 AM": "Biomaterials | BIM 109 001",
                 "12:10 - 1:00 PM": "Laboratory Assoc Lect | MCB 120 001",
                 "1:10 - 2:00 PM": "Water, Power, Society | SAS 010 001",
-                "3:10 - 6:00 PM": "Mgmt of Innov & Entrprn | MGT 151 A04"
+                "2:10 - 3:00 PM": "Practice in Data Science | STA 160 A02"
             },
             "R": {
                 "10:00 - 11:20 AM": "Local Govt & Politics | POL 100 001",
@@ -5953,6 +5961,7 @@
                 "11:30 - 11:50 AM": "Local Govt & Politics | POL 100 001"
             },
             "F": {
+                "2:10 - 3:00 PM": "Practice in Data Science | STA 160 A02",
                 "12:10 - 1:00 PM": "Laboratory Assoc Lect | MCB 120 001",
                 "1:10 - 2:00 PM": "Water, Power, Society | SAS 010 001"
             },
@@ -6030,6 +6039,7 @@
         "217": {
             "M": {
                 "12:10 - 1:00 PM": "Math Fluid Dynamics | MAT 221A 001",
+                "1:10 - 2:00 PM": "Adv Methods Phys Chem | CHE 125 A02",
                 "2:10 - 5:00 PM": "Adv Methods Phys Chem | CHE 125 A01",
                 "5:10 - 8:00 PM": "Adv Methods Phys Chem | CHE 125 A02"
             },
@@ -6044,6 +6054,7 @@
             "W": {
                 "9:00 - 11:50 AM": "Sex & Soc Mod China | HIS 191J 0U1",
                 "12:10 - 1:00 PM": "Math Fluid Dynamics | MAT 221A 001",
+                "1:10 - 2:00 PM": "Adv Methods Phys Chem | CHE 125 A02",
                 "2:10 - 5:00 PM": "Adv Methods Phys Chem | CHE 125 A01",
                 "5:10 - 8:00 PM": "Adv Methods Phys Chem | CHE 125 A02"
             },
@@ -6105,7 +6116,6 @@
                 "9:00 - 9:50 AM": "Elementary German | GER 001 001",
                 "12:10 - 2:00 PM": "Major Wrks Ancient World | COM 001 001",
                 "2:10 - 4:00 PM": "Major Wrks Mod World | COM 003 002",
-                "4:10 - 6:00 PM": "Teaching as Practice | EDU 310 006",
                 "6:10 - 7:00 PM": "Minds Brains Comp w/Disc | PHI 013G A01",
                 "7:10 - 8:00 PM": "Minds Brains Comp w/Disc | PHI 013G A02"
             },
@@ -6191,7 +6201,7 @@
                 "1:40 - 2:00 PM": "Self & Society | SOC 002 0U1"
             },
             "T": {
-                "9:00 - 9:50 AM": "International Educ Sem | EAP 090X 003",
+                "10:00 - 11:50 AM": "Env Chem Modeling | ECI 241 001",
                 "12:10 - 1:30 PM": "Clinical Trials | STA 225 001",
                 "2:10 - 3:30 PM": "Gene & Cellr Therapies | PHA 225 001",
                 "4:10 - 5:00 PM": "First-Year Seminar | FRS 003 022",
@@ -6211,6 +6221,7 @@
                 "1:40 - 2:00 PM": "Self & Society | SOC 002 0U1"
             },
             "R": {
+                "10:00 - 11:50 AM": "Env Chem Modeling | ECI 241 001",
                 "9:00 - 9:50 AM": "Africa Today | HIS 015B A05",
                 "12:10 - 1:30 PM": "Clinical Trials | STA 225 001",
                 "2:10 - 3:30 PM": "Gene & Cellr Therapies | PHA 225 001",
@@ -6273,8 +6284,7 @@
             "T": {
                 "10:30 - 11:50 AM": "Lit in English II | ENL 010B A04",
                 "9:00 - 10:20 AM": "Econ Of Labor Mkt | ECN 151A A02",
-                "12:10 - 1:30 PM": "Econometrics | ECN 140 A03",
-                "5:40 - 7:00 PM": "Japanese Culture & Film | JPN 106 001"
+                "12:10 - 1:30 PM": "Econometrics | ECN 140 A03"
             },
             "W": {
                 "11:00 - 11:50 AM": "Art,Sci,World of Insects | ENT 001 A04",
@@ -6289,8 +6299,7 @@
                 "12:10 - 1:30 PM": "Econometrics | ECN 140 A03",
                 "2:10 - 3:00 PM": "Applied Linguistics | LIN 165 A01",
                 "3:10 - 4:00 PM": "Computer Architecture | ECS 154B 001",
-                "4:10 - 5:30 PM": "Group Study | TTP 298 001",
-                "5:40 - 7:00 PM": "Japanese Culture & Film | JPN 106 001"
+                "4:10 - 5:30 PM": "Group Study | TTP 298 001"
             },
             "F": {
                 "10:00 - 1:50 PM": "Housing & Social Policy | CRD 171 001"
@@ -6336,7 +6345,8 @@
         },
         "261": {
             "M": {
-                "10:00 - 11:50 AM": "Intro to NA Lit | NAS 005 001"
+                "10:00 - 11:50 AM": "Intro to NA Lit | NAS 005 001",
+                "1:10 - 2:00 PM": "Measure Theory | MAT 206 001"
             },
             "T": {
                 "10:00 - 10:50 AM": "Algebra | MAT 250C 001",
@@ -6348,6 +6358,7 @@
             },
             "W": {
                 "10:00 - 11:50 AM": "Intro to NA Lit | NAS 005 001",
+                "1:10 - 2:00 PM": "Measure Theory | MAT 206 001",
                 "3:10 - 5:00 PM": "Student-Taught Course | ASA 098F 001"
             },
             "R": {
@@ -6362,6 +6373,8 @@
             "F": {
                 "10:00 - 10:50 AM": "Race & Ethnicity | SOC 007 A02",
                 "11:00 - 11:50 AM": "Race & Ethnicity | SOC 007 A03",
+                "12:10 - 1:00 PM": "Race & Ethnicity | SOC 007 A04",
+                "1:10 - 2:00 PM": "Measure Theory | MAT 206 001",
                 "2:10 - 3:00 PM": "Western Civ | HIS 004C A09"
             },
             "S": {}
@@ -6409,7 +6422,6 @@
             },
             "F": {
                 "10:00 - 10:50 AM": "Elementary Chinese | CHN 003 002",
-                "11:00 - 11:50 AM": "Sexualities | ANT 030 A04",
                 "9:00 - 9:50 AM": "Elementary Chinese | CHN 003 001",
                 "12:10 - 1:00 PM": "Elementary Accounting | MGT 011A A04",
                 "1:10 - 2:00 PM": "Elementary Accounting | MGT 011A A05",
@@ -6451,7 +6463,7 @@
                 "11:00 - 11:50 AM": "Europe In 20th Cent | HIS 146B 001",
                 "9:00 - 10:20 AM": "Pub Pol & Gov Proc | POL 109 001",
                 "1:10 - 2:00 PM": "Num Methods in Eng | ECH 060 A04",
-                "4:10 - 5:30 PM": "Digital Systems I | EEC 018 A05",
+                "4:10 - 5:30 PM": "Digital Systems I | EEC 018 A06",
                 "10:30 - 10:50 AM": "Pub Pol & Gov Proc | POL 109 001"
             },
             "T": {
@@ -6466,7 +6478,7 @@
                 "9:00 - 10:20 AM": "Pub Pol & Gov Proc | POL 109 001",
                 "1:10 - 2:00 PM": "Num Methods in Eng | ECH 060 A04",
                 "3:10 - 4:00 PM": "Topics in Public Health | SPH 190 002",
-                "4:10 - 5:30 PM": "Digital Systems I | EEC 018 A05",
+                "4:10 - 5:30 PM": "Digital Systems I | EEC 018 A06",
                 "10:30 - 10:50 AM": "Pub Pol & Gov Proc | POL 109 001"
             },
             "R": {
@@ -6492,7 +6504,7 @@
             "T": {
                 "11:00 - 11:50 AM": "Reading & Writing | UWP 007V 004",
                 "9:00 - 9:50 AM": "Reading & Writing | UWP 007V 003",
-                "TBA": "Mass Media & Politics | POL 165V U01"
+                "TBA": "Academic Literacies | UWP 001V 003"
             },
             "W": {
                 "1:10 - 2:00 PM": "Reading & Writing | UWP 007V 001",
@@ -6520,12 +6532,12 @@
                 "10:00 - 10:50 AM": "Reading & Writing | UWP 007V 004",
                 "11:00 - 11:50 AM": "Global Pop, Health, Envo | VME 057V U01",
                 "8:00 - 8:50 AM": "Reading & Writing | UWP 007V 003",
-                "TBA": "Mass Media & Politics | POL 165V U01",
+                "TBA": "Advanced Composition | UWP 101V 007",
                 "2:10 - 4:00 PM": "Principles Pharm & Tox | VMB 101V 001",
                 "3:10 - 4:00 PM": "Global Climate Change | SAS 025V U01",
                 "3:10 - 4:30 PM": "Business Chinese | CHN 122V 001",
                 "4:10 - 5:00 PM": "Global Climate Change | SAS 025V U03",
-                "4:10 - 5:30 PM": "Elementary Punjabi | PUN 003V 001",
+                "4:10 - 5:30 PM": "Elementary Punjabi | PUN 003V U01",
                 "6:10 - 7:00 PM": "Global Climate Change | SAS 025V U08"
             },
             "W": {
@@ -6543,7 +6555,7 @@
                 "1:10 - 2:00 PM": "Just Coffee | PLS 007V U03",
                 "3:10 - 4:30 PM": "Business Chinese | CHN 122V 001",
                 "4:10 - 5:00 PM": "Global Climate Change | SAS 025V U04",
-                "4:10 - 5:30 PM": "Elementary Punjabi | PUN 003V 001",
+                "4:10 - 5:30 PM": "Elementary Punjabi | PUN 003V U01",
                 "5:10 - 6:00 PM": "Just Coffee | PLS 007V U05",
                 "6:10 - 7:00 PM": "Global Climate Change | SAS 025V U06"
             },
@@ -6560,9 +6572,9 @@
             "M": {
                 "10:00 - 10:50 AM": "Calculus | MAT 021C A08",
                 "11:00 - 11:50 AM": "Intro Environ Toxicology | ETX 010 001",
-                "9:00 - 9:50 AM": "Calculus | MAT 021C B06",
+                "9:00 - 9:50 AM": "Calculus | MAT 021C B08",
                 "12:10 - 2:00 PM": "Business Law | ARE 018 001",
-                "2:10 - 3:00 PM": "Calculus | MAT 021B B08",
+                "2:10 - 3:00 PM": "Calculus | MAT 021B B10",
                 "3:10 - 5:00 PM": "Health Psychology | PSC 126 001",
                 "5:10 - 6:00 PM": "General Chemistry | CHE 002B C16",
                 "6:10 - 8:00 PM": "Intro Public Speaking | CMN 001 A18"
@@ -6578,9 +6590,9 @@
             "W": {
                 "10:00 - 10:50 AM": "Calculus | MAT 021C A08",
                 "11:00 - 11:50 AM": "Intro Environ Toxicology | ETX 010 001",
-                "9:00 - 9:50 AM": "Calculus | MAT 021C B06",
+                "9:00 - 9:50 AM": "Calculus | MAT 021C B08",
                 "12:10 - 2:00 PM": "Business Law | ARE 018 001",
-                "2:10 - 3:00 PM": "Calculus | MAT 021B B08",
+                "2:10 - 3:00 PM": "Calculus | MAT 021B B10",
                 "3:10 - 5:00 PM": "Health Psychology | PSC 126 001",
                 "5:10 - 6:00 PM": "General Chemistry | CHE 002B C16"
             },
@@ -6595,8 +6607,8 @@
             "F": {
                 "10:00 - 10:50 AM": "Calculus | MAT 021C A08",
                 "11:00 - 11:50 AM": "Intro Environ Toxicology | ETX 010 001",
-                "9:00 - 9:50 AM": "Calculus | MAT 021C B06",
-                "2:10 - 3:00 PM": "Calculus | MAT 021B B08",
+                "9:00 - 9:50 AM": "Calculus | MAT 021C B08",
+                "2:10 - 3:00 PM": "Calculus | MAT 021B B10",
                 "5:10 - 6:00 PM": "General Chemistry | CHE 002B C16"
             },
             "S": {}
@@ -6606,21 +6618,24 @@
         "130": {
             "M": {
                 "10:00 - 10:50 AM": "Elem Part Physics | PHY 130B 001",
+                "12:10 - 1:00 PM": "Lie Groups Lie Algebras | MAT 261 001",
                 "2:10 - 3:00 PM": "Intro to Modern Astrophy | AST 025 001",
                 "5:10 - 6:00 PM": "Classical Physics | PHY 009C A01",
                 "6:10 - 7:00 PM": "Classical Physics | PHY 009C A02",
-                "7:10 - 8:00 PM": "Classical Physics | PHY 009A A04",
+                "7:10 - 8:00 PM": "Classical Physics | PHY 009C A03",
                 "8:10 - 9:00 PM": "Classical Physics | PHY 009C A04"
             },
             "T": {
                 "12:10 - 1:00 PM": "Statistical Thinking | STA 010 001",
                 "2:10 - 3:00 PM": "Intro Chicana/o Studies | CHI 010 A15",
+                "3:10 - 5:00 PM": "Electronic Circuits I | EEC 110A 001",
                 "5:10 - 6:00 PM": "Classical Physics | PHY 009C A05",
                 "6:10 - 7:00 PM": "Classical Physics | PHY 009C A06",
                 "7:10 - 8:00 PM": "Classical Physics | PHY 009C A07"
             },
             "W": {
                 "10:00 - 10:50 AM": "Elem Part Physics | PHY 130B 001",
+                "12:10 - 1:00 PM": "Lie Groups Lie Algebras | MAT 261 001",
                 "2:10 - 3:00 PM": "Intro to Modern Astrophy | AST 025 001",
                 "6:10 - 7:00 PM": "Classical Physics | PHY 009A 0U1",
                 "7:10 - 8:00 PM": "Classical Physics | PHY 009C B04"
@@ -6629,6 +6644,7 @@
                 "11:00 - 11:50 AM": "Elementary Statistics | STA 013 B06",
                 "12:10 - 1:00 PM": "Elementary Statistics | STA 013 B05",
                 "1:10 - 3:00 PM": "Systemic Physiology Lab | NPB 101L 002",
+                "3:10 - 5:00 PM": "Electronic Circuits I | EEC 110A 001",
                 "5:10 - 6:00 PM": "Classical Physics | PHY 009B B01",
                 "6:10 - 7:00 PM": "Classical Physics | PHY 009B B02",
                 "7:10 - 8:00 PM": "Classical Physics | PHY 009B A03",
@@ -6638,6 +6654,7 @@
             "F": {
                 "10:00 - 10:50 AM": "Elem Part Physics | PHY 130B 001",
                 "11:00 - 11:50 AM": "Neurobiology | NPB 100 A03",
+                "12:10 - 1:00 PM": "Lie Groups Lie Algebras | MAT 261 001",
                 "2:10 - 3:00 PM": "Intro to Modern Astrophy | AST 025 001",
                 "3:10 - 4:00 PM": "Classical Physics | PHY 009B B05",
                 "4:10 - 5:00 PM": "Classical Physics | PHY 009B B06",
@@ -6651,11 +6668,10 @@
                 "2:10 - 4:00 PM": "Applied Data Analysis | TTP 201 001",
                 "5:10 - 6:00 PM": "Classical Physics | PHY 009A A01",
                 "6:10 - 7:00 PM": "Classical Physics | PHY 009A A02",
-                "7:10 - 8:00 PM": "Classical Physics | PHY 009A B03",
+                "7:10 - 8:00 PM": "Classical Physics | PHY 009A A04",
                 "8:10 - 9:00 PM": "Classical Physics | PHY 009A A05"
             },
             "T": {
-                "10:30 - 11:50 AM": "Envir Physics & Soc | ENG 160 001",
                 "9:00 - 10:20 AM": "Galaxy Formation | PHY 158 001",
                 "12:10 - 1:00 PM": "Intro Public Speaking | CMN 001 A15",
                 "1:40 - 3:00 PM": "Topics in Literature | ENL 149 A02",
@@ -6672,7 +6688,6 @@
                 "8:10 - 9:00 PM": "Classical Physics | PHY 009C B05"
             },
             "R": {
-                "10:30 - 11:50 AM": "Envir Physics & Soc | ENG 160 001",
                 "9:00 - 10:20 AM": "Galaxy Formation | PHY 158 001",
                 "12:10 - 1:00 PM": "Intro Public Speaking | CMN 001 A15",
                 "1:40 - 3:00 PM": "Topics in Literature | ENL 149 A02",
@@ -6700,7 +6715,7 @@
                 "12:10 - 2:00 PM": "Error Correcting Codes I | EEC 269A 001",
                 "5:10 - 6:00 PM": "Classical Physics | PHY 009A B01",
                 "6:10 - 7:00 PM": "Classical Physics | PHY 009A B02",
-                "7:10 - 8:00 PM": "Classical Physics | PHY 009C A03",
+                "7:10 - 8:00 PM": "Classical Physics | PHY 009A B03",
                 "8:10 - 9:00 PM": "Classical Physics | PHY 009A B04"
             },
             "T": {
@@ -6742,14 +6757,12 @@
             "M": {},
             "T": {
                 "9:00 - 10:20 AM": "Quantum Thry/Fields | PHY 230A 001",
-                "12:10 - 1:30 PM": "Physics of Computation | PHY 256B 001",
-                "1:40 - 3:00 PM": "Special Topics | PHY 250 001"
+                "12:10 - 1:30 PM": "Physics of Computation | PHY 256B 001"
             },
             "W": {},
             "R": {
                 "9:00 - 10:20 AM": "Quantum Thry/Fields | PHY 230A 001",
                 "12:10 - 1:30 PM": "Physics of Computation | PHY 256B 001",
-                "1:40 - 3:00 PM": "Special Topics | PHY 250 001",
                 "4:10 - 6:00 PM": "Condensed Matter Sem | PHY 293 001"
             },
             "F": {
@@ -6758,17 +6771,23 @@
             "S": {}
         },
         "285": {
-            "M": {},
+            "M": {
+                "12:10 - 1:00 PM": "Special Topics | PHY 250 002"
+            },
             "T": {
                 "10:30 - 11:50 AM": "Quantum Mechanics | PHY 215C 001",
                 "12:10 - 2:00 PM": "Particle Physics Sem | PHY 292A 001"
             },
-            "W": {},
+            "W": {
+                "12:10 - 1:00 PM": "Special Topics | PHY 250 002"
+            },
             "R": {
                 "10:30 - 11:50 AM": "Quantum Mechanics | PHY 215C 001",
                 "12:10 - 1:30 PM": "Cosmology Seminar | PHY 294 001"
             },
-            "F": {},
+            "F": {
+                "1:10 - 2:00 PM": "Special Topics | PHY 250 002"
+            },
             "S": {}
         },
         "395": {
@@ -7025,7 +7044,7 @@
             },
             "T": {
                 "9:00 - 11:50 AM": "Food Micro Lab | FST 104L A04",
-                "3:10 - 4:30 PM": "Group Study | FST 298 003"
+                "3:10 - 4:30 PM": "Group Study | GEO 298 014"
             },
             "W": {},
             "R": {
@@ -7069,7 +7088,6 @@
                 "9:00 - 9:50 AM": "Elementary Japanese | JPN 003 001",
                 "12:10 - 1:00 PM": "Elem Arabic 3 | ARB 003 003",
                 "1:40 - 3:00 PM": "Dante:  Commedia | ITA 113 001",
-                "3:10 - 4:00 PM": "General Chemistry | CHE 002B B12",
                 "4:10 - 5:00 PM": "General Chemistry | CHE 002B B08",
                 "6:10 - 7:00 PM": "Intro To NAS | NAS 001 A04",
                 "7:10 - 8:00 PM": "General Chemistry | CHE 002B C02"
@@ -7650,9 +7668,9 @@
                 "11:00 - 11:50 AM": "Pharmaceutical Chemistry | CHE 130B 002"
             },
             "W": {
-                "10:30 - 11:50 AM": "Data Visualization | PSC 012Y A03",
+                "10:30 - 11:50 AM": "Data Visualization | SOC 012Y A03",
                 "8:00 - 9:50 AM": "Academic Literacies | UWP 001 001",
-                "12:10 - 1:30 PM": "Data Visualization | PSC 012Y A04",
+                "12:10 - 1:30 PM": "Data Visualization | SOC 012Y A04",
                 "1:40 - 3:00 PM": "Data Visualization | SOC 012Y A09"
             },
             "R": {
@@ -7753,18 +7771,6 @@
             "R": {
                 "10:00 - 11:50 AM": "Stat Analys Psych Data | PSC 103B A02",
                 "12:10 - 2:00 PM": "Stat Analys Psych Data | PSC 103A A02"
-            },
-            "F": {},
-            "S": {}
-        },
-        "2064": {
-            "M": {},
-            "T": {
-                "1:40 - 3:00 PM": "Protein-N A Interactions | MIC 263 001"
-            },
-            "W": {},
-            "R": {
-                "1:40 - 3:00 PM": "Protein-N A Interactions | MIC 263 001"
             },
             "F": {},
             "S": {}
@@ -8011,12 +8017,12 @@
             "M": {},
             "T": {
                 "12:40 - 3:30 PM": "California Floristics | PLS 102 A01",
-                "3:40 - 6:30 PM": "California Floristics | PLS 102 A03"
+                "3:40 - 6:30 PM": "Angiosperm Systematics | PLB 108 A02"
             },
             "W": {},
             "R": {
                 "12:40 - 3:30 PM": "California Floristics | PLS 102 A01",
-                "3:40 - 6:30 PM": "California Floristics | PLS 102 A03"
+                "3:40 - 6:30 PM": "Angiosperm Systematics | PLB 108 A02"
             },
             "F": {},
             "S": {}
@@ -8027,14 +8033,14 @@
             },
             "T": {
                 "12:40 - 3:30 PM": "California Floristics | PLS 102 A02",
-                "3:40 - 6:30 PM": "California Floristics | PLS 102 A04"
+                "3:40 - 6:30 PM": "California Floristics | PLB 102 A04"
             },
             "W": {
                 "1:10 - 4:00 PM": "Pop Biol Plants & Weeds | PLB 119 A02"
             },
             "R": {
                 "12:40 - 3:30 PM": "California Floristics | PLS 102 A02",
-                "3:40 - 6:30 PM": "California Floristics | PLS 102 A04"
+                "3:40 - 6:30 PM": "California Floristics | PLB 102 A04"
             },
             "F": {},
             "S": {}
@@ -8367,6 +8373,7 @@
                 "12:10 - 1:30 PM": "Advanced Animal Behavior | NPB 150 001"
             },
             "R": {
+                "10:00 - 10:50 AM": "First-Year Seminar | FRS 001 002",
                 "2:10 - 3:00 PM": "General Chemistry | CHE 002C A18"
             },
             "F": {
@@ -8378,7 +8385,7 @@
         },
         "1301": {
             "M": {
-                "9:00 - 10:20 AM": "California Floristics | PLS 102 A04",
+                "9:00 - 10:20 AM": "Angiosperm Systematics | PLB 108 A02",
                 "12:10 - 1:30 PM": "Information Design | DES 149 A04"
             },
             "T": {
@@ -8387,7 +8394,7 @@
                 "1:40 - 3:00 PM": "Intro Phil Science | PHI 030 A02"
             },
             "W": {
-                "9:00 - 10:20 AM": "California Floristics | PLS 102 A04",
+                "9:00 - 10:20 AM": "Angiosperm Systematics | PLB 108 A02",
                 "12:10 - 1:30 PM": "Information Design | DES 149 A04"
             },
             "R": {
@@ -8408,9 +8415,7 @@
             "W": {
                 "10:00 - 11:50 AM": "Food Justice | CHI 042 001"
             },
-            "R": {
-                "10:00 - 10:50 AM": "First-Year Seminar | FRS 001 002"
-            },
+            "R": {},
             "F": {},
             "S": {}
         }
@@ -8496,11 +8501,14 @@
             "M": {
                 "1:10 - 4:00 PM": "Current Issues in STS | STS 205 001"
             },
-            "T": {},
+            "T": {
+                "12:10 - 1:30 PM": "Science & Race | STS 140 A01"
+            },
             "W": {
                 "3:10 - 6:00 PM": "Digital Technologies | STS 210 001"
             },
             "R": {
+                "12:10 - 1:30 PM": "Science & Race | STS 140 A01",
                 "3:10 - 6:00 PM": "Aspect/Cult Struct | ANT 210 002"
             },
             "F": {},
@@ -8529,7 +8537,6 @@
             "M": {},
             "T": {},
             "W": {
-                "9:00 - 11:50 AM": "Latin Am Since 1810 | HIS 102J 001",
                 "1:10 - 4:00 PM": "Mod Europe To 1815 | HIS 102D 001"
             },
             "R": {
@@ -8613,6 +8620,7 @@
                 "3:10 - 6:00 PM": "India | HIS 202D 001"
             },
             "W": {
+                "9:00 - 11:50 AM": "Latin Am Since 1810 | HIS 102J 001",
                 "3:10 - 6:00 PM": "Adv Topics World History | HIS 201W 001"
             },
             "R": {},
@@ -8655,25 +8663,19 @@
         },
         "80": {
             "M": {
-                "10:00 - 10:50 AM": "Applied Mathematics | MAT 207C 001",
                 "11:00 - 11:50 AM": "Enlightenment | COM 164D 001",
                 "8:00 - 9:50 AM": "Demand & Market Analysis | ARE 258 001",
                 "2:10 - 3:00 PM": "Intro Chicana/o Studies | CHI 010 A10",
                 "3:10 - 4:00 PM": "General Chemistry | CHE 002B A16",
                 "4:10 - 5:30 PM": "Digital Image Processing | EEC 206 001",
-                "6:10 - 7:00 PM": "SVM One Health Center | VME 125 001",
                 "7:10 - 8:00 PM": "Philosophy Of Law | PHI 119 A02"
             },
             "T": {
-                "10:30 - 11:50 AM": "Acq & Analys Biomed Sig | BIM 281 001",
                 "8:00 - 8:50 AM": "Fund of Bioengineering | BIM 020 A02",
-                "12:10 - 1:30 PM": "Topics in Buddhism | RST 137 001",
                 "1:40 - 3:00 PM": "Topics Ancient Religion | RST 132 001",
-                "3:10 - 4:30 PM": "Japanese Cinema | COM 112 001",
                 "6:10 - 8:00 PM": "Group Study | MAE 298 004"
             },
             "W": {
-                "10:00 - 10:50 AM": "Applied Mathematics | MAT 207C 001",
                 "11:00 - 11:50 AM": "Enlightenment | COM 164D 001",
                 "8:00 - 9:50 AM": "Demand & Market Analysis | ARE 258 001",
                 "12:10 - 2:00 PM": "First-Year Seminar | FRS 002 009",
@@ -8683,14 +8685,10 @@
                 "7:10 - 8:00 PM": "Intermed Symbolic Logic | PHI 112 A04"
             },
             "R": {
-                "10:30 - 11:50 AM": "Acq & Analys Biomed Sig | BIM 281 001",
-                "12:10 - 1:30 PM": "Topics in Buddhism | RST 137 001",
                 "1:40 - 3:00 PM": "Topics Ancient Religion | RST 132 001",
-                "3:10 - 4:30 PM": "Japanese Cinema | COM 112 001",
                 "6:10 - 8:00 PM": "Group Study | MAE 298 004"
             },
             "F": {
-                "10:00 - 10:50 AM": "Applied Mathematics | MAT 207C 001",
                 "11:00 - 11:50 AM": "Enlightenment | COM 164D 001",
                 "12:10 - 1:00 PM": "Empirical Methods Commun | CMN 102 A02",
                 "1:10 - 2:00 PM": "Int Fin Accounting I | MGT 103 A04",
@@ -8703,7 +8701,6 @@
                 "10:00 - 11:50 AM": "Directed Gp Study | NPB 198 006",
                 "12:10 - 1:00 PM": "Intro Linguistics | LIN 001Y A03",
                 "1:10 - 2:00 PM": "Intro Linguistics | LIN 001Y A04",
-                "2:10 - 4:00 PM": "Mjr Wrks Medi Early Mod | COM 002 002",
                 "4:10 - 5:00 PM": "Intro Linguistics | LIN 001Y A05",
                 "5:10 - 6:00 PM": "Intro Linguistics | LIN 001Y A06"
             },
@@ -8711,7 +8708,7 @@
                 "10:00 - 11:50 AM": "Prestressed Concrete | ECI 234 001",
                 "8:00 - 8:50 AM": "Intro Linguistics | LIN 001Y A07",
                 "9:00 - 9:50 AM": "Intro Linguistics | LIN 001Y A08",
-                "3:10 - 4:30 PM": "Curr Topics in Nutrition | NUT 011 004",
+                "2:10 - 4:00 PM": "Intro To Literature | ENL 003 017",
                 "6:10 - 7:00 PM": "Energy Economics | ECN 125 A01",
                 "7:10 - 8:00 PM": "Energy Economics | ECN 125 A02"
             },
@@ -8719,14 +8716,13 @@
                 "10:00 - 11:50 AM": "Directed Gp Study | NPB 198 006",
                 "12:10 - 1:00 PM": "Intro To Chicano Culture | CHI 050 A09",
                 "1:10 - 2:00 PM": "Intro Public Speaking | CMN 001 A09",
-                "2:10 - 4:00 PM": "Mjr Wrks Medi Early Mod | COM 002 002",
                 "4:10 - 5:00 PM": "Hist Exp Asian Am | ASA 001 A05"
             },
             "R": {
                 "10:00 - 11:50 AM": "Prestressed Concrete | ECI 234 001",
                 "9:00 - 9:50 AM": "Intro Linguistics | LIN 001Y A13",
                 "1:10 - 2:00 PM": "Internatl Relations | POL 003 A04",
-                "3:10 - 4:30 PM": "Developmental Cog Neuro | PSC 145 A02",
+                "2:10 - 4:00 PM": "Intro To Literature | ENL 003 017",
                 "5:10 - 6:00 PM": "Food in American Culture | FST 055 A06",
                 "6:10 - 7:00 PM": "Intermed Micro Theory | ECN 100B B03"
             },
@@ -8734,7 +8730,6 @@
                 "10:00 - 10:50 AM": "Mktg for Tech Enterprise | MGT 140 A02",
                 "11:00 - 11:50 AM": "Mktg for Tech Enterprise | MGT 140 A03",
                 "9:00 - 9:50 AM": "Mktg for Tech Enterprise | MGT 140 A01",
-                "12:10 - 1:00 PM": "Race & Ethnicity | SOC 007 A04",
                 "1:10 - 2:00 PM": "Intro Public Speaking | CMN 001 A09"
             },
             "S": {}
@@ -8769,6 +8764,16 @@
         }
     },
     "Sproul Hall": {
+        "412B": {
+            "M": {},
+            "T": {},
+            "W": {},
+            "R": {
+                "2:10 - 5:00 PM": "Spec Topics In G Lit | GER 297 001"
+            },
+            "F": {},
+            "S": {}
+        },
         "522": {
             "M": {
                 "2:10 - 5:00 PM": "Study/Narrat Fict | FRE 210 001"
@@ -8835,7 +8840,8 @@
                 "9:00 - 10:20 AM": "Intro Mass Communication | CMN 140 A04",
                 "12:10 - 1:30 PM": "Interpersonal Commun | CMN 120 A04",
                 "1:40 - 3:00 PM": "Computer Architecture | ECS 154A 001",
-                "3:10 - 4:30 PM": "Neurobiology | NPB 100 A06"
+                "3:10 - 4:30 PM": "Neurobiology | NPB 100 A06",
+                "5:40 - 7:00 PM": "Japanese Culture & Film | JPN 106 001"
             },
             "W": {
                 "10:30 - 11:50 AM": "Empirical Methods Commun | CMN 102 A04",
@@ -8852,13 +8858,12 @@
                 "12:10 - 1:30 PM": "Interpersonal Commun | CMN 120 A04",
                 "1:40 - 3:00 PM": "Computer Architecture | ECS 154A 001",
                 "3:10 - 4:30 PM": "Neurobiology | NPB 100 A06",
-                "6:10 - 9:00 PM": "Technology Management | MGT 150 A05"
+                "5:40 - 7:00 PM": "Japanese Culture & Film | JPN 106 001"
             },
             "F": {
                 "9:00 - 9:50 AM": "Intro to Biotechnology | BIT 001Y A04",
                 "12:10 - 1:00 PM": "Health & Religion | RST 008 A06",
-                "1:10 - 2:00 PM": "Principles of Finance | ARE 171 A04",
-                "2:10 - 3:00 PM": "Sem in Elec & Comp Eng | EEC 290 001"
+                "1:10 - 2:00 PM": "Principles of Finance | ARE 171 A04"
             },
             "S": {}
         },
@@ -8899,11 +8904,9 @@
                 "12:10 - 1:30 PM": "Critical Pedagogy | CHI 136 001",
                 "2:10 - 3:00 PM": "First-Year Seminar | FRS 003 015",
                 "3:10 - 4:30 PM": "Photonics | EEC 235 001",
-                "5:10 - 6:00 PM": "Water Science&Management | ESM 121 A03",
-                "6:10 - 7:00 PM": "Intro to Symbol Logic | PHI 012 A05"
+                "5:10 - 6:00 PM": "Water Science&Management | ESM 121 A03"
             },
             "F": {
-                "10:00 - 10:50 AM": "Sexualities | ANT 030 A03",
                 "11:00 - 11:50 AM": "Plant-Water Relations | HYD 124 A04",
                 "8:00 - 8:50 AM": "Bas Cnpt/Pol Thry | POL 004 A03",
                 "9:00 - 9:50 AM": "Bas Cnpt/Pol Thry | POL 004 A04",
@@ -8917,12 +8920,12 @@
         "1343": {
             "M": {},
             "T": {
-                "1:10 - 3:00 PM": "Experimental Ecology | ENT 180B 001"
+                "1:10 - 3:00 PM": "Experimental Ecology | EVE 180B 001"
             },
             "W": {},
             "R": {},
             "F": {
-                "1:10 - 5:00 PM": "Experimental Ecology | ENT 180B 001"
+                "1:10 - 5:00 PM": "Experimental Ecology | EVE 180B 001"
             },
             "S": {}
         },
@@ -8951,6 +8954,7 @@
             },
             "R": {
                 "10:00 - 11:50 AM": "Molecular Biology | BCB 214 001",
+                "3:10 - 4:00 PM": "General Chemistry | CHE 002B B12",
                 "4:10 - 5:00 PM": "Calculus | MAT 021C A04",
                 "5:10 - 6:00 PM": "Calculus | MAT 021C A05",
                 "6:10 - 7:00 PM": "Calculus | MAT 021C A06",
@@ -8965,7 +8969,7 @@
         },
         "1350": {
             "M": {
-                "4:10 - 5:00 PM": "Marine Environ Issues | ESP 111 001"
+                "4:10 - 5:00 PM": "Marine Environ Issues | EVE 111 001"
             },
             "T": {},
             "W": {
@@ -9191,7 +9195,8 @@
                 "12:10 - 1:30 PM": "Economic Development | ECN 115A A08",
                 "1:40 - 3:00 PM": "Global Health & Medicine | STS 129 A06",
                 "3:10 - 4:30 PM": "Artificial Intelligence | ECS 170 001",
-                "4:40 - 6:00 PM": "Developmental Disorders | PSC 148 001"
+                "4:40 - 6:00 PM": "Developmental Disorders | PSC 148 001",
+                "6:10 - 9:00 PM": "Technology Management | MGT 150 A05"
             },
             "F": {
                 "9:00 - 9:50 AM": "Applied Statistics | STA 103 A03",
@@ -9217,7 +9222,7 @@
                 "10:30 - 11:50 AM": "Intro Chicana/o Studies | CHI 010 0U1",
                 "9:00 - 9:50 AM": "Animal Physiology | ANS 100 001",
                 "12:10 - 2:00 PM": "Psychology of Emotion | PSC 154 001",
-                "3:10 - 4:30 PM": "Food in American Culture | FST 055 A12"
+                "3:10 - 4:30 PM": "Food in American Culture | FST 055 A13"
             },
             "W": {
                 "10:00 - 10:50 AM": "Elementary Statistics | STA 013 B08",
@@ -9233,7 +9238,7 @@
                 "10:30 - 11:50 AM": "Intro Chicana/o Studies | CHI 010 0U1",
                 "9:00 - 9:50 AM": "Animal Physiology | ANS 100 001",
                 "12:10 - 2:00 PM": "Psychology of Emotion | PSC 154 001",
-                "3:10 - 4:30 PM": "Food in American Culture | FST 055 A12"
+                "3:10 - 4:30 PM": "Food in American Culture | FST 055 A13"
             },
             "F": {
                 "10:00 - 10:50 AM": "Elementary Statistics | STA 013 B08",
@@ -9255,8 +9260,8 @@
                 "10:30 - 10:50 AM": "Device Physics II | EEC 140B 001"
             },
             "T": {
+                "10:30 - 11:50 AM": "Acq & Analys Biomed Sig | BIM 281 001",
                 "9:00 - 9:50 AM": "Analysis | MAT 201C 001",
-                "12:10 - 1:00 PM": "Grad Student Seminar | PBI 291 001",
                 "1:10 - 2:00 PM": "Quant & Pop Genet | GGG 201D 001",
                 "2:10 - 3:00 PM": "Computational Linguistic | LIN 177 A02",
                 "3:10 - 4:30 PM": "Intro to Jainism | RST 031 001",
@@ -9275,25 +9280,36 @@
                 "10:30 - 10:50 AM": "Device Physics II | EEC 140B 001"
             },
             "R": {
+                "10:30 - 11:50 AM": "Acq & Analys Biomed Sig | BIM 281 001",
                 "12:10 - 1:00 PM": "Group Study | HDE 298 001",
                 "1:10 - 2:00 PM": "Science on Trial | STS 011 A01",
                 "2:10 - 3:00 PM": "Science on Trial | STS 011 A02",
                 "3:10 - 4:30 PM": "Intro to Jainism | RST 031 001",
                 "5:10 - 6:00 PM": "Intro Social Resrch Meth | SOC 046 A02",
-                "6:10 - 7:00 PM": "India Pop Religious Art | RST 180 A01",
-                "7:10 - 8:00 PM": "India Pop Religious Art | RST 180 A02"
+                "6:10 - 7:00 PM": "India Pop Religious Art | AHI 158 A01",
+                "7:10 - 8:00 PM": "India Pop Religious Art | AHI 158 A02"
             },
             "F": {
                 "10:00 - 10:50 AM": "Elementary Accounting | MGT 011B A03",
-                "9:00 - 9:50 AM": "Race & Ethnicity | SOC 007 A01",
                 "11:10 - 12:00 PM": "Genes and Gene Exp Disc | BIS 101D 031",
                 "12:10 - 1:00 PM": "Genes and Gene Exp Disc | BIS 101D 030"
             },
             "S": {}
         },
+        "1213": {
+            "M": {},
+            "T": {
+                "11:00 - 12:50 PM": "First-Year Seminar | FRS 002 014"
+            },
+            "W": {},
+            "R": {},
+            "F": {},
+            "S": {}
+        },
         "1214": {
             "M": {
                 "10:00 - 11:20 AM": "European Prehistory | ANT 174 001",
+                "8:00 - 8:50 AM": "Vector Analysis | MAT 021D 001",
                 "9:00 - 9:50 AM": "Real Analysis | MAT 127B A02",
                 "12:10 - 1:00 PM": "Introduction to Ethics | PHI 024 A02",
                 "1:10 - 2:00 PM": "Eth & Soc Probs Cont Soc | PHI 014 A02",
@@ -9305,13 +9321,14 @@
             "T": {
                 "10:30 - 11:50 AM": "EnvJst Policy & Practice | ESP 174 A02",
                 "9:00 - 10:20 AM": "Wkload Math Co 16B | WLD 912 003",
-                "12:10 - 1:30 PM": "Oceanography | ESP 116N A03",
+                "12:10 - 1:30 PM": "Oceanography | GEL 116N A03",
                 "3:10 - 4:00 PM": "Applied Statistics | STA 103 A01",
                 "5:40 - 7:00 PM": "The Qur'an | RST 065C 001",
                 "7:10 - 8:00 PM": "Intermed Macro Theory | ECN 101 A02"
             },
             "W": {
                 "10:00 - 11:20 AM": "European Prehistory | ANT 174 001",
+                "8:00 - 8:50 AM": "Vector Analysis | MAT 021D 001",
                 "9:00 - 9:50 AM": "Real Analysis | MAT 127B A02",
                 "12:10 - 1:00 PM": "Introduction to Ethics | PHI 024 A02",
                 "1:10 - 2:00 PM": "Eth & Soc Probs Cont Soc | PHI 014 A02",
@@ -9323,13 +9340,14 @@
             "R": {
                 "10:30 - 11:50 AM": "EnvJst Policy & Practice | ESP 174 A02",
                 "9:00 - 10:20 AM": "Wkload Math Co 16B | WLD 912 003",
-                "12:10 - 1:30 PM": "Oceanography | ESP 116N A03",
+                "12:10 - 1:30 PM": "Oceanography | GEL 116N A03",
                 "3:10 - 4:00 PM": "Elementary Statistics | STA 013 B08",
                 "4:10 - 5:00 PM": "Artificial Intelligence | ECS 189G 001",
                 "5:40 - 7:00 PM": "The Qur'an | RST 065C 001"
             },
             "F": {
                 "11:00 - 11:50 AM": "Physiology Foundations | NPB 110C A07",
+                "8:00 - 8:50 AM": "Vector Analysis | MAT 021D 001",
                 "9:00 - 9:50 AM": "Real Analysis | MAT 127B A02",
                 "12:10 - 1:00 PM": "Introduction to Ethics | PHI 024 A02",
                 "1:10 - 2:00 PM": "Eth & Soc Probs Cont Soc | PHI 014 A02",
@@ -9342,10 +9360,9 @@
         "1215": {
             "M": {
                 "10:00 - 10:50 AM": "Intermed Symbolic Logic | PHI 112 A04",
-                "9:00 - 9:50 AM": "Animal Nutrition | NUT 115 A05",
+                "9:00 - 9:50 AM": "Intro Abstract Math | MAT 108 A03",
                 "12:10 - 1:20 PM": "Pol Global Ineq | POL 124 001",
                 "2:10 - 3:00 PM": "Scientific Reason | PHI 031 A02",
-                "3:10 - 4:00 PM": "Vampires & Other Horrors | FMS 045 A04",
                 "4:10 - 5:30 PM": "Intro Microbiology | MIC 102 002",
                 "6:10 - 7:00 PM": "Primary Care Clinics | FAP 192C 001",
                 "1:30 - 2:00 PM": "Pol Global Ineq | POL 124 001"
@@ -9360,10 +9377,9 @@
             },
             "W": {
                 "10:00 - 10:50 AM": "Intermed Symbolic Logic | PHI 112 A04",
-                "9:00 - 9:50 AM": "Animal Nutrition | NUT 115 A05",
+                "9:00 - 9:50 AM": "Intro Abstract Math | MAT 108 A03",
                 "12:10 - 1:20 PM": "Pol Global Ineq | POL 124 001",
                 "2:10 - 3:00 PM": "Scientific Reason | PHI 031 A02",
-                "3:10 - 4:00 PM": "Vampires & Other Horrors | FMS 045 A04",
                 "4:10 - 5:30 PM": "Intro Microbiology | MIC 102 002",
                 "6:40 - 9:30 PM": "Financing New Bus Vtrs | MGT 160 A04",
                 "1:30 - 2:00 PM": "Pol Global Ineq | POL 124 001"
@@ -9379,7 +9395,7 @@
             "F": {
                 "10:00 - 10:50 AM": "Intermed Symbolic Logic | PHI 112 A04",
                 "11:00 - 11:50 AM": "Disease Intervent Policy | GDB 102 001",
-                "9:00 - 9:50 AM": "Animal Nutrition | NUT 115 A05",
+                "9:00 - 9:50 AM": "Intro Abstract Math | MAT 108 A03",
                 "1:10 - 2:00 PM": "Disease Intervent Policy | GDB 102 002",
                 "2:10 - 3:00 PM": "Scientific Reason | PHI 031 A02"
             },
@@ -9486,7 +9502,8 @@
             "F": {
                 "9:00 - 9:50 AM": "Phys Chem Life Sci | CHE 107B 001",
                 "12:10 - 1:00 PM": "Apiculture | ENT 119 001",
-                "1:10 - 2:00 PM": "Machine Learning | ECS 171 001"
+                "1:10 - 2:00 PM": "Machine Learning | ECS 171 001",
+                "2:10 - 3:00 PM": "Sem in Elec & Comp Eng | EEC 290 001"
             },
             "S": {}
         },
@@ -9650,13 +9667,17 @@
                 "12:10 - 2:00 PM": "Reading & Writing | UWP 007Y 014",
                 "4:10 - 5:30 PM": "Advanced Composition | UWP 101Y 002"
             },
-            "F": {},
+            "F": {
+                "1:10 - 3:00 PM": "Diff Eqns Appl to Bio | MAT 027B 001"
+            },
             "S": {}
         },
         "2218": {
             "M": {
                 "10:00 - 10:50 AM": "Math for Data Analytics | MAT 170 001",
                 "11:00 - 11:50 AM": "Probability | MAT 135A A02",
+                "9:00 - 9:50 AM": "Plant Nutrition | PLS 158 001",
+                "12:10 - 1:30 PM": "Mass Transfer | ECH 143 001",
                 "2:10 - 4:00 PM": "Ethnic Studies in K-12 | EDU 155 001",
                 "4:10 - 6:00 PM": "Directed Gp Study | ECH 098 002"
             },
@@ -9672,6 +9693,8 @@
             "W": {
                 "10:00 - 10:50 AM": "Math for Data Analytics | MAT 170 001",
                 "11:00 - 11:50 AM": "Probability | MAT 135A A02",
+                "9:00 - 9:50 AM": "Plant Nutrition | PLS 158 001",
+                "12:10 - 1:30 PM": "Mass Transfer | ECH 143 001",
                 "2:10 - 4:00 PM": "Ethnic Studies in K-12 | EDU 155 001"
             },
             "R": {
@@ -9685,7 +9708,9 @@
             "F": {
                 "10:00 - 10:50 AM": "Math for Data Analytics | MAT 170 001",
                 "11:00 - 11:50 AM": "Probability | MAT 135A A02",
-                "1:10 - 2:00 PM": "Adv Bio-organic Chem Lab | CHE 135 A03"
+                "9:00 - 9:50 AM": "Plant Nutrition | PLS 158 001",
+                "1:10 - 2:00 PM": "Adv Bio-organic Chem Lab | CHE 135 A03",
+                "12:10 - 1:00 PM": "Mass Transfer | ECH 143 001"
             },
             "S": {}
         },
@@ -9797,12 +9822,12 @@
             },
             "T": {
                 "10:00 - 11:50 AM": "Trans Planning | ECI 289H 001",
+                "9:00 - 9:50 AM": "Fund of Bioengineering | BIM 020 A01",
                 "12:10 - 1:00 PM": "Genetics & Anim Breeding | ANG 107 A02",
                 "1:10 - 2:00 PM": "Intro to Middle East | HIS 006 A02",
                 "2:10 - 4:00 PM": "Zero Net Energy | ABT 212 001",
                 "5:10 - 6:00 PM": "Intermed Macro Theory | ECN 101 B05",
-                "6:10 - 7:00 PM": "Science & Race | STS 140 A01",
-                "7:10 - 8:00 PM": "Science & Race | STS 140 A02"
+                "6:10 - 7:00 PM": "Science & Race | STS 140 A01"
             },
             "W": {
                 "10:00 - 11:50 AM": "Intermed Soc Stat | SOC 106 A02",
@@ -9909,7 +9934,8 @@
             "F": {
                 "10:00 - 10:50 AM": "Plant-Envir Interact | PLS 100C 001",
                 "11:00 - 11:50 AM": "Probability w/App to Bio | MAT 107 001",
-                "9:00 - 9:50 AM": "Stochastic Processes | MAT 135B A02"
+                "9:00 - 9:50 AM": "Stochastic Processes | MAT 135B A02",
+                "12:10 - 3:00 PM": "Civil/Env Senior Design | ECI 193B A04"
             },
             "S": {}
         },
@@ -9929,7 +9955,8 @@
                 "9:00 - 10:20 AM": "Chld Fam Sch Cmnty | HDE 104 001",
                 "12:10 - 1:30 PM": "Fam Stress & Resilience | HDE 111 001",
                 "1:40 - 3:00 PM": "Life Cycle Nutrition | NUT 105 001",
-                "3:10 - 4:30 PM": "Futures & Options Market | ARE 139 A02"
+                "3:10 - 4:30 PM": "Futures & Options Market | ARE 139 A02",
+                "4:40 - 6:00 PM": "Des & Anlys of Algorithm | ECS 222A 001"
             },
             "W": {
                 "11:00 - 11:50 AM": "Organic Chemistry | CHE 128B 001",
@@ -9944,17 +9971,18 @@
                 "9:00 - 10:20 AM": "Chld Fam Sch Cmnty | HDE 104 001",
                 "12:10 - 1:30 PM": "Fam Stress & Resilience | HDE 111 001",
                 "1:40 - 3:00 PM": "Life Cycle Nutrition | NUT 105 001",
-                "3:10 - 4:30 PM": "Futures & Options Market | ARE 139 A02"
+                "3:10 - 4:30 PM": "Futures & Options Market | ARE 139 A02",
+                "4:40 - 6:00 PM": "Des & Anlys of Algorithm | ECS 222A 001"
             },
             "F": {
-                "11:00 - 11:50 AM": "Organic Chemistry | CHE 128B 001"
+                "11:00 - 11:50 AM": "Organic Chemistry | CHE 128B 001",
+                "1:10 - 2:00 PM": "Des & Anlys of Algorithm | ECS 222A 001"
             },
             "S": {}
         },
         "3218": {
             "M": {
                 "10:00 - 11:50 AM": "Stat Analys Psych Data | PSC 103B A02",
-                "9:00 - 9:50 AM": "Intro Abstract Math | MAT 108 A02",
                 "12:10 - 1:00 PM": "Molecular Biochemistry | CHE 108 001",
                 "2:10 - 4:00 PM": "Neurobiology of Learning | PSC 137 001",
                 "6:10 - 8:00 PM": "Digital Sgnls & Systms | EEC 151 001"
@@ -9969,7 +9997,6 @@
             },
             "W": {
                 "10:00 - 11:50 AM": "Stat Analys Psych Data | PSC 103B A02",
-                "9:00 - 9:50 AM": "Intro Abstract Math | MAT 108 A02",
                 "12:10 - 1:00 PM": "Molecular Biochemistry | CHE 108 001",
                 "2:10 - 4:00 PM": "Neurobiology of Learning | PSC 137 001",
                 "6:10 - 8:00 PM": "Digital Sgnls & Systms | EEC 151 001"
@@ -9983,7 +10010,6 @@
                 "6:10 - 8:00 PM": "Study Community Intl Hth | SPH 198 002"
             },
             "F": {
-                "9:00 - 9:50 AM": "Intro Abstract Math | MAT 108 A02",
                 "12:10 - 1:00 PM": "Molecular Biochemistry | CHE 108 001"
             },
             "S": {}
@@ -10028,7 +10054,9 @@
     },
     "Temporary Classroom 2": {
         "RM02": {
-            "M": {},
+            "M": {
+                "4:10 - 6:00 PM": "Teaching as Practice | EDU 310 006"
+            },
             "T": {
                 "1:10 - 3:00 PM": "Directed Gp Study | EDU 098 004",
                 "4:10 - 6:00 PM": "Teaching as Practice | EDU 310 003"
@@ -10047,22 +10075,18 @@
                 "2:10 - 4:00 PM": "Digital Learning | EDU 185 001"
             },
             "T": {
-                "10:00 - 11:20 AM": "Child Learn & Mat Cultr | EDU 122 001",
                 "10:30 - 11:50 AM": "Intro to Schools | EDU 100 001",
                 "9:00 - 10:20 AM": "Intro to Schools | EDU 100 003",
                 "12:10 - 1:30 PM": "Intro Environ Educ | EDU 142 A02",
-                "4:10 - 6:00 PM": "Teaching as Practice | EDU 310 004",
-                "11:30 - 11:50 AM": "Child Learn & Mat Cultr | EDU 122 001"
+                "4:10 - 6:00 PM": "Teaching as Practice | EDU 310 004"
             },
             "W": {
                 "2:10 - 4:00 PM": "Digital Learning | EDU 185 001"
             },
             "R": {
-                "10:00 - 11:20 AM": "Child Learn & Mat Cultr | EDU 122 001",
                 "10:30 - 11:50 AM": "Intro to Schools | EDU 100 001",
                 "9:00 - 10:20 AM": "Intro to Schools | EDU 100 003",
-                "12:10 - 1:30 PM": "Intro Environ Educ | EDU 142 A02",
-                "11:30 - 11:50 AM": "Child Learn & Mat Cultr | EDU 122 001"
+                "12:10 - 1:30 PM": "Intro Environ Educ | EDU 142 A02"
             },
             "F": {},
             "S": {}
@@ -10082,7 +10106,7 @@
             "S": {}
         }
     },
-    "The Grove Surge III": {
+    "The Grove  and Surge III and ": {
         "1283": {
             "M": {
                 "10:00 - 10:50 AM": "Elementary Spanish | SPA 002 002",
@@ -10158,6 +10182,7 @@
                 "9:00 - 10:20 AM": "Lit of Fantsy & Supernat | COM 007 A06",
                 "12:10 - 1:00 PM": "Domestic Animal Behavior | ANS 104 A07",
                 "1:10 - 2:30 PM": "Computational Linguistic | LIN 177 A04",
+                "3:10 - 6:00 PM": "Mgmt of Innov & Entrprn | MGT 151 A04",
                 "6:10 - 8:00 PM": "Inter Managerial Acctg | ARE 119 001"
             },
             "R": {
@@ -10199,8 +10224,7 @@
                 "2:10 - 3:25 PM": "Adv Cardiac Physio Pharm | PHA 208 001"
             },
             "T": {
-                "1:00 - 2:30 PM": "Electrophysio Tech & App | PTX 215 001",
-                "4:10 - 5:30 PM": "Seminar | MCP 290 086"
+                "1:00 - 2:30 PM": "Electrophysio Tech & App | PTX 215 001"
             },
             "W": {
                 "2:10 - 3:25 PM": "Adv Cardiac Physio Pharm | PHA 208 001"
@@ -10208,6 +10232,16 @@
             "R": {
                 "1:00 - 2:30 PM": "Electrophysio Tech & App | PTX 215 001"
             },
+            "F": {},
+            "S": {}
+        },
+        "4451": {
+            "M": {},
+            "T": {
+                "4:10 - 5:30 PM": "Seminar | MCP 290 086"
+            },
+            "W": {},
+            "R": {},
             "F": {},
             "S": {}
         },
@@ -10241,7 +10275,6 @@
             "T": {
                 "10:30 - 11:50 AM": "Adv Equine Reproduction | ANS 127 001",
                 "12:10 - 2:00 PM": "Asian Amer Communities | ASA 100 001",
-                "2:10 - 4:00 PM": "Transp Planning/Policy | TTP 220 001",
                 "4:10 - 5:00 PM": "General Chemistry | CHE 002B B10",
                 "5:10 - 6:00 PM": "Human Memory | PSC 130 A07",
                 "6:10 - 7:00 PM": "Intro Phil Science | PHI 030 A01",
@@ -10261,7 +10294,6 @@
                 "8:00 - 8:50 AM": "Western Civilization | HIS 004B A04",
                 "9:00 - 9:50 AM": "Western Civilization | HIS 004B A05",
                 "12:10 - 2:00 PM": "Asian Amer Communities | ASA 100 001",
-                "2:10 - 4:00 PM": "Transp Planning/Policy | TTP 220 001",
                 "4:10 - 5:00 PM": "Internatl Relations | POL 003 A05",
                 "5:10 - 6:00 PM": "Internatl Relations | POL 003 A06",
                 "6:10 - 7:00 PM": "Calculus for BioSci | MAT 017C 0U1",
@@ -10284,7 +10316,6 @@
                 "12:10 - 1:30 PM": "Collective Behavior | SOC 148 001",
                 "2:10 - 3:30 PM": "Systems Neuroscience | NPB 163 001",
                 "4:10 - 5:30 PM": "Culture & Health | SOC 162 001",
-                "6:10 - 7:00 PM": "Sex Stratification | SOC 133 001",
                 "11:30 - 11:50 AM": "Social Interaction | SOC 126 001",
                 "1:40 - 2:00 PM": "Collective Behavior | SOC 148 001",
                 "3:40 - 4:00 PM": "Systems Neuroscience | NPB 163 001",
@@ -10296,7 +10327,6 @@
                 "12:10 - 1:30 PM": "Race Relations | SOC 130 001",
                 "2:10 - 3:30 PM": "Heat Transfer | EME 165 001",
                 "4:10 - 5:30 PM": "International Migration | SOC 104 001",
-                "6:10 - 7:30 PM": "Mass Transfer | ECH 143 001",
                 "11:30 - 11:50 AM": "Sociological Theory | SOC 100 001",
                 "1:40 - 2:00 PM": "Race Relations | SOC 130 001",
                 "3:40 - 4:00 PM": "Heat Transfer | EME 165 001",
@@ -10310,8 +10340,7 @@
                 "11:30 - 11:50 AM": "Social Interaction | SOC 126 001",
                 "1:40 - 2:00 PM": "Collective Behavior | SOC 148 001",
                 "3:40 - 4:00 PM": "Systems Neuroscience | NPB 163 001",
-                "5:40 - 6:00 PM": "Culture & Health | SOC 162 001",
-                "6:10 - 7:00 PM": "Mass Transfer | ECH 143 001"
+                "5:40 - 6:00 PM": "Culture & Health | SOC 162 001"
             },
             "R": {
                 "10:00 - 11:20 AM": "Sociological Theory | SOC 100 001",
@@ -10319,7 +10348,6 @@
                 "12:10 - 1:30 PM": "Race Relations | SOC 130 001",
                 "2:10 - 3:30 PM": "Heat Transfer | EME 165 001",
                 "4:10 - 5:30 PM": "International Migration | SOC 104 001",
-                "6:10 - 7:30 PM": "Mass Transfer | ECH 143 001",
                 "11:30 - 11:50 AM": "Sociological Theory | SOC 100 001",
                 "1:40 - 2:00 PM": "Race Relations | SOC 130 001",
                 "3:40 - 4:00 PM": "Heat Transfer | EME 165 001",
@@ -10407,7 +10435,6 @@
             },
             "T": {
                 "1:10 - 2:00 PM": "First-Year Seminar | FRS 003 012",
-                "2:10 - 4:00 PM": "Intro To Literature | ENL 003 017",
                 "4:40 - 6:00 PM": "Creat Writ: Fiction | ENL 100F 001"
             },
             "W": {
@@ -10415,16 +10442,13 @@
                 "1:10 - 2:30 PM": "Creat Writ: Fiction | ENL 100F 002"
             },
             "R": {
-                "2:10 - 4:00 PM": "Intro To Literature | ENL 003 017",
                 "4:40 - 6:00 PM": "Creat Writ: Fiction | ENL 100F 001"
             },
             "F": {},
             "S": {}
         },
         "396": {
-            "M": {
-                "4:10 - 5:00 PM": "Writers' Workshop | ENL 003A 006"
-            },
+            "M": {},
             "T": {
                 "12:10 - 2:00 PM": "First-Year Seminar | FRS 004 006",
                 "4:40 - 6:00 PM": "Literature & Media | ENL 187A 001"
@@ -10441,19 +10465,8 @@
             "F": {
                 "11:00 - 11:50 AM": "First-Year Seminar | FRS 003 010",
                 "12:10 - 2:00 PM": "Theory Composition Instr | UWP 390 001",
-                "2:10 - 3:00 PM": "First-Year Seminar | FRS 003 027",
-                "4:10 - 5:00 PM": "Writers' Workshop | ENL 003A 006"
+                "2:10 - 3:00 PM": "First-Year Seminar | FRS 003 027"
             },
-            "S": {}
-        },
-        "Voorhies_Hall_Hall": {
-            "M": {
-                "10:00 - 11:15 AM": "Directed Group Study | UWP 298 001"
-            },
-            "T": {},
-            "W": {},
-            "R": {},
-            "F": {},
             "S": {}
         }
     },
@@ -10510,7 +10523,6 @@
             "T": {
                 "11:00 - 11:50 AM": "Elementary Statistics | STA 013 A03",
                 "9:00 - 10:20 AM": "Stat Meths Machine Learn | STA 208 001",
-                "12:10 - 1:30 PM": "Travel & Modern World | COM 011 001",
                 "2:10 - 5:00 PM": "Civil/Env Senior Design | ECI 193B A03",
                 "5:10 - 6:00 PM": "Calculus | MAT 021B B03",
                 "10:30 - 10:50 AM": "Stat Meths Machine Learn | STA 208 001"
@@ -10525,7 +10537,6 @@
             "R": {
                 "11:00 - 11:50 AM": "Regression Analysis | STA 108 B02",
                 "9:00 - 10:20 AM": "Stat Meths Machine Learn | STA 208 001",
-                "12:10 - 1:30 PM": "Travel & Modern World | COM 011 001",
                 "3:10 - 4:00 PM": "Analysis of Variance | STA 106 B02",
                 "4:10 - 7:00 PM": "Inq Class Prac: Interven | EDU 206B 003",
                 "10:30 - 10:50 AM": "Stat Meths Machine Learn | STA 208 001"
@@ -10542,6 +10553,7 @@
                 "11:00 - 11:50 AM": "Limnology | ESP 151 A03",
                 "8:00 - 8:50 AM": "Calculus for BioSci | MAT 017C A02",
                 "9:00 - 9:50 AM": "Calculus | MAT 021A A02",
+                "12:10 - 1:00 PM": "Calculus for BioSci | MAT 017C 0U1",
                 "1:10 - 2:00 PM": "Calculus for BioSci | MAT 017A B02",
                 "2:10 - 3:30 PM": "Deviance | SOC 120 001",
                 "4:10 - 5:00 PM": "Graphics Design for BME | BIM 020L A04",
@@ -10560,6 +10572,7 @@
                 "11:00 - 11:50 AM": "Limnology | ESP 151 A03",
                 "8:00 - 8:50 AM": "Calculus for BioSci | MAT 017C A02",
                 "9:00 - 9:50 AM": "Calculus | MAT 021A A02",
+                "12:10 - 1:00 PM": "Calculus for BioSci | MAT 017C 0U1",
                 "1:10 - 2:00 PM": "Calculus for BioSci | MAT 017A B02",
                 "2:10 - 3:30 PM": "Deviance | SOC 120 001",
                 "5:10 - 6:00 PM": "Short Calculus | MAT 016B 001",
@@ -10577,6 +10590,7 @@
                 "11:00 - 11:50 AM": "Limnology | ESP 151 A03",
                 "8:00 - 8:50 AM": "Calculus for BioSci | MAT 017C A02",
                 "9:00 - 9:50 AM": "Calculus | MAT 021A A02",
+                "12:10 - 1:00 PM": "Calculus for BioSci | MAT 017C 0U1",
                 "1:10 - 2:00 PM": "Calculus for BioSci | MAT 017A B02",
                 "5:10 - 6:00 PM": "Short Calculus | MAT 016B 001"
             },
@@ -10598,7 +10612,6 @@
             "M": {
                 "12:10 - 1:00 PM": "Intro to Biotechnology | BIT 001Y A01",
                 "1:10 - 2:00 PM": "Bioprocess Engr Lab | ECH 161L 001",
-                "4:10 - 6:00 PM": "Trad Japanese Drama | JPN 152 001",
                 "6:10 - 7:00 PM": "General Chemistry | CHE 002B A11"
             },
             "T": {
@@ -10612,8 +10625,7 @@
             },
             "W": {
                 "12:10 - 1:00 PM": "Intr To Crit Theory | ART 149 A01",
-                "1:10 - 2:00 PM": "Intr To Crit Theory | ART 149 A02",
-                "4:10 - 6:00 PM": "Trad Japanese Drama | JPN 152 001"
+                "1:10 - 2:00 PM": "Intr To Crit Theory | ART 149 A02"
             },
             "R": {
                 "11:00 - 11:50 AM": "Fluid Mechanics | ENG 103 A02",
@@ -10622,7 +10634,8 @@
                 "1:40 - 3:00 PM": "Heat Transfer in Bio Sys | EBS 125 A01",
                 "3:10 - 5:00 PM": "Intro To Literature | ENL 003 014",
                 "5:10 - 6:00 PM": "Combinatorics | MAT 145 A01",
-                "6:10 - 7:00 PM": "Combinatorics | MAT 145 A02"
+                "6:10 - 7:00 PM": "Combinatorics | MAT 145 A02",
+                "7:10 - 8:00 PM": "Intro Abstract Math | MAT 108 A03"
             },
             "F": {
                 "10:00 - 10:50 AM": "Internatl Relations | POL 003 A07",
@@ -10666,8 +10679,8 @@
                 "1:10 - 2:00 PM": "Homer: Odyssey | GRK 103B 001",
                 "2:10 - 3:00 PM": "First-Year Seminar | FRS 003 019",
                 "3:10 - 5:00 PM": "Academic Literacies | UWP 001 006",
-                "5:10 - 6:00 PM": "Vampires & Other Horrors | FMS 045 A01",
-                "6:10 - 7:00 PM": "Vampires & Other Horrors | FMS 045 A02",
+                "5:10 - 6:00 PM": "Vampires & Other Horrors | GER 045 A01",
+                "6:10 - 7:00 PM": "Vampires & Other Horrors | GER 045 A02",
                 "7:10 - 8:00 PM": "Social Problems | SOC 003 A08"
             },
             "R": {
@@ -10732,8 +10745,8 @@
                 "12:10 - 1:00 PM": "Elementary Portuguese | POR 003 001",
                 "1:40 - 3:00 PM": "Intro to Braz Literature | POR 162 001",
                 "3:10 - 4:30 PM": "Chicana/o Theory Persp | CHI 100 001",
-                "5:10 - 6:00 PM": "Vampires & Other Horrors | FMS 045 A03",
-                "6:10 - 7:00 PM": "Vampires & Other Horrors | FMS 045 A04",
+                "5:10 - 6:00 PM": "Vampires & Other Horrors | GER 045 A03",
+                "6:10 - 7:00 PM": "Vampires & Other Horrors | GER 045 A04",
                 "7:10 - 8:00 PM": "Lit of Fantsy & Supernat | COM 007 A03",
                 "8:10 - 9:00 PM": "Lit of Fantsy & Supernat | COM 007 A04"
             },
@@ -10889,9 +10902,7 @@
                 "8:00 - 8:50 AM": "General Chemistry | CHE 002B B02",
                 "9:00 - 10:20 AM": "Elementary Spanish | SPA 003Y 001",
                 "12:10 - 1:30 PM": "Elementary Spanish | SPA 001Y 002",
-                "1:40 - 3:00 PM": "Medieval Latin | LAT 125 001",
-                "6:10 - 7:00 PM": "Modern Algebra | MAT 150C A02",
-                "7:10 - 8:00 PM": "Modern Algebra | MAT 150C A01"
+                "1:40 - 3:00 PM": "Medieval Latin | LAT 125 001"
             },
             "F": {
                 "10:00 - 10:50 AM": "Span-Native Speakers III | SPA 033 002",
@@ -10943,7 +10954,7 @@
                 "9:00 - 9:50 AM": "Thermodynamics | ENG 105 A04",
                 "12:10 - 1:00 PM": "Rep of the City | COM 145 001",
                 "1:40 - 3:00 PM": "American Lives | AMS 001C 0U1",
-                "3:10 - 4:00 PM": "Statics | ENG 035 A04",
+                "3:10 - 4:00 PM": "Statics | ENG 035 B04",
                 "4:10 - 5:00 PM": "Intro Mass Communication | CMN 140 A03",
                 "5:10 - 6:00 PM": "Genes and Gene Exp Disc | BIS 101D 035",
                 "6:10 - 7:00 PM": "Minds Brains Comp w/Disc | PHI 013G A05",
@@ -10961,6 +10972,7 @@
         "115": {
             "M": {
                 "10:00 - 11:50 AM": "Contemp Feminist Theory | WMS 137 001",
+                "3:10 - 4:30 PM": "Islam in Asia | RST 165 001",
                 "4:40 - 6:00 PM": "Macroeconomic Theory | ECN 200F 001"
             },
             "T": {
@@ -10975,18 +10987,25 @@
                 "10:00 - 11:50 AM": "Contemp Feminist Theory | WMS 137 001",
                 "12:10 - 1:00 PM": "Adv Stat Computing | STA 141C A01",
                 "1:10 - 2:00 PM": "Adv Stat Computing | STA 141C A02",
+                "3:10 - 4:30 PM": "Islam in Asia | RST 165 001",
                 "4:40 - 6:00 PM": "Macroeconomic Theory | ECN 200F 001"
             },
             "R": {
                 "10:00 - 11:50 AM": "Primate Epidemiology | ANT 159 001",
                 "12:10 - 1:30 PM": "Intro Ed Policy Analysis | EDU 121 A02",
-                "2:10 - 4:00 PM": "South Asia | ANT 145 001"
+                "2:10 - 4:00 PM": "South Asia | ANT 145 001",
+                "5:10 - 6:00 PM": "Sexualities | ANT 030 A01",
+                "6:10 - 7:00 PM": "Sexualities | ANT 030 A02"
             },
-            "F": {},
+            "F": {
+                "10:00 - 10:50 AM": "Sexualities | ANT 030 A03",
+                "11:00 - 11:50 AM": "Sexualities | ANT 030 A04"
+            },
             "S": {}
         },
         "119": {
             "M": {
+                "10:00 - 10:50 AM": "Modern Algebra | MAT 150C A02",
                 "11:00 - 11:50 AM": "Sustainable Energy Tech | EMS 170 001",
                 "12:10 - 1:30 PM": "Foundations Pol Thought | POL 116 001",
                 "4:40 - 6:00 PM": "Democracy | POL 142C 001"
@@ -11000,6 +11019,7 @@
                 "3:40 - 4:00 PM": "How Things Work | ENG 010 001"
             },
             "W": {
+                "10:00 - 10:50 AM": "Modern Algebra | MAT 150C A02",
                 "11:00 - 11:50 AM": "Severe & Unusual Weather | ATM 010 A03",
                 "12:10 - 1:30 PM": "Foundations Pol Thought | POL 116 001",
                 "4:40 - 6:00 PM": "Democracy | POL 142C 001"
@@ -11009,9 +11029,14 @@
                 "12:10 - 1:00 PM": "Applied Statistics | STA 103 B01",
                 "2:10 - 3:30 PM": "How Things Work | ENG 010 001",
                 "4:40 - 6:00 PM": "Govt & The Economy | POL 174 001",
-                "3:40 - 4:00 PM": "How Things Work | ENG 010 001"
+                "3:40 - 4:00 PM": "How Things Work | ENG 010 001",
+                "6:10 - 7:00 PM": "Modern Algebra | MAT 150C A02",
+                "7:10 - 8:00 PM": "Modern Algebra | MAT 150C A01"
             },
-            "F": {},
+            "F": {
+                "10:00 - 10:50 AM": "Modern Algebra | MAT 150C A02",
+                "11:00 - 11:50 AM": "Cross Section Topics | ECN 240F 001"
+            },
             "S": {}
         },
         "123": {
@@ -11070,6 +11095,7 @@
         "126": {
             "M": {
                 "10:00 - 11:50 AM": "Feminist Critiques | WMS 060 001",
+                "9:00 - 9:50 AM": "Animal Nutrition | NUT 115 A05",
                 "12:10 - 2:00 PM": "Ed Psych: Gen | EDU 110 004",
                 "2:10 - 4:00 PM": "Chem Eng Transport Lab | ECH 145B A06",
                 "4:10 - 5:00 PM": "Computer Science | ECS 189L 001",
@@ -11085,6 +11111,7 @@
             },
             "W": {
                 "10:00 - 11:50 AM": "Feminist Critiques | WMS 060 001",
+                "9:00 - 9:50 AM": "Animal Nutrition | NUT 115 A05",
                 "12:10 - 2:00 PM": "Ed Psych: Gen | EDU 110 004",
                 "4:10 - 5:00 PM": "Computer Science | ECS 189L 001",
                 "5:10 - 6:30 PM": "Comp Electoral Systems | POL 140A 001"
@@ -11098,6 +11125,7 @@
                 "5:40 - 7:30 PM": "Thermo-Fluid Dynamics | EME 106 001"
             },
             "F": {
+                "9:00 - 9:50 AM": "Animal Nutrition | NUT 115 A05",
                 "4:10 - 5:00 PM": "Computer Science | ECS 189L 001"
             },
             "S": {}
@@ -11134,7 +11162,8 @@
                 "1:10 - 2:00 PM": "Elementary Japanese | JPN 003 006",
                 "2:10 - 3:00 PM": "Elementary Japanese | JPN 003 007",
                 "3:10 - 4:00 PM": "Intro To Chicano Culture | CHI 050 A01",
-                "6:10 - 7:00 PM": "Social Problems | SOC 003 A07"
+                "6:10 - 7:00 PM": "Social Problems | SOC 003 A07",
+                "7:10 - 8:00 PM": "Food in American Culture | FST 055 A13"
             },
             "R": {
                 "10:00 - 10:50 AM": "Elementary Italian | ITA 003 002",
@@ -11166,6 +11195,7 @@
             "T": {
                 "10:00 - 11:50 AM": "Writing: Poetry | ENL 005P 003",
                 "8:00 - 9:50 AM": "Writing: Fiction | ENL 005F 005",
+                "12:10 - 2:00 PM": "Writing: Fiction | ENL 005F 006",
                 "2:10 - 3:00 PM": "Global Sexualities | HIS 013 A04",
                 "4:10 - 6:00 PM": "Writing: Non-Fiction | ENL 005NF 001",
                 "6:10 - 8:00 PM": "Systemic Physiology Lab | NPB 101L 009"
@@ -11179,6 +11209,7 @@
             "R": {
                 "10:00 - 11:50 AM": "Writing: Poetry | ENL 005P 003",
                 "8:00 - 9:50 AM": "Writing: Fiction | ENL 005F 005",
+                "12:10 - 2:00 PM": "Writing: Fiction | ENL 005F 006",
                 "2:10 - 4:00 PM": "Writer's Workshop | NAS 005A 004",
                 "4:10 - 6:00 PM": "Writing: Non-Fiction | ENL 005NF 001",
                 "6:10 - 7:00 PM": "Cultural Anthropology | ANT 002 A18"
@@ -11282,6 +11313,7 @@
                 "1:10 - 2:00 PM": "Experimental Methods | EME 109 A09"
             },
             "T": {
+                "10:30 - 11:50 AM": "Visualizing Society | STS 112 001",
                 "9:00 - 10:20 AM": "Paleoclimates | GEL 108 001",
                 "12:10 - 1:30 PM": "Milton | ENL 122 A04",
                 "1:40 - 3:00 PM": "Intro to Num Analysis | EME 115 001",
@@ -11296,6 +11328,7 @@
                 "3:10 - 4:30 PM": "Group Politics | POL 163 001"
             },
             "R": {
+                "10:30 - 11:50 AM": "Visualizing Society | STS 112 001",
                 "9:00 - 10:20 AM": "Paleoclimates | GEL 108 001",
                 "12:10 - 1:30 PM": "Milton | ENL 122 A04",
                 "1:40 - 3:00 PM": "Intro to Num Analysis | EME 115 001",
@@ -11386,7 +11419,6 @@
             "T": {
                 "10:00 - 10:50 AM": "Elementary Spanish | SPA 001 003",
                 "11:00 - 11:50 AM": "Elementary Spanish | SPA 001 005",
-                "9:00 - 9:50 AM": "Fund of Bioengineering | BIM 020 A01",
                 "12:10 - 2:00 PM": "Intro to NA Lit | NAS 005 005",
                 "2:10 - 4:00 PM": "Soft Tissue Mechanics | BIM 233 001",
                 "6:10 - 7:00 PM": "Critical Reasoning | PHI 005 A03",
@@ -11474,10 +11506,8 @@
                 "10:30 - 11:50 AM": "Latin Amer Lit 1900 Pres | SPA 151 001",
                 "8:00 - 8:50 AM": "Anly & Phys Chem Methods | CHE 105 A02",
                 "9:00 - 10:20 AM": "Words & Phrases | SPA 112N 001",
-                "12:10 - 1:30 PM": "Travel & Modern World | GER 011 001",
                 "1:40 - 3:00 PM": "Artificial Intelligence | ECS 189G 001",
                 "3:10 - 4:30 PM": "Latin Amer Women Writers | SPA 160 001",
-                "4:40 - 6:00 PM": "Des & Anlys of Algorithm | ECS 222A 001",
                 "6:10 - 7:00 PM": "Careers/Identity Amr Cul | AMS 095 001"
             },
             "W": {
@@ -11494,10 +11524,8 @@
                 "10:30 - 11:50 AM": "Latin Amer Lit 1900 Pres | SPA 151 001",
                 "8:00 - 8:50 AM": "Anly & Phys Chem Methods | CHE 105 A02",
                 "9:00 - 10:20 AM": "Words & Phrases | SPA 112N 001",
-                "12:10 - 1:30 PM": "Travel & Modern World | GER 011 001",
                 "1:40 - 3:00 PM": "Artificial Intelligence | ECS 189G 001",
-                "3:10 - 4:30 PM": "Latin Amer Women Writers | SPA 160 001",
-                "4:40 - 6:00 PM": "Des & Anlys of Algorithm | ECS 222A 001"
+                "3:10 - 4:30 PM": "Latin Amer Women Writers | SPA 160 001"
             },
             "F": {
                 "10:00 - 10:50 AM": "Algorithm Design & Anlys | ECS 122B A02",
@@ -11515,7 +11543,6 @@
                 "8:00 - 9:20 AM": "Mechanical Design | EME 150A 001",
                 "12:10 - 1:00 PM": "Applied Time Ser Anlysis | STA 137 A02",
                 "1:10 - 2:00 PM": "Vampires & Other Horrors | GER 045 A04",
-                "2:10 - 3:00 PM": "Practice in Data Science | STA 160 A02",
                 "3:10 - 4:00 PM": "Calculus | MAT 021C D02",
                 "4:10 - 5:00 PM": "Regression Analysis | STA 108 B02",
                 "9:30 - 9:50 AM": "Mechanical Design | EME 150A 001"
@@ -11523,6 +11550,7 @@
             "T": {
                 "10:30 - 11:20 AM": "Measurement Systems | EME 108 A05",
                 "9:00 - 10:20 AM": "Elementary Accounting | MGT 011A B03",
+                "12:10 - 1:30 PM": "Travel & Modern World | COM 011 001",
                 "1:40 - 3:00 PM": "Calif & Latin America | SPA 177 A04",
                 "3:10 - 4:00 PM": "Forensic Anthropology | ANT 056 001",
                 "6:10 - 8:00 PM": "Violence and Inequality | SOC 171 001",
@@ -11535,7 +11563,6 @@
                 "8:00 - 9:20 AM": "Mechanical Design | EME 150A 001",
                 "12:10 - 1:00 PM": "Applied Time Ser Anlysis | STA 137 A02",
                 "1:10 - 2:00 PM": "Vampires & Other Horrors | GER 045 A04",
-                "2:10 - 3:00 PM": "Practice in Data Science | STA 160 A02",
                 "3:10 - 4:00 PM": "Calculus | MAT 021C D02",
                 "4:10 - 5:00 PM": "Regression Analysis | STA 108 B02",
                 "7:10 - 8:00 PM": "Internship Community Hth | SPH 192 015",
@@ -11544,6 +11571,7 @@
             "R": {
                 "10:30 - 11:20 AM": "Measurement Systems | EME 108 A05",
                 "9:00 - 10:20 AM": "Elementary Accounting | MGT 011A B03",
+                "12:10 - 1:30 PM": "Travel & Modern World | COM 011 001",
                 "1:40 - 3:00 PM": "Calif & Latin America | SPA 177 A04",
                 "3:10 - 4:00 PM": "Forensic Anthropology | ANT 056 001",
                 "6:10 - 8:00 PM": "Violence and Inequality | SOC 171 001",
@@ -11555,7 +11583,6 @@
                 "11:00 - 11:50 AM": "Natural Products | CHE 150 001",
                 "12:10 - 1:00 PM": "Applied Time Ser Anlysis | STA 137 A02",
                 "1:10 - 2:00 PM": "Impl Data Struct in C | ECS 032C A01",
-                "2:10 - 3:00 PM": "Practice in Data Science | STA 160 A02",
                 "3:10 - 4:00 PM": "Calculus | MAT 021C D02",
                 "4:10 - 5:00 PM": "Regression Analysis | STA 108 B02"
             },
@@ -11618,7 +11645,6 @@
                 "10:00 - 10:50 AM": "Intermed Chinese | CHN 006 001",
                 "11:00 - 11:50 AM": "Intermed Chinese | CHN 006 002",
                 "9:00 - 9:50 AM": "Intermed French | FRE 023 001",
-                "12:10 - 1:00 PM": "Calculus for BioSci | MAT 017C 0U1",
                 "3:10 - 6:00 PM": "Queer Latinidad | CHI 161 001",
                 "6:10 - 7:00 PM": "General Chemistry | CHE 002C A12"
             },
@@ -11626,6 +11652,7 @@
                 "10:00 - 10:50 AM": "Intermed Chinese | CHN 006 001",
                 "11:00 - 11:50 AM": "Intermed Chinese | CHN 006 002",
                 "9:00 - 9:50 AM": "Intermed French | FRE 023 001",
+                "12:10 - 1:30 PM": "Statics | ENG 035 B06",
                 "2:10 - 4:00 PM": "Financial Economics | ARE 271 001",
                 "6:10 - 7:00 PM": "Intro to Bioethics | PHI 015 A01",
                 "7:10 - 8:00 PM": "Intro to Bioethics | PHI 015 A02"
@@ -11634,7 +11661,6 @@
                 "10:00 - 10:50 AM": "Intermed Chinese | CHN 006 001",
                 "11:00 - 11:50 AM": "Intermed Chinese | CHN 006 002",
                 "9:00 - 9:50 AM": "Intermed French | FRE 023 001",
-                "12:10 - 1:00 PM": "Calculus for BioSci | MAT 017C 0U1",
                 "1:10 - 2:00 PM": "Intro to Middle East | HIS 006 A06",
                 "2:10 - 3:00 PM": "Intro to Middle East | HIS 006 A05",
                 "4:10 - 5:00 PM": "Social Problems | SOC 003 A05",
@@ -11646,9 +11672,10 @@
                 "10:00 - 10:50 AM": "Intermed Chinese | CHN 006 001",
                 "11:00 - 11:50 AM": "Intermed Chinese | CHN 006 002",
                 "9:00 - 9:50 AM": "Intermed French | FRE 023 001",
+                "12:10 - 1:30 PM": "Statics | ENG 035 B06",
                 "2:10 - 4:00 PM": "Financial Economics | ARE 271 001",
-                "4:10 - 5:00 PM": "Statics | ENG 035 A05",
-                "5:10 - 6:00 PM": "Statics | ENG 035 A06",
+                "4:10 - 5:00 PM": "Statics | ENG 035 B05",
+                "5:10 - 6:00 PM": "Statics | ENG 035 B06",
                 "6:10 - 7:00 PM": "Supply Chain Management | MGT 180 A04",
                 "7:10 - 8:00 PM": "General Chemistry | CHE 002B C03"
             },
@@ -11656,7 +11683,6 @@
                 "10:00 - 10:50 AM": "Intermed Chinese | CHN 006 001",
                 "11:00 - 11:50 AM": "Intermed Chinese | CHN 006 002",
                 "9:00 - 9:50 AM": "Physiology Foundations | NPB 110C A08",
-                "12:10 - 1:00 PM": "Calculus for BioSci | MAT 017C 0U1",
                 "1:10 - 2:00 PM": "Financing New Bus Vtrs | MGT 160 A03",
                 "2:10 - 3:00 PM": "Financing New Bus Vtrs | MGT 160 A04"
             },
@@ -11676,7 +11702,6 @@
                 "9:00 - 10:20 AM": "Cancer Biology | MIC 175 001",
                 "12:10 - 1:30 PM": "Reproductive Health | CHI 114 001",
                 "1:40 - 3:00 PM": "Pop Dyn and Est | WFC 122 A04",
-                "3:10 - 5:00 PM": "Electronic Circuits I | EEC 110A 001",
                 "5:10 - 6:30 PM": "Phonetics | LIN 112 A02"
             },
             "W": {
@@ -11692,7 +11717,6 @@
                 "9:00 - 10:20 AM": "Cancer Biology | MIC 175 001",
                 "12:10 - 1:30 PM": "Reproductive Health | CHI 114 001",
                 "1:40 - 3:00 PM": "Pop Dyn and Est | WFC 122 A04",
-                "3:10 - 5:00 PM": "Electronic Circuits I | EEC 110A 001",
                 "5:10 - 6:30 PM": "Phonetics | LIN 112 A02"
             },
             "F": {
@@ -11814,6 +11838,7 @@
                 "1:10 - 2:00 PM": "Intro Public Speaking | CMN 001 A16",
                 "2:10 - 4:00 PM": "Systemic Physiology Lab | NPB 101L 008",
                 "5:10 - 6:00 PM": "Intro American Studies | AMS 010 A03",
+                "6:10 - 7:00 PM": "Intro American Studies | AMS 010 A04",
                 "7:10 - 8:00 PM": "General Chemistry | CHE 002C C02"
             },
             "W": {
@@ -11899,7 +11924,8 @@
                 "9:00 - 9:50 AM": "Calculus for BioSci | MAT 017B B02",
                 "12:10 - 1:00 PM": "Precalculus | MAT 012 001",
                 "2:10 - 4:00 PM": "Psychology & Law | PSC 153 001",
-                "4:10 - 6:00 PM": "Sex Stratification | SOC 133 001"
+                "4:10 - 6:00 PM": "Sex Stratification | SOC 133 001",
+                "6:10 - 7:00 PM": "Sex Stratification | SOC 133 001"
             },
             "T": {
                 "10:30 - 11:50 AM": "Human Rights & Gender | HMR 138 001",
@@ -11937,8 +11963,8 @@
                 "10:00 - 10:50 AM": "Elementary German | GER 003 002",
                 "11:00 - 11:50 AM": "Intermed French | FRE 022 001",
                 "9:00 - 9:50 AM": "Elementary German | GER 003 001",
-                "12:10 - 1:00 PM": "Intermed French | FRE 021 001",
                 "1:10 - 2:00 PM": "Elementary Spanish | SPA 003 006",
+                "2:10 - 4:00 PM": "Mjr Wrks Medi Early Mod | COM 002 002",
                 "4:10 - 6:00 PM": "Intro To Literature | ENL 003 005",
                 "6:10 - 7:00 PM": "General Chemistry | CHE 002C D07"
             },
@@ -11946,7 +11972,6 @@
                 "10:00 - 10:50 AM": "Elementary German | GER 003 002",
                 "11:00 - 11:50 AM": "Intermed French | FRE 022 001",
                 "9:00 - 9:50 AM": "Elementary German | GER 003 001",
-                "12:10 - 1:00 PM": "Intermed French | FRE 021 001",
                 "1:10 - 2:00 PM": "Elementary Spanish | SPA 003 006",
                 "2:10 - 4:00 PM": "Intro Classical Chinese | CHN 114 001",
                 "4:10 - 6:00 PM": "Digitial Sig Processing | EEC 201 001",
@@ -11957,8 +11982,8 @@
                 "10:00 - 10:50 AM": "Elementary German | GER 003 002",
                 "11:00 - 11:50 AM": "Intermed French | FRE 022 001",
                 "9:00 - 9:50 AM": "Elementary German | GER 003 001",
-                "12:10 - 1:00 PM": "Intermed French | FRE 021 001",
                 "1:10 - 2:00 PM": "Elementary Spanish | SPA 003 006",
+                "2:10 - 4:00 PM": "Mjr Wrks Medi Early Mod | COM 002 002",
                 "4:10 - 6:00 PM": "Intro To Literature | ENL 003 005",
                 "6:10 - 7:00 PM": "Death & Afterlife | RST 001B A03",
                 "7:10 - 8:00 PM": "Death & Afterlife | RST 001B A04"
@@ -11967,7 +11992,6 @@
                 "10:00 - 10:50 AM": "Elementary German | GER 003 002",
                 "11:00 - 11:50 AM": "Intermed French | FRE 022 001",
                 "9:00 - 9:50 AM": "Elementary German | GER 003 001",
-                "12:10 - 1:00 PM": "Intermed French | FRE 021 001",
                 "1:10 - 2:00 PM": "Elementary Spanish | SPA 003 006",
                 "2:10 - 4:00 PM": "Intro Classical Chinese | CHN 114 001",
                 "4:10 - 6:00 PM": "Digitial Sig Processing | EEC 201 001",
@@ -11977,6 +12001,7 @@
             "F": {
                 "10:00 - 10:50 AM": "Elementary German | GER 003 002",
                 "9:00 - 9:50 AM": "Elementary German | GER 003 001",
+                "12:10 - 1:00 PM": "Intro to Gender Studies | GSW 050 A06",
                 "1:10 - 2:00 PM": "Elementary Spanish | SPA 003 006",
                 "2:10 - 3:00 PM": "Neurobiology | NPB 100 A06"
             },
@@ -11987,9 +12012,7 @@
                 "10:00 - 10:50 AM": "First-Year Seminar | FRS 002 015",
                 "11:00 - 11:50 AM": "Elementary French | FRE 003 003",
                 "9:00 - 9:50 AM": "X-Ray Struct Deter | CHE 217 001",
-                "12:10 - 1:00 PM": "Lie Groups Lie Algebras | MAT 261 001",
                 "1:10 - 3:00 PM": "Academic Literacies | UWP 001 003",
-                "3:10 - 4:30 PM": "Islam in Asia | RST 165 001",
                 "5:30 - 6:20 PM": "Hist Exp Asian Am | ASA 001 A02"
             },
             "T": {
@@ -11997,7 +12020,6 @@
                 "11:00 - 11:50 AM": "Elementary French | FRE 003 003",
                 "9:00 - 9:50 AM": "Thermodynamics | ENG 105 A01",
                 "12:10 - 1:30 PM": "Curr Topics in Nutrition | NUT 011 003",
-                "1:40 - 3:00 PM": "Adv Food Micro | FST 204 001",
                 "3:10 - 4:00 PM": "Communication Theories | CMN 101Y A02",
                 "4:10 - 5:00 PM": "Communication Theories | CMN 101Y A03",
                 "5:10 - 6:00 PM": "Intro Abstract Math | MAT 108 A01",
@@ -12008,9 +12030,7 @@
                 "10:00 - 10:50 AM": "First-Year Seminar | FRS 002 015",
                 "11:00 - 11:50 AM": "Elementary French | FRE 003 003",
                 "9:00 - 9:50 AM": "X-Ray Struct Deter | CHE 217 001",
-                "12:10 - 1:00 PM": "Lie Groups Lie Algebras | MAT 261 001",
                 "1:10 - 3:00 PM": "Academic Literacies | UWP 001 003",
-                "3:10 - 4:30 PM": "Islam in Asia | RST 165 001",
                 "5:10 - 8:00 PM": "Japanese Cinema | COM 112 001"
             },
             "R": {
@@ -12018,7 +12038,6 @@
                 "11:00 - 11:50 AM": "Elementary French | FRE 003 003",
                 "9:00 - 9:50 AM": "Ethics of Animal Use | ANS 170 A06",
                 "12:10 - 1:00 PM": "Internatl Relations | POL 003 A03",
-                "1:40 - 3:00 PM": "Adv Food Micro | FST 204 001",
                 "3:10 - 4:00 PM": "Intro Mass Communication | CMN 140 A02",
                 "4:10 - 5:00 PM": "Stochastic Processes | MAT 135B A02",
                 "5:10 - 6:00 PM": "Stochastic Processes | MAT 135B A01",
@@ -12029,7 +12048,6 @@
                 "10:00 - 10:50 AM": "Neurobiology Foundations | NPB 110B A01",
                 "11:00 - 11:50 AM": "Elementary French | FRE 003 003",
                 "9:00 - 9:50 AM": "X-Ray Struct Deter | CHE 217 001",
-                "12:10 - 1:00 PM": "Lie Groups Lie Algebras | MAT 261 001",
                 "1:10 - 2:30 PM": "Systemic Physiology Disc | NPB 101D 007"
             },
             "S": {}
@@ -12095,7 +12113,7 @@
                 "10:30 - 11:50 AM": "Stat Data Technologies | STA 141B A02",
                 "9:00 - 10:20 AM": "Impl Data Struct in C | ECS 032C A01",
                 "12:10 - 1:30 PM": "Adv Stat Computing | STA 141C A02",
-                "1:40 - 3:00 PM": "Hist Euro Human Rights | HIS 126Y 001"
+                "1:40 - 3:00 PM": "Hist Euro Human Rights | HMR 162Y 001"
             },
             "W": {
                 "10:00 - 10:50 AM": "Calculus for BioSci | MAT 017A A02",
@@ -12108,7 +12126,7 @@
                 "10:30 - 11:50 AM": "Stat Data Technologies | STA 141B A02",
                 "9:00 - 10:20 AM": "Impl Data Struct in C | ECS 032C A01",
                 "12:10 - 1:30 PM": "Adv Stat Computing | STA 141C A02",
-                "1:40 - 3:00 PM": "Hist Euro Human Rights | HIS 126Y 001"
+                "1:40 - 3:00 PM": "Hist Euro Human Rights | HMR 162Y 001"
             },
             "F": {
                 "10:00 - 10:50 AM": "Calculus for BioSci | MAT 017A A02",
@@ -12301,16 +12319,12 @@
             "M": {
                 "12:10 - 1:00 PM": "Limnology Laboratory | ESP 151L 001"
             },
-            "T": {},
+            "T": {
+                "1:10 - 3:00 PM": "Seminar In Ecology | ECL 290 007"
+            },
             "W": {
                 "10:00 - 10:50 AM": "Urban & Regl Planning | ESP 171 A02",
-                "11:00 - 11:50 AM": "Urban & Regl Planning | ESP 171 A03",
-                "9:00 - 9:50 AM": "Urban & Regl Planning | ESP 171 A01",
-                "12:10 - 1:00 PM": "Urban & Regl Planning | ESP 171 A04",
-                "1:10 - 2:00 PM": "Urban & Regl Planning | ESP 171 A05",
-                "2:10 - 3:00 PM": "Urban & Regl Planning | ESP 171 A06",
-                "3:10 - 4:00 PM": "Urban & Regl Planning | ESP 171 A07",
-                "4:10 - 5:00 PM": "Urban & Regl Planning | ESP 171 A08"
+                "11:00 - 11:50 AM": "Urban & Regl Planning | ESP 171 A03"
             },
             "R": {},
             "F": {
@@ -12322,9 +12336,7 @@
             "M": {
                 "12:10 - 2:00 PM": "Group Study | GEO 298 011"
             },
-            "T": {
-                "1:10 - 3:00 PM": "Seminar In Ecology | ECL 290 007"
-            },
+            "T": {},
             "W": {},
             "R": {},
             "F": {},
@@ -12338,6 +12350,12 @@
             "T": {},
             "W": {
                 "10:00 - 11:20 AM": "Cons Biol Research | ECL 208 001",
+                "9:00 - 9:50 AM": "Urban & Regl Planning | ESP 171 A01",
+                "12:10 - 1:00 PM": "Urban & Regl Planning | ESP 171 A04",
+                "1:10 - 2:00 PM": "Urban & Regl Planning | ESP 171 A05",
+                "2:10 - 3:00 PM": "Urban & Regl Planning | ESP 171 A06",
+                "3:10 - 4:00 PM": "Urban & Regl Planning | ESP 171 A07",
+                "4:10 - 5:00 PM": "Urban & Regl Planning | ESP 171 A08",
                 "11:30 - 11:50 AM": "Cons Biol Research | ECL 208 001"
             },
             "R": {},
@@ -12489,7 +12507,6 @@
             "M": {
                 "10:00 - 10:50 AM": "Calculus | MAT 021C 001",
                 "11:00 - 11:50 AM": "Diabetes: Physio & Mgmt | NPB 154 001",
-                "8:00 - 8:50 AM": "Vector Analysis | MAT 021D 001",
                 "1:10 - 2:00 PM": "Modern Israel | HIS 113 001",
                 "2:10 - 3:30 PM": "Org of Economic Space | CRD 141 001",
                 "3:40 - 4:00 PM": "Org of Economic Space | CRD 141 001"
@@ -12503,7 +12520,6 @@
             "W": {
                 "10:00 - 10:50 AM": "Calculus | MAT 021C 001",
                 "11:00 - 11:50 AM": "Diabetes: Physio & Mgmt | NPB 154 001",
-                "8:00 - 8:50 AM": "Vector Analysis | MAT 021D 001",
                 "12:10 - 1:00 PM": "Severe & Unusual Weather | ATM 010 A01",
                 "1:10 - 2:00 PM": "Modern Israel | HIS 113 001",
                 "2:10 - 3:30 PM": "Org of Economic Space | CRD 141 001",
@@ -12519,7 +12535,6 @@
             "F": {
                 "10:00 - 10:50 AM": "Calculus | MAT 021C 001",
                 "11:00 - 11:50 AM": "Diabetes: Physio & Mgmt | NPB 154 001",
-                "8:00 - 8:50 AM": "Vector Analysis | MAT 021D 001",
                 "1:10 - 2:00 PM": "Modern Israel | HIS 113 001"
             },
             "S": {}
@@ -12527,14 +12542,13 @@
         "192": {
             "M": {
                 "10:00 - 11:50 AM": "Quantitative Geography | GEO 200CN 001",
+                "12:10 - 1:00 PM": "Intermed French | FRE 021 001",
                 "1:10 - 2:00 PM": "Wkload-Chemistry Co 2B | WLD 952 003",
                 "6:10 - 7:00 PM": "Game Theory | ECN 122 A01",
                 "7:10 - 8:00 PM": "Game Theory | ECN 122 A02"
             },
             "T": {
-                "10:00 - 11:50 AM": "First-Year Seminar | FRS 004 019",
-                "3:10 - 4:00 PM": "Calculus | MAT 021C B06",
-                "4:10 - 5:00 PM": "Calculus | MAT 021C B05",
+                "12:10 - 1:00 PM": "Intermed French | FRE 021 001",
                 "5:10 - 6:00 PM": "Calculus | MAT 021C B04",
                 "6:10 - 7:00 PM": "Calculus | MAT 021C B01",
                 "7:10 - 8:00 PM": "Calculus | MAT 021C B02",
@@ -12542,6 +12556,7 @@
             },
             "W": {
                 "10:00 - 11:50 AM": "First-Year Seminar | FRS 004 016",
+                "12:10 - 1:00 PM": "Intermed French | FRE 021 001",
                 "1:10 - 2:00 PM": "Wkload-Chemistry Co 2B | WLD 952 003",
                 "6:10 - 7:00 PM": "Intermed Micro Theory | ECN 100B A03",
                 "7:10 - 8:00 PM": "Intermed Micro Theory | ECN 100B A04"
@@ -12549,6 +12564,7 @@
             "R": {
                 "10:00 - 10:50 AM": "Philos & Social Found | EDU 120 A02",
                 "11:00 - 11:50 AM": "Philos & Social Found | EDU 120 A03",
+                "12:10 - 1:00 PM": "Intermed French | FRE 021 001",
                 "1:10 - 4:00 PM": "Group Study | MHI 298 001",
                 "4:10 - 5:00 PM": "Vector Analysis | MAT 021D B02",
                 "5:10 - 6:00 PM": "Vector Analysis | MAT 021D B06",
@@ -12573,7 +12589,7 @@
             },
             "T": {
                 "10:00 - 11:50 AM": "Transnational Migration | CHI 112 001",
-                "9:00 - 9:50 AM": "Language & the Body | LIN 003 A04",
+                "9:00 - 9:50 AM": "Language & the Body | LIN 003 A02",
                 "12:10 - 1:30 PM": "Intro to Behavioral Econ | ARE 133 A02",
                 "1:40 - 3:00 PM": "Med Microbiology | PMI 127 001",
                 "3:10 - 4:30 PM": "Engr Hydraulics | ECI 141 001"
@@ -12588,7 +12604,7 @@
             },
             "R": {
                 "10:00 - 11:50 AM": "Transnational Migration | CHI 112 001",
-                "9:00 - 9:50 AM": "Language & the Body | LIN 003 A04",
+                "9:00 - 9:50 AM": "Language & the Body | LIN 003 A02",
                 "12:10 - 1:30 PM": "Intro to Behavioral Econ | ARE 133 A02",
                 "1:40 - 3:00 PM": "Med Microbiology | PMI 127 001",
                 "3:10 - 4:30 PM": "Engr Hydraulics | ECI 141 001"
