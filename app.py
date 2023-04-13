@@ -25,8 +25,11 @@ with open("CourseList.json", "r") as json_file2:
 with open("total_data.json", "r") as json_file3:
     total_data = json.load(json_file3)
 
-with open("Instructors.json", "r") as json_file4:
-    InstructorDict = json.load(json_file4)
+try:
+    with open("Instructors.json", "r") as json_file4:
+        InstructorDict = json.load(json_file4)
+except:
+    InstructorDict = {}
 
 # Streamlit 
 st.set_page_config(page_title="UC Davis Classroom Search", layout="wide", page_icon="ShreyIconS2.png")
