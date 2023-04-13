@@ -73,7 +73,8 @@ if menu == "Current Classes":
     vacant_rooms_data, ongoing_classes_data = get_info(selected_hall, selected_day, selected_time)
     if vacant_rooms_data != "Weekend":
         colY.subheader("Vacant Classrooms")
-        vacant_rooms_df = pd.DataFrame(vacant_rooms_data, columns=["Room", "Vacant Till", "Next Class"])
+        pp.pprint(vacant_rooms_data)
+        vacant_rooms_df = pd.DataFrame(vacant_rooms_data, columns=["Room", "Next Class", "Vacant Till"])
         colY.table(vacant_rooms_df)
 
         colY.subheader("Ongoing Classes")
