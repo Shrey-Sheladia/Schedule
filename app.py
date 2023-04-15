@@ -44,7 +44,7 @@ API_KEY = os.environ.get("telegrambotAPI_key")
 
 CHAT_ID = os.environ.get("CHAT_ID")
 
-print(API_KEY, CHAT_ID)
+print("HERE:", API_KEY, CHAT_ID)
 try:
     sendMessage()
 
