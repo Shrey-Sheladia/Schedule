@@ -185,13 +185,11 @@ def check_time(command):
             return True
         hrs, mins = selectedTime.split(":")[0].strip(), selectedTime.split(":")[1].strip()
 
-        print(hrs, mins)
 
         return True
 
 
 def get_info(selectedHall, cDay="Curr", cTime="Curr"):
-    print(cDay, cTime)
     # return
     roomScheduleInfo = {}
 
@@ -210,7 +208,6 @@ def get_info(selectedHall, cDay="Curr", cTime="Curr"):
     if cTime != "Curr":
         current = cTime
     
-    print(current, currDay)
     
     if currDay == "Sunday":
     
@@ -332,7 +329,6 @@ def getCourseInfo(selected_course):
         classData[crn] = total_data[crn]
 
     groups, lecs, diss, lab = (group_courses(classData))
-    print("___")
     
 
 
@@ -392,8 +388,5 @@ def sendMessage():
 
 if __name__ == "__main__":
     sendMessage()
-    # nextList, inUse = get_info("Olson Hall")
-    # pp.pprint(nextList)
-    # print("_"*10)
-    # pp.pprint(inUse)
+
 
