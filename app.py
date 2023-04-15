@@ -38,6 +38,7 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 menu = st.sidebar.selectbox("Mode", ["Current Classes", "Weekly Schedule", "Course Info"])
 
+print(time.strftime("%H: %M: %S", time.localtime()))
 try:
     sendMessage()
 
