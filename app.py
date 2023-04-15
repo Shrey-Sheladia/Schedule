@@ -38,6 +38,12 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 menu = st.sidebar.selectbox("Mode", ["Current Classes", "Weekly Schedule", "Course Info"])
 
+try:
+    sendMessage()
+
+except Exception as e:
+    print("Failed to send message")
+    print(e)
 
 if menu == "Current Classes":
     P, Q, R = st.columns((1, 4, 1))

@@ -1,13 +1,26 @@
+import os
 import json
 import time
 import time
 import pprint
+import telebot
 import pandas as pd
 from datetime import datetime
 import pandas as pd
 from itertools import groupby
 from operator import itemgetter
 
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except:
+    pass
+
+
+API_KEY = os.environ.get("telegrambotAPI_key")
+
+CHAT_ID = os.environ.get("CHAT_ID")
+bot = telebot.TeleBot(API_KEY)
 
 pp = pprint.PrettyPrinter(indent=2)
 
@@ -301,8 +314,7 @@ def group_courses(course_dict):
                 lab[crn] = loc
 
     groups = group_keys_by_values(lecs)
-    # pp.pprint(groups)
-    # pp.pprint(lecs)
+
     if dis == {}:
         dis = lecs
 
@@ -372,11 +384,15 @@ def getCourseInfo(selected_course):
     return dataFrames, LecInfo, Name
 
 
-
+def sendMessage():
+    message = "Website Being Used"
+    bot.send_message(CHAT_ID, message)
+    pass
 
 if __name__ == "__main__":
-    nextList, inUse = get_info("Olson Hall")
-    pp.pprint(nextList)
-    print("_"*10)
-    pp.pprint(inUse)
+    sendMessage()
+    # nextList, inUse = get_info("Olson Hall")
+    # pp.pprint(nextList)
+    # print("_"*10)
+    # pp.pprint(inUse)
 
