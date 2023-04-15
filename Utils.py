@@ -20,7 +20,6 @@ except:
 API_KEY = os.environ.get("telegrambotAPI_key")
 
 CHAT_ID = os.environ.get("CHAT_ID")
-print(API_KEY, CHAT_ID)
 bot = telebot.TeleBot(API_KEY)
 
 pp = pprint.PrettyPrinter(indent=2)
@@ -381,8 +380,11 @@ def getCourseInfo(selected_course):
     return dataFrames, LecInfo, Name
 
 
-def sendMessage():
-    message = "Website Being Used"
+def sendMessage(text=None):
+    if text:
+        message = f"Website Being Used: {text}"
+    else:
+        message = "Website Being Used"
     bot.send_message(CHAT_ID, message)
     pass
 

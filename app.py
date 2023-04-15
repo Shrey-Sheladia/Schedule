@@ -38,15 +38,10 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 menu = st.sidebar.selectbox("Mode", ["Current Classes", "Weekly Schedule", "Course Info"])
 
-print(time.strftime("%H: %M: %S", time.localtime()))
-
-API_KEY = os.environ.get("telegrambotAPI_key")
-
-CHAT_ID = os.environ.get("CHAT_ID")
-
-print("HERE:", API_KEY, CHAT_ID)
+current_time = time.strftime("%I:%M:%S %p", time.localtime())
+print(current_time)
 try:
-    sendMessage()
+    sendMessage(current_time)
 
 except Exception as e:
     print("Failed to send message")
