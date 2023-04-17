@@ -45,16 +45,19 @@ print(current_time)
 
 if 'message_sent' not in st.session_state:
     st.session_state.message_sent = False
+    print("Set Message State to False")
 
 # If the message hasn't been sent yet, send the message and set the state to True
 if not st.session_state.message_sent:
     try:
         sendMessage(current_time)
         st.session_state.message_sent = True
+        print("Set Message State to True")
     except Exception as e:
         print("Failed to send message")
         print(e)
-
+else:
+    print("Message State already True")
 
 
 
