@@ -387,7 +387,7 @@ def sendMessage(bot, CHAT_ID, text=None):
 def log_action(option_selected, session_id):
     with open("log.txt", "a") as log_file:
         now = datetime.now()
-        log_entry = f"{now.strftime('%Y-%m-%d - %H:%M:%S')} | {session_id} | Option selected: {option_selected}\n"
+        log_entry = f"{now.strftime('%Y-%m-%d - %H:%M:%S')} | {session_id} | {option_selected}\n"
         log_file.write(log_entry)
         print(log_entry, 1)
 
