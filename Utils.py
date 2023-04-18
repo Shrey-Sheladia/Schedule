@@ -3,7 +3,6 @@ import json
 import time
 import time
 import pprint
-import telebot
 import uuid
 import pandas as pd
 import streamlit as st
@@ -17,11 +16,6 @@ try:
 except:
     pass
 
-
-API_KEY = os.environ.get("telegrambotAPI_key")
-
-CHAT_ID = os.environ.get("CHAT_ID")
-bot = telebot.TeleBot(API_KEY)
 
 pp = pprint.PrettyPrinter(indent=2)
 
@@ -381,12 +375,13 @@ def getCourseInfo(selected_course):
     return dataFrames, LecInfo, Name
 
 
-def sendMessage(text=None):
+def sendMessage(bot, CHAT_ID, text=None):
     if text:
         message = f"Website Being Used: {text}"
     else:
         message = "Website Being Used"
     bot.send_message(CHAT_ID, message)
+    print(message)
     pass
 
 def log_action(option_selected, session_id):
@@ -394,7 +389,7 @@ def log_action(option_selected, session_id):
         now = datetime.now()
         log_entry = f"{now.strftime('%Y-%m-%d - %H:%M:%S')} | {session_id} | Option selected: {option_selected}\n"
         log_file.write(log_entry)
-        print(log_entry)
+        print(log_entry, 1)
 
 def get_session_id():
     if "session_id" not in st.session_state:

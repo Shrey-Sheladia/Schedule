@@ -42,7 +42,8 @@ def send_log_file(message):
     else:
         bot.reply_to(message, "log.txt file not found")
 
-
+def start_bot():
+    bot.polling()
 
 # Start the bot
-bot.polling()
+# bot.polling()
