@@ -39,25 +39,20 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 menu = st.sidebar.selectbox("Mode", ["Current Classes", "Weekly Schedule", "Course Info"])
 
 current_time = time.strftime("%I:%M:%S %p", time.localtime())
-print(current_time)
-
-
+session_id = get_session_id()
 
 if 'message_sent' not in st.session_state:
     st.session_state.message_sent = False
-    print("Set Message State to False")
 
 # If the message hasn't been sent yet, send the message and set the state to True
 if not st.session_state.message_sent:
     try:
         sendMessage(current_time)
         st.session_state.message_sent = True
-        print("Set Message State to True")
+
     except Exception as e:
         print("Failed to send message")
         print(e)
-else:
-    print("Message State already True")
 
 
 
@@ -93,6 +88,16 @@ if menu == "Current Classes":
 
 
     vacant_rooms_data, ongoing_classes_data = get_info(selected_hall, selected_day, selected_time)
+    
+    # Log Action:
+    option_selected = f"Mode: {menu} | "
+    option_selected += f"Hall: {selected_hall}"
+    if selected_day != "Curr":
+        option_selected += f" FOR Day: {selected_day} "
+    if selected_hour != "Current Time":
+        option_selected += f"and Time: {selected_hour}: {selected_minute}"
+    log_action(option_selected, session_id)
+
     if vacant_rooms_data != "Weekend":
         colY.subheader("Vacant Classrooms")
         vacant_rooms_df = pd.DataFrame(vacant_rooms_data, columns=["Room", "Next Class", "Vacant Till"])
@@ -118,6 +123,11 @@ elif menu == "Weekly Schedule":
     schedule_df = createDataFrame(data)
     st.subheader(f"Schedule for {selected_building}: {selected_room}")
     st.table(schedule_df.fillna(''))
+
+    # Log action;
+    option_selected = f"Mode: {menu}"
+    option_selected += f"Hall: {selected_building}, Room: {selected_room}"
+    log_action(option_selected, session_id)
 
 elif menu == "Course Info":
     P, Q, R = st.columns((1, 4, 1))
@@ -147,6 +157,10 @@ elif menu == "Course Info":
             Q.write(f"Maximum Class Size: {lecInfo[2]}")
             Q.write("---")  # Optional: Add a separator between groups
 
+    # Log action;
+    option_selected = f"Mode: {menu}"
+    option_selected += f"Course: {selected_course}"
+    log_action(option_selected, session_id)
 elif menu == "Instructor Schedule":
 
     st.title("Instructor Schedule")

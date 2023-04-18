@@ -4,7 +4,9 @@ import time
 import time
 import pprint
 import telebot
+import uuid
 import pandas as pd
+import streamlit as st
 from datetime import datetime
 from itertools import groupby
 from operator import itemgetter
@@ -386,6 +388,18 @@ def sendMessage(text=None):
         message = "Website Being Used"
     bot.send_message(CHAT_ID, message)
     pass
+
+def log_action(option_selected, session_id):
+    with open("log.txt", "a") as log_file:
+        now = datetime.now()
+        log_entry = f"{now.strftime('%Y-%m-%d - %H:%M:%S')} | {session_id} | Option selected: {option_selected}\n"
+        log_file.write(log_entry)
+        print(log_entry)
+
+def get_session_id():
+    if "session_id" not in st.session_state:
+        st.session_state.session_id = str(uuid.uuid4())
+    return st.session_state.session_id
 
 if __name__ == "__main__":
     sendMessage()
