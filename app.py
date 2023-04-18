@@ -125,7 +125,7 @@ elif menu == "Weekly Schedule":
     st.table(schedule_df.fillna(''))
 
     # Log action;
-    option_selected = f"Mode: {menu}"
+    option_selected = f"Mode: {menu} | "
     option_selected += f"Hall: {selected_building}, Room: {selected_room}"
     log_action(option_selected, session_id)
 
@@ -158,7 +158,7 @@ elif menu == "Course Info":
             Q.write("---")  # Optional: Add a separator between groups
 
     # Log action;
-    option_selected = f"Mode: {menu}"
+    option_selected = f"Mode: {menu} | "
     option_selected += f"Course: {selected_course}"
     log_action(option_selected, session_id)
 elif menu == "Instructor Schedule":
