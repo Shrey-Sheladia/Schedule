@@ -93,9 +93,9 @@ if menu == "Current Classes":
     option_selected = f"Mode: {menu} | "
     option_selected += f"Hall: {selected_hall}"
     if selected_day != "Curr":
-        option_selected += f" FOR Day: {selected_day} "
+        option_selected += f" FOR Day: {selected_day}"
     if selected_hour != "Current Time":
-        option_selected += f"and Time: {selected_hour}: {selected_minute}"
+        option_selected += f" and Time: {selected_hour}: {selected_minute}"
     log_action(option_selected, session_id)
 
     if vacant_rooms_data != "Weekend":
