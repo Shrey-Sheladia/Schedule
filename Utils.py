@@ -6,7 +6,6 @@ import pprint
 import telebot
 import pandas as pd
 from datetime import datetime
-import pandas as pd
 from itertools import groupby
 from operator import itemgetter
 
