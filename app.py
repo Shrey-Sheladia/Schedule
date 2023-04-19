@@ -36,7 +36,7 @@ def read_last_lines(file_path, num_lines=20):
     
 @bot1.message_handler(commands=['get_lines'])
 def send_log_text(message):
-    log_file_path = "log.txt"
+    log_file_path = "/tmp/log.txt"
     if os.path.exists(log_file_path):
         last_lines = read_last_lines(log_file_path, 20)
         bot1.reply_to(message, last_lines)
@@ -47,7 +47,7 @@ def send_log_text(message):
 
 @bot1.message_handler(commands=['get_file'])
 def send_log_file(message):
-    log_file_path = "log.txt"
+    log_file_path = "/tmp/log.txt"
     if os.path.exists(log_file_path):
         with open(log_file_path, "rb") as log_file:
             bot1.send_document(chat_id=message.chat.id, document=log_file, caption="log.txt")
