@@ -2,8 +2,9 @@ import os
 import json
 import time
 import time
-import pprint
 import uuid
+import pprint
+import requests
 import pandas as pd
 import streamlit as st
 from datetime import datetime
@@ -16,6 +17,7 @@ try:
 except:
     pass
 
+URL = os.environ.get("URL")
 
 pp = pprint.PrettyPrinter(indent=2)
 
@@ -385,11 +387,21 @@ def sendMessage(bot, CHAT_ID, text=None):
     pass
 
 def log_action(option_selected, session_id):
-    with open("log.txt", "a") as log_file:
-        now = datetime.now()
-        log_entry = f"{now.strftime('%Y-%m-%d - %H:%M:%S')} | {session_id} | {option_selected}\n"
-        log_file.write(log_entry)
-        print(log_entry, 1)
+    now = datetime.now()
+
+    info = {
+        "Day" : now.strftime('%d/%m/%Y'),
+        "Time" : now.strftime('%H:%M:%S'),
+        "Info" : option_selected,
+        "Session ID" : session_id
+        }   
+    info = json.dumps(info)
+    now = datetime.now()
+    log_entry = f"{now.strftime('%Y-%m-%d - %H:%M:%S')} | {session_id} | {option_selected}\n"
+    print(log_entry, end = " - ")
+    print(URL)
+    response = requests.post(URL, json=info)
+    print(response.text, 1)
 
 def get_session_id():
     if "session_id" not in st.session_state:
@@ -397,6 +409,7 @@ def get_session_id():
     return st.session_state.session_id
 
 if __name__ == "__main__":
-    sendMessage()
+    # log_action("Options Here", "SomeUID")
+    pass
 
 

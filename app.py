@@ -28,40 +28,6 @@ bot1 = telebot.TeleBot(API_KEY)
 
 
 
-def read_last_lines(file_path, num_lines=20):
-    with open(file_path, "r") as file:
-        lines = file.readlines()
-        print("Sent Lines")
-        return "\n".join(lines[-num_lines:])
-    
-@bot1.message_handler(commands=['get_lines'])
-def send_log_text(message):
-    log_file_path = "log.txt"
-    if os.path.exists(log_file_path):
-        last_lines = read_last_lines(log_file_path, 20)
-        bot1.reply_to(message, last_lines)
-        print("Sent Lines")
-    else:
-        print("File nout found")
-        bot1.reply_to(message, "log.txt file not found")
-
-@bot1.message_handler(commands=['get_file'])
-def send_log_file(message):
-    log_file_path = "log.txt"
-    if os.path.exists(log_file_path):
-        with open(log_file_path, "rb") as log_file:
-            bot1.send_document(chat_id=message.chat.id, document=log_file, caption="log.txt")
-    else:
-        bot1.reply_to(message, "log.txt file not found")
-
-def start_bot():
-    bot1.polling()
-
-bot_thread = threading.Thread(target=start_bot)
-bot_thread.start()
-
-
-# TELEGRAM END
 try:
     with open('Final/Final_Sorted_Schedule.json') as json_file1:
         SCHEDULE = json.load(json_file1)
