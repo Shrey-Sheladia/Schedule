@@ -398,10 +398,9 @@ def log_action(option_selected, session_id):
     info = json.dumps(info)
     now = datetime.now()
     log_entry = f"{now.strftime('%Y-%m-%d - %H:%M:%S')} | {session_id} | {option_selected}\n"
-    print(log_entry, end = " - ")
-    print(URL)
     response = requests.post(URL, json=info)
-    print(response.text, 1)
+    print(response.text)
+
 
 def get_session_id():
     if "session_id" not in st.session_state:
