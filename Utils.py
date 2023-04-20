@@ -87,7 +87,6 @@ def convertTimetoInt(timeList):
     return timeDict
 
 
-
 def getCurrTime():
     curr = time.localtime()
     curr24 = int(time.strftime("%H%M%S", curr))
@@ -112,7 +111,7 @@ def checkAvailibilty(current, hallDict, inUse=False):
 
         for index, startTime in enumerate(startingTimes):
             if startTime <= current <= hallDict[room][startTime]["End"]:
-                inUse.append((room,hallDict[room][startTime]["Original"] ))
+                inUse.append((room, hallDict[room][startTime]["Original"]))
                 roomMT = False
 
         if roomMT:
@@ -161,12 +160,11 @@ def getCurr(current, AvailableRooms, hallInfo, hallName, currDay):
 
         schedList = list(sched.keys())
 
-        
         if ongoingClassTime == None:
             ongoingClass = SCHEDULE[hallName][room][currDay][original]
 
             CurrentClasses[room] = {
-                "Name" : ongoingClass,
+                "Name": ongoingClass,
                 "Timing": original
             }
 
@@ -180,7 +178,6 @@ def check_time(command):
         if "reset" in selectedTime:
             return True
         hrs, mins = selectedTime.split(":")[0].strip(), selectedTime.split(":")[1].strip()
-
 
         return True
 
@@ -203,10 +200,9 @@ def get_info(selectedHall, cDay="Curr", cTime="Curr"):
 
     if cTime != "Curr":
         current = cTime
-    
-    
+
     if currDay == "Sunday":
-    
+
         return "Weekend", {}
 
     for room in SCHEDULE[selectedHall]:
@@ -219,10 +215,8 @@ def get_info(selectedHall, cDay="Curr", cTime="Curr"):
 
     nextList = getNext(current, emptyRooms, roomScheduleInfo, selectedHall, currDay)
     CurrList = getCurr(current, inUse, roomScheduleInfo, selectedHall, currDay)
-    
 
     return makeList(nextList, CurrList)
-
 
 
 def makeList(nextDict, CurrDict):
@@ -233,8 +227,9 @@ def makeList(nextDict, CurrDict):
 
     for room in CurrDict:
         CurrList.append([room, CurrDict[room]["Name"], CurrDict[room]["Timing"]])
-        
+
     return (NextClassList, CurrList)
+
 
 def get_time(s):
     start_time, am_pm = s.split(" - ")[0], s.split(" - ")[1].split(" ")[1]
@@ -255,6 +250,7 @@ def createDataFrame(data):
             schedule_df.at[time, day] = class_info
 
     return schedule_df
+
 
 def sort_rooms(rooms):
     numeric_rooms = []
@@ -294,7 +290,6 @@ def group_courses(course_dict):
                     hDict[f"{key}:-   {d} : {t}"].append(CRN)
 
     sorted_dict = dict(sorted(hDict.items(), key=lambda x: len(x[1]), reverse=True))
-    
 
     for loc in sorted_dict:
         for crn in sorted_dict[loc]:
@@ -325,9 +320,6 @@ def getCourseInfo(selected_course):
         classData[crn] = total_data[crn]
 
     groups, lecs, diss, lab = (group_courses(classData))
-    
-
-
 
     for loc in groups:
         infoDict = {"Course Code": [],
@@ -341,11 +333,8 @@ def getCourseInfo(selected_course):
         else:
             seq = f
 
-        
-
         TotalSize = 0
 
-        
         for crn in groups[loc]:
             if not Name:
                 Name = total_data[crn]["Name"]
@@ -353,9 +342,10 @@ def getCourseInfo(selected_course):
             TotalSize += int(classData[crn]["Total"])
             infoDict["Course Code"].append(classData[crn]["Course Code"])
             try:
-                
+
                 loc = (diss[crn])
-                if "TBA" in loc: loc = "--"
+                if "TBA" in loc:
+                    loc = "--"
             except:
                 loc = (" ")
             if crn in lab:
@@ -387,15 +377,16 @@ def sendMessage(text=None):
     print(message, response.text)
     pass
 
+
 def log_action(option_selected, session_id):
     now = datetime.now()
 
     info = {
-        "Day" : now.strftime('%d/%m/%Y'),
-        "Time" : now.strftime('%H:%M:%S'),
-        "Info" : option_selected,
-        "Session ID" : session_id
-        }   
+        "Day": now.strftime('%d/%m/%Y'),
+        "Time": now.strftime('%H:%M:%S'),
+        "Info": option_selected,
+        "Session ID": session_id
+    }
     info = json.dumps(info)
     now = datetime.now()
     log_entry = f"{now.strftime('%Y-%m-%d - %H:%M:%S')} | {session_id} | {option_selected}\n"
@@ -411,8 +402,7 @@ def get_session_id():
         st.session_state.session_id = str(uuid.uuid4())
     return st.session_state.session_id
 
+
 if __name__ == "__main__":
     # log_action("Options Here", "SomeUID")
     pass
-
-
