@@ -1,8 +1,8 @@
 import streamlit as st
 import threading
 import pandas as pd
-import json
 import telebot
+import json
 from Utils import *
 import time
 
@@ -12,19 +12,6 @@ hide_streamlit_style = """
             footer {visibility: hidden;}
             </style>
             """
-
-#! TELEGRAM START
-try:
-    from dotenv import load_dotenv
-    load_dotenv()
-except:
-    pass
-
-
-API_KEY = os.environ.get("telegrambotAPI_key")
-CHAT_ID = os.environ.get("CHAT_ID")
-
-bot1 = telebot.TeleBot(API_KEY)
 
 
 
@@ -63,7 +50,7 @@ if 'message_sent' not in st.session_state:
 # If the message hasn't been sent yet, send the message and set the state to True
 if not st.session_state.message_sent:
     try:
-        sendMessage(bot1, CHAT_ID, current_time)
+        sendMessage(current_time)
         st.session_state.message_sent = True
 
     except Exception as e:

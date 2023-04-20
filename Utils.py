@@ -377,13 +377,14 @@ def getCourseInfo(selected_course):
     return dataFrames, LecInfo, Name
 
 
-def sendMessage(bot, CHAT_ID, text=None):
+def sendMessage(text=None):
     if text:
-        message = f"Website Being Used: {text}"
+        message = {"Start": text}
     else:
-        message = "Website Being Used"
-    bot.send_message(CHAT_ID, message)
-    print(message)
+        message = {"Start": "Curr"}
+    message = json.dumps(message)
+    response = requests.post(URL, json=message)
+    print(message, response.text)
     pass
 
 def log_action(option_selected, session_id):
@@ -398,8 +399,11 @@ def log_action(option_selected, session_id):
     info = json.dumps(info)
     now = datetime.now()
     log_entry = f"{now.strftime('%Y-%m-%d - %H:%M:%S')} | {session_id} | {option_selected}\n"
-    response = requests.post(URL, json=info)
-    print(response.text)
+    try:
+        response = requests.post(URL, json=info)
+        print(response.text)
+    except Exception as e:
+        print("Request Error")
 
 
 def get_session_id():
