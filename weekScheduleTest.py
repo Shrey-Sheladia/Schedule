@@ -16,7 +16,7 @@ with open("CourseList.json", "r") as json_file2:
 with open("total_data.json", "r") as json_file3:
     total_data = json.load(json_file3)
 
-
+ 
 data = {"40120": {
         "Course Code": "ECN 101 A01",
         "Name": "Intermed Macro Theory",
