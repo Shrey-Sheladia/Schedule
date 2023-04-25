@@ -47,16 +47,6 @@ session_id = get_session_id()
 if 'message_sent' not in st.session_state:
     st.session_state.message_sent = False
 
-# If the message hasn't been sent yet, send the message and set the state to True
-if not st.session_state.message_sent:
-    try:
-        sendMessage(current_time)
-        st.session_state.message_sent = True
-
-    except Exception as e:
-        print("Failed to send message")
-        print(e)
-
 
 
 if menu == "Current Classes":
@@ -91,6 +81,12 @@ if menu == "Current Classes":
 
 
     vacant_rooms_data, ongoing_classes_data = get_info(selected_hall, selected_day, selected_time)
+
+    if not (selected_hall == "Academic Surge Bldg" and selected_day == "Curr"):
+        checkFirst(st)
+    else:
+        print(selected_hall,selected_day)
+        print("Same Start")
     
     # Log Action:
     option_selected = f"Mode: {menu} | "
@@ -113,6 +109,7 @@ if menu == "Current Classes":
         colY.write("**Weekend...**")
 
 elif menu == "Weekly Schedule":
+    checkFirst(st)
     st.title("UC Davis Classroom Search")
     buildings = SCHEDULE.keys()
     col1, col2 = st.columns(2)
@@ -133,6 +130,7 @@ elif menu == "Weekly Schedule":
     log_action(option_selected, session_id)
 
 elif menu == "Course Info":
+    checkFirst(st)
     P, Q, R = st.columns((1, 4, 1))
     Q.title("Course Info")
     courses = ["Select"] + sorted(courses_list.keys(), reverse=True) 
@@ -165,7 +163,7 @@ elif menu == "Course Info":
     option_selected += f"Course: {selected_course}"
     log_action(option_selected, session_id)
 elif menu == "Instructor Schedule":
-
+    checkFirst(st)
     st.title("Instructor Schedule")
     Instructors = sorted(list(InstructorDict.keys()))
     selected_instructor = st.selectbox("Select Instructor", Instructors)

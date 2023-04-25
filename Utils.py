@@ -403,6 +403,20 @@ def get_session_id():
     return st.session_state.session_id
 
 
+def checkFirst(st):
+    current_time = time.strftime("%I:%M:%S %p", time.localtime())
+    # If the message hasn't been sent yet, send the message and set the state to True
+    if not st.session_state.message_sent:
+        try:
+            sendMessage(current_time)
+            st.session_state.message_sent = True
+
+        except Exception as e:
+            print("Failed to send message")
+            print(e)
+    else:
+        print("Message Already")
+
 if __name__ == "__main__":
     # log_action("Options Here", "SomeUID")
     pass
