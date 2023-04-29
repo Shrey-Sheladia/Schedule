@@ -367,14 +367,18 @@ def getCourseInfo(selected_course):
     return dataFrames, LecInfo, Name
 
 
+def make_request(url, info):
+    response = requests.post(url, json=info)
+    print(response.text)
+
 def sendMessage(text=None):
     if text:
         message = {"Start": text}
     else:
         message = {"Start": "Curr"}
     message = json.dumps(message)
-    response = requests.post(URL, json=message)
-    print(message, response.text)
+    make_request(URL, message)
+    print(message)
     pass
 
 
@@ -391,8 +395,7 @@ def log_action(option_selected, session_id):
     now = datetime.now()
     log_entry = f"{now.strftime('%Y-%m-%d - %H:%M:%S')} | {session_id} | {option_selected}\n"
     try:
-        response = requests.post(URL, json=info)
-        print(response.text)
+        make_request(URL, info)
     except Exception as e:
         print("Request Error")
 

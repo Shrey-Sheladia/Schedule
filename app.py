@@ -47,8 +47,6 @@ session_id = get_session_id()
 if 'message_sent' not in st.session_state:
     st.session_state.message_sent = False
 
-
-
 if menu == "Current Classes":
     P, Q, R = st.columns((1, 4, 1))
     Q.title("UC Davis Classroom Search")
