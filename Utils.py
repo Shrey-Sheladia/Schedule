@@ -368,8 +368,8 @@ def getCourseInfo(selected_course):
 
 
 def make_request(url, info):
-    # response = requests.post(url, json=info)
-    # print(response.text)
+    response = requests.post(url, json=info)
+    print(response.text)
     pass
 
 def sendMessage(text=None):
