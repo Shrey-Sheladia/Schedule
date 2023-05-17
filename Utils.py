@@ -109,6 +109,7 @@ def checkAvailibilty(current, hallDict, inUse=False):
         roomMT = True
         startingTimes = sorted(list(hallDict[room].keys()))
 
+
         for index, startTime in enumerate(startingTimes):
             if startTime <= current <= hallDict[room][startTime]["End"]:
                 inUse.append((room, hallDict[room][startTime]["Original"]))
@@ -128,6 +129,7 @@ def getNext(current, AvailableRooms, hallInfo, hallName, currDay):
     for MT_Room in AvailableRooms:
         next = None
         sched = hallInfo[MT_Room]
+        sched = {k: v for k, v in sorted(sched.items())}
 
         for start in sched:
             if current < start:

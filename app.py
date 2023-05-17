@@ -160,6 +160,7 @@ elif menu == "Course Info":
     option_selected = f"Mode: {menu} | "
     option_selected += f"Course: {selected_course}"
     log_action(option_selected, session_id)
+    
 elif menu == "Instructor Schedule":
     checkFirst(st)
     st.title("Instructor Schedule")
